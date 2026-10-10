@@ -18,6 +18,11 @@ const rankCompare = JSON.parse(rankMatch[1]);
 const snapshot = JSON.parse(await readFile(path.join(root, 'data', 'petinfo-update.json'), 'utf8'));
 const initialCorrections = JSON.parse(await readFile(path.join(root, 'data', 'pet-initial-corrections.json'), 'utf8'));
 const additionalPets = JSON.parse(await readFile(path.join(root, 'data', 'additional-pets.json'), 'utf8'));
+const saleGrades = JSON.parse(await readFile(path.join(root, 'data', 'pet-sale-grades.json'), 'utf8'));
+for (const [name, grade] of Object.entries(saleGrades)) {
+  const pet = pets.find(item => item.name === name);
+  if (!pet || pet.saleGrade !== grade) throw new Error(`Imported sale grade mismatch: ${name}`);
+}
 for (const addition of additionalPets) {
   const pet = pets.find(item => item.id === addition.id);
   if (!pet || !pet.ok || JSON.stringify(pet.initS) !== JSON.stringify(addition.initS) || JSON.stringify(pet.growthS) !== JSON.stringify(addition.growthS)) throw new Error(`Additional pet mismatch: ${addition.name}`);

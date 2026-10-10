@@ -170,6 +170,7 @@ for (const [name, initS] of Object.entries(initialCorrections)) {
   update.initS = initS;
 }
 const obtainDetails = JSON.parse(await readFile(obtainDataPath, 'utf8'));
+const saleGrades = JSON.parse(await readFile(path.join(root, 'data', 'pet-sale-grades.json'), 'utf8'));
 const imageResults = new Map();
 let imageIndex = 0;
 await Promise.all(Array.from({ length: 6 }, async () => {
@@ -257,6 +258,7 @@ pets.sort((left, right) => {
   return left.id.localeCompare(right.id);
 });
 for (const pet of pets) pet.obtainDetail = obtainDetails[pet.name] || pet.obtain;
+for (const pet of pets) pet.saleGrade = pet.saleGrade || saleGrades[pet.name] || null;
 html = html.replace(petDataPattern, `$1${JSON.stringify(pets)}$3`);
 html = html.replace(rankDataPattern, `$1${JSON.stringify(rankCompare)}$3`);
 html = html.replaceAll('data:image/webp;base64,${p.img}', 'data:${p.imageMime||\'image/webp\'};base64,${p.img}');
