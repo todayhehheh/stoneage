@@ -1,0 +1,6560 @@
+[
+  {
+    "id": "241",
+    "name": "토라",
+    "attr": "풍없음",
+    "attrs": [
+      [
+        "풍",
+        10
+      ]
+    ],
+    "obtain": "퀘스트",
+    "growthS": [
+      9.603,
+      1.938,
+      1.264,
+      1.632
+    ],
+    "initS": [
+      46,
+      9,
+      6,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_6QATH7aS_5a3e968da5859c3e245b23047f5cb256f9a3a9c0.gif",
+    "rideable": false
+  },
+  {
+    "id": "240",
+    "name": "불카노스",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        6
+      ],
+      [
+        "수",
+        4
+      ]
+    ],
+    "obtain": "퀘스트",
+    "growthS": [
+      9.761,
+      2.134,
+      1.279,
+      1.639
+    ],
+    "initS": [
+      53,
+      11,
+      7,
+      8
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_RHs64pz1_64bc3348889d3c313641753cff00d5f3ed18255c.gif",
+    "rideable": false
+  },
+  {
+    "id": "239",
+    "name": "스텐토스",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        5
+      ],
+      [
+        "수",
+        5
+      ]
+    ],
+    "obtain": "퀘스트",
+    "growthS": [
+      12.136,
+      1.991,
+      2.077,
+      0.404
+    ],
+    "initS": [
+      76,
+      12,
+      13,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_ZAp8Xw3I_8d3e2b8d1ded8aed1378a23fa599e912d8a34f8e.gif",
+    "rideable": true
+  },
+  {
+    "id": "238",
+    "name": "샤우트",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        5
+      ],
+      [
+        "풍",
+        5
+      ]
+    ],
+    "obtain": "듀얼",
+    "growthS": [
+      12.469,
+      2.146,
+      2.146,
+      0.546
+    ],
+    "initS": [
+      70,
+      12,
+      12,
+      3
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_4SY6zrTX_96dd65c5ed014672d2f5b4f8a90c188b94dfcc71.gif",
+    "rideable": true
+  },
+  {
+    "id": "237",
+    "name": "부루마루",
+    "attr": "수화",
+    "attrs": [
+      [
+        "수",
+        7
+      ],
+      [
+        "화",
+        3
+      ]
+    ],
+    "obtain": "듀얼",
+    "growthS": [
+      10.474,
+      2.286,
+      1.303,
+      1.449
+    ],
+    "initS": [
+      59,
+      12,
+      7,
+      8
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_Lwce0UCb_2fa62dd3fcda7799adca201f76473f3f2b860750.gif",
+    "rideable": true
+  },
+  {
+    "id": "236",
+    "name": "마크론",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        8
+      ],
+      [
+        "풍",
+        2
+      ]
+    ],
+    "obtain": "듀얼",
+    "growthS": [
+      9.951,
+      2.322,
+      1.338,
+      1.401
+    ],
+    "initS": [
+      54,
+      12,
+      7,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_e1YIaN0R_16a169b7ba73cad540a3858a8c560b968d9a996f.gif",
+    "rideable": true
+  },
+  {
+    "id": "235",
+    "name": "토우트",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        1
+      ],
+      [
+        "수",
+        9
+      ]
+    ],
+    "obtain": "지원",
+    "growthS": [
+      12.421,
+      2.101,
+      2.186,
+      0.499
+    ],
+    "initS": [
+      75,
+      12,
+      13,
+      3
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_uUiHAjYO_e4b6163b3499f1a36bb5d20a84751cfb4a41ee82.gif",
+    "rideable": true
+  },
+  {
+    "id": "234",
+    "name": "토룡",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        9
+      ],
+      [
+        "수",
+        1
+      ]
+    ],
+    "obtain": "지원",
+    "growthS": [
+      10.284,
+      2.284,
+      1.343,
+      1.401
+    ],
+    "initS": [
+      60,
+      13,
+      7,
+      8
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_n5kmGpHw_fb10c1dcfeaa07c4fae3b6149eac22ca0e40063e.gif",
+    "rideable": true
+  },
+  {
+    "id": "233",
+    "name": "노스토로스",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        9
+      ],
+      [
+        "풍",
+        1
+      ]
+    ],
+    "obtain": "퀘스트",
+    "growthS": [
+      10.138,
+      1.925,
+      1.684,
+      1.364
+    ],
+    "initS": [
+      5,
+      43,
+      8,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_m2XvpW7A_27fca04940a05c5db04c3ee2d1f94bcff36ff7d7.gif",
+    "rideable": false
+  },
+  {
+    "id": "232",
+    "name": "테라곤",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        2
+      ],
+      [
+        "풍",
+        8
+      ]
+    ],
+    "obtain": "퀘스트",
+    "growthS": [
+      9.714,
+      2.039,
+      1.227,
+      1.734
+    ],
+    "initS": [
+      51,
+      10,
+      6,
+      9
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_kmRI3YCE_2b1f75b87a979ca7b2559cc30a5142b36007ebda.gif",
+    "rideable": false
+  },
+  {
+    "id": "231",
+    "name": "링코",
+    "attr": "수지",
+    "attrs": [
+      [
+        "수",
+        8
+      ],
+      [
+        "지",
+        2
+      ]
+    ],
+    "obtain": "기타",
+    "growthS": [
+      12.184,
+      1.863,
+      1.222,
+      1.639
+    ],
+    "initS": [
+      61,
+      9,
+      6,
+      8
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_kYg1fF8o_600336a20b33433c4b254a64a2adaa57c5e3005f.gif",
+    "rideable": false
+  },
+  {
+    "id": "230",
+    "name": "기린",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        8
+      ],
+      [
+        "풍",
+        1
+      ]
+    ],
+    "obtain": "기타",
+    "growthS": [
+      10.12,
+      2.298,
+      1.51,
+      1.159
+    ],
+    "initS": [
+      55,
+      12,
+      8,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_2e4afoSD_c45b088acd523b2ed60ae3aa7d81a11fd8009895.gif",
+    "rideable": true
+  },
+  {
+    "id": "229",
+    "name": "스피노",
+    "attr": "화없음",
+    "attrs": [
+      [
+        "화",
+        10
+      ]
+    ],
+    "obtain": "기타",
+    "growthS": [
+      10.123,
+      2.357,
+      1.333,
+      1.312
+    ],
+    "initS": [
+      59,
+      13,
+      7,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_QHNc3keC_35b6aaa52ab3d047d6601c82d5b994b19e664fe2.gif",
+    "rideable": false
+  },
+  {
+    "id": "228",
+    "name": "차이혼",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        3
+      ],
+      [
+        "수",
+        7
+      ]
+    ],
+    "obtain": "기타",
+    "growthS": [
+      9.904,
+      1.792,
+      1.578,
+      1.639
+    ],
+    "initS": [
+      60,
+      10,
+      9,
+      10
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_LbOWu1ro_53537375b62dc16ebd7cea543f72a62ba710a0e2.gif",
+    "rideable": false
+  },
+  {
+    "id": "227",
+    "name": "핑코",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        6
+      ],
+      [
+        "수",
+        4
+      ]
+    ],
+    "obtain": "기타",
+    "growthS": [
+      10.141,
+      2.186,
+      1.246,
+      1.639
+    ],
+    "initS": [
+      51,
+      11,
+      6,
+      8
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_PgfiIw1m_d4c1654eeef7912817ef2a66812c99bedf33ce24.gif",
+    "rideable": false
+  },
+  {
+    "id": "226",
+    "name": "램가스",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        5
+      ],
+      [
+        "풍",
+        5
+      ]
+    ],
+    "obtain": "기타",
+    "growthS": [
+      10.429,
+      1.732,
+      2.705,
+      0.438
+    ],
+    "initS": [
+      48,
+      8,
+      12,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_GASTojc6_6de3960bb47a6716f56ceca9cf457e395159f573.gif",
+    "rideable": false
+  },
+  {
+    "id": "225",
+    "name": "칼로스",
+    "attr": "수화",
+    "attrs": [
+      [
+        "수",
+        6
+      ],
+      [
+        "화",
+        4
+      ]
+    ],
+    "obtain": "기타",
+    "growthS": [
+      10.172,
+      2.224,
+      1.422,
+      1.411
+    ],
+    "initS": [
+      53,
+      11,
+      7,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_RWkNwfm8_31e040d32e9fc55660129df16711c46b5c99d3ea.gif",
+    "rideable": false
+  },
+  {
+    "id": "224",
+    "name": "봉봉",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        3
+      ],
+      [
+        "풍",
+        7
+      ]
+    ],
+    "obtain": "기타",
+    "growthS": [
+      10.321,
+      2.273,
+      1.427,
+      1.312
+    ],
+    "initS": [
+      60,
+      13,
+      8,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_C4l8u50j_f311637406791a1e50f653e498a888913cfa4532.gif",
+    "rideable": false
+  },
+  {
+    "id": "223",
+    "name": "만모드",
+    "attr": "지없음",
+    "attrs": [
+      [
+        "지",
+        10
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      12.374,
+      1.832,
+      2.345,
+      0.356
+    ],
+    "initS": [
+      70,
+      10,
+      13,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_fMsA02n5_a9085e5f55140f48a4ca90960c4662596cdf5e28.gif",
+    "rideable": false
+  },
+  {
+    "id": "222",
+    "name": "푸모나스",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        2
+      ],
+      [
+        "수",
+        8
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      13.466,
+      1.754,
+      2.181,
+      0.404
+    ],
+    "initS": [
+      76,
+      9,
+      12,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_Ix1kXTl3_3f1c9912e0a92b6070c79020a77e9fafa37c7020.gif",
+    "rideable": false
+  },
+  {
+    "id": "221",
+    "name": "실버로스",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        5
+      ],
+      [
+        "수",
+        5
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      13.371,
+      1.799,
+      2.184,
+      0.451
+    ],
+    "initS": [
+      76,
+      10,
+      12,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_rTXtkxsP_720d42f612c98f411704811072d5389e1af0e919.gif",
+    "rideable": false
+  },
+  {
+    "id": "220",
+    "name": "메모스",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        8
+      ],
+      [
+        "풍",
+        2
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      12.659,
+      1.83,
+      2.215,
+      0.404
+    ],
+    "initS": [
+      71,
+      10,
+      12,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_2dfaCKgI_bc77ae0d8dacb4503756ad9f32f68705edff1c83.gif",
+    "rideable": false
+  },
+  {
+    "id": "219",
+    "name": "노라키토스",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        5
+      ],
+      [
+        "풍",
+        5
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      11.946,
+      2.091,
+      2.177,
+      0.594
+    ],
+    "initS": [
+      77,
+      13,
+      14,
+      3
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_VoyKwmG1_c33e050bbfdd668948d4bd94bb8ec5de43c8ea65.gif",
+    "rideable": false
+  },
+  {
+    "id": "218",
+    "name": "브라키오스",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        8
+      ],
+      [
+        "풍",
+        2
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      11.661,
+      1.996,
+      2.253,
+      0.499
+    ],
+    "initS": [
+      73,
+      12,
+      14,
+      3
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_rGiyXYqF_8d2b167e9297e4ade8e9c71e8f912c1f72bf403d.gif",
+    "rideable": false
+  },
+  {
+    "id": "217",
+    "name": "푸비토스",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        5
+      ],
+      [
+        "수",
+        5
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      11.946,
+      2.051,
+      2.265,
+      0.546
+    ],
+    "initS": [
+      75,
+      12,
+      14,
+      3
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_ugqMijm1_d8efd23f4e44abb906cdb35d6ea87c58ff4bbea9.gif",
+    "rideable": false
+  },
+  {
+    "id": "216",
+    "name": "기트로스",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        5
+      ],
+      [
+        "풍",
+        5
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      11.014,
+      2.12,
+      1.986,
+      0.421
+    ],
+    "initS": [
+      57,
+      11,
+      10,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_xqfUKdVi_24a8bf60bea365a40996062b9d5ac941f0aaa1d0.gif",
+    "rideable": false
+  },
+  {
+    "id": "215",
+    "name": "라가로스",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        7
+      ],
+      [
+        "수",
+        3
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      11.51,
+      1.963,
+      2.149,
+      0.438
+    ],
+    "initS": [
+      60,
+      10,
+      11,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_u0HCFG3U_e1593b4aefc2b2e36c265391f8cced2d7ad09c4c.gif",
+    "rideable": false
+  },
+  {
+    "id": "214",
+    "name": "지가로스",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        8
+      ],
+      [
+        "풍",
+        2
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.284,
+      2.165,
+      1.652,
+      1.211
+    ],
+    "initS": [
+      54,
+      11,
+      8,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_41hrZCW6_e15b717aa7f037b3cbf5069155764e037a8dba55.gif",
+    "rideable": true
+  },
+  {
+    "id": "213",
+    "name": "타루쟈",
+    "attr": "화없음",
+    "attrs": [
+      [
+        "화",
+        10
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.236,
+      2.255,
+      1.699,
+      1.021
+    ],
+    "initS": [
+      36,
+      8,
+      6,
+      3
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_wNZylB76_2add52ab93ab29fe291631facc604a70fdd90586.gif",
+    "rideable": false
+  },
+  {
+    "id": "212",
+    "name": "푸보",
+    "attr": "수없음",
+    "attrs": [
+      [
+        "수",
+        10
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.759,
+      2.037,
+      1.695,
+      1.021
+    ],
+    "initS": [
+      40,
+      7,
+      6,
+      3
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_3bSfIPtm_0b7480e4b866af3c8187a651ebaeb4e6a7690a43.gif",
+    "rideable": false
+  },
+  {
+    "id": "211",
+    "name": "노라돈",
+    "attr": "풍화",
+    "attrs": [
+      [
+        "풍",
+        8
+      ],
+      [
+        "화",
+        2
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.42,
+      2.137,
+      1.513,
+      1.262
+    ],
+    "initS": [
+      52,
+      10,
+      7,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_SmtgV5Mq_ee558664586d12dfba0c2a88316918e2844ff312.gif",
+    "rideable": false
+  },
+  {
+    "id": "210",
+    "name": "고라돈",
+    "attr": "지없음",
+    "attrs": [
+      [
+        "지",
+        10
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.379,
+      2.041,
+      1.87,
+      1.021
+    ],
+    "initS": [
+      54,
+      10,
+      9,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_N2SfVCvl_5d3257e69162ebc00a72f13cf6ed507092da635c.gif",
+    "rideable": false
+  },
+  {
+    "id": "209",
+    "name": "실버고르돈",
+    "attr": "수화",
+    "attrs": [
+      [
+        "수",
+        8
+      ],
+      [
+        "화",
+        2
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.717,
+      2.103,
+      1.657,
+      1.064
+    ],
+    "initS": [
+      56,
+      11,
+      8,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_24YAIvq1_c89648cc80fbfdcb0078770160d09e2bf3a89b05.gif",
+    "rideable": false
+  },
+  {
+    "id": "208",
+    "name": "철기돈",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        7
+      ],
+      [
+        "수",
+        3
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.171,
+      2.115,
+      1.698,
+      1.21
+    ],
+    "initS": [
+      51,
+      10,
+      8,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_OLSKikNG_828355ee16067a8dbced6240877374671266a455.gif",
+    "rideable": false
+  },
+  {
+    "id": "207",
+    "name": "카이비",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        8
+      ],
+      [
+        "풍",
+        2
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      9.871,
+      1.903,
+      1.422,
+      1.578
+    ],
+    "initS": [
+      38,
+      7,
+      5,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_WdiPqNlv_f5008e7fa38b3527bad07b0cd3c60af8c9c2b09a.gif",
+    "rideable": false
+  },
+  {
+    "id": "206",
+    "name": "키라비",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        8
+      ],
+      [
+        "풍",
+        2
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      9.871,
+      1.946,
+      1.272,
+      1.685
+    ],
+    "initS": [
+      38,
+      7,
+      4,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_O8X3H0Lc_f94bbc6238f6c10826e6b937c7d001e3a10abc03.gif",
+    "rideable": false
+  },
+  {
+    "id": "205",
+    "name": "연두큐이",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        6
+      ],
+      [
+        "수",
+        4
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      9.978,
+      1.901,
+      1.371,
+      1.525
+    ],
+    "initS": [
+      35,
+      6,
+      4,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_vtXnTuxI_7d1672cfda3d002b6d389e7e0cce3552584cde8a.gif",
+    "rideable": false
+  },
+  {
+    "id": "204",
+    "name": "블루카비트",
+    "attr": "수지",
+    "attrs": [
+      [
+        "수",
+        8
+      ],
+      [
+        "지",
+        2
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.321,
+      1.84,
+      1.606,
+      1.658
+    ],
+    "initS": [
+      39,
+      7,
+      5,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_iVN47MEq_8e139af17439e2a8b325c62e7ec91addf340dfd2.gif",
+    "rideable": false
+  },
+  {
+    "id": "203",
+    "name": "범링",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        6
+      ],
+      [
+        "풍",
+        4
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.141,
+      1.887,
+      1.545,
+      1.639
+    ],
+    "initS": [
+      46,
+      8,
+      7,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_k0PxJE3O_d2f53d506e1e756057b6517a56d24fb601830391.gif",
+    "rideable": false
+  },
+  {
+    "id": "202",
+    "name": "토끼",
+    "attr": "수없음",
+    "attrs": [
+      [
+        "수",
+        10
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.521,
+      1.896,
+      1.554,
+      1.639
+    ],
+    "initS": [
+      42,
+      7,
+      6,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_pZ3gnsTc_187d35edd844fac82a4076274cdf9aece4c7ce91.gif",
+    "rideable": false
+  },
+  {
+    "id": "201",
+    "name": "라스키",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        6
+      ],
+      [
+        "풍",
+        4
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.094,
+      1.927,
+      1.5,
+      1.591
+    ],
+    "initS": [
+      36,
+      6,
+      5,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_Kf1yw5aW_332e1a9124ced7f9e48f9b41e833e2742e6b51db.gif",
+    "rideable": false
+  },
+  {
+    "id": "200",
+    "name": "노스키",
+    "attr": "풍화",
+    "attrs": [
+      [
+        "풍",
+        8
+      ],
+      [
+        "화",
+        2
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      9.999,
+      1.711,
+      1.668,
+      1.734
+    ],
+    "initS": [
+      35,
+      6,
+      5,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_tNDawPkF_69370a483f4a5fc416841a419be1a47eeeba4d5d.gif",
+    "rideable": false
+  },
+  {
+    "id": "199",
+    "name": "익시노돈",
+    "attr": "풍없음",
+    "attrs": [
+      [
+        "풍",
+        10
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      9.856,
+      1.946,
+      1.134,
+      1.876
+    ],
+    "initS": [
+      51,
+      10,
+      5,
+      9
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_1EorGhOX_dfd6b7a4a385375cbf23f059498a407a389e81b1.gif",
+    "rideable": false
+  },
+  {
+    "id": "198",
+    "name": "하르가",
+    "attr": "수화",
+    "attrs": [
+      [
+        "수",
+        6
+      ],
+      [
+        "화",
+        4
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.123,
+      2.122,
+      1.32,
+      1.559
+    ],
+    "initS": [
+      51,
+      10,
+      6,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_iMc5vF2k_44ee0e0992e6868c396cb7d25a08b8923741a989.gif",
+    "rideable": true
+  },
+  {
+    "id": "197",
+    "name": "블루문",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        2
+      ],
+      [
+        "수",
+        8
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.271,
+      2.219,
+      1.328,
+      1.411
+    ],
+    "initS": [
+      56,
+      12,
+      7,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_2GEiDvLX_04db3f66d0e1e5bbed62cdd0300da9d029057c90.gif",
+    "rideable": false
+  },
+  {
+    "id": "196",
+    "name": "노르곤",
+    "attr": "풍화",
+    "attrs": [
+      [
+        "풍",
+        8
+      ],
+      [
+        "화",
+        2
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.094,
+      2.236,
+      1.381,
+      1.401
+    ],
+    "initS": [
+      57,
+      12,
+      7,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_5BThiz3K_06636d3df7f911ea8b7d8d630a6b6341154ba9d9.gif",
+    "rideable": true
+  },
+  {
+    "id": "195",
+    "name": "한복밍코",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        5
+      ],
+      [
+        "수",
+        5
+      ]
+    ],
+    "obtain": "기타",
+    "growthS": [
+      9.951,
+      2.046,
+      1.234,
+      1.781
+    ],
+    "initS": [
+      56,
+      11,
+      7,
+      110
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_mE3Zircb_0a67388eccada22e6194e79dc4ea8ac13fc8e39d.gif",
+    "rideable": false
+  },
+  {
+    "id": "194",
+    "name": "한복메이",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        4
+      ],
+      [
+        "풍",
+        6
+      ]
+    ],
+    "obtain": "기타",
+    "growthS": [
+      9.925,
+      2.266,
+      1.464,
+      1.262
+    ],
+    "initS": [
+      56,
+      12,
+      8,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_JiOEqBRM_3d60d3e03faf52e22af350ab2ad8bc025137299a.gif",
+    "rideable": false
+  },
+  {
+    "id": "193",
+    "name": "흑기린",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        9
+      ],
+      [
+        "수",
+        1
+      ]
+    ],
+    "obtain": "레이드",
+    "growthS": [
+      9.965,
+      2.44,
+      1.466,
+      1.107
+    ],
+    "initS": [
+      50,
+      12,
+      7,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_QJ5hOxs9_074b8fa9738d1269f1abfb27801943754737b4d5.gif",
+    "rideable": true
+  },
+  {
+    "id": "192",
+    "name": "라이쿠스",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        2
+      ],
+      [
+        "수",
+        8
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      12.184,
+      2.051,
+      2.222,
+      0.451
+    ],
+    "initS": [
+      66,
+      11,
+      12,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_5qjDUP98_28223f7ffcb7a494a0d98a94a49e78d4361ca35c.gif",
+    "rideable": false
+  },
+  {
+    "id": "191",
+    "name": "바라쿠스",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        8
+      ],
+      [
+        "수",
+        2
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      12.136,
+      1.915,
+      2.257,
+      0.499
+    ],
+    "initS": [
+      66,
+      10,
+      12,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_HMEjyGQq_680bdbb8e5b664a2b55813c77101a4ddbc1370d7.gif",
+    "rideable": false
+  },
+  {
+    "id": "190",
+    "name": "그램고르",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        4
+      ],
+      [
+        "수",
+        6
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.426,
+      2.003,
+      1.961,
+      1.021
+    ],
+    "initS": [
+      54,
+      10,
+      10,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_uQ7tSlh6_f331c72e300311787b522cc9d597f68bd07a8a80.gif",
+    "rideable": false
+  },
+  {
+    "id": "189",
+    "name": "지고르",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        9
+      ],
+      [
+        "수",
+        1
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.321,
+      2.239,
+      1.659,
+      1.114
+    ],
+    "initS": [
+      52,
+      11,
+      8,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_BmZ4IhSX_3d818159c47b8e7a93eb0862dfffde740d8d0a3d.gif",
+    "rideable": false
+  },
+  {
+    "id": "188",
+    "name": "어린 흑룡",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        5
+      ],
+      [
+        "풍",
+        5
+      ]
+    ],
+    "obtain": "레이드",
+    "growthS": [
+      9.811,
+      2.077,
+      1.196,
+      1.571
+    ],
+    "initS": [
+      53,
+      11,
+      6,
+      8
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_yOrFLb7V_1fcbf083acd6457879e64e362a208d5d2483dbd8.gif",
+    "rideable": false
+  },
+  {
+    "id": "187",
+    "name": "어린 백룡",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        8
+      ],
+      [
+        "수",
+        2
+      ]
+    ],
+    "obtain": "레이드",
+    "growthS": [
+      9.974,
+      2.023,
+      1.355,
+      1.46
+    ],
+    "initS": [
+      48,
+      9,
+      6,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_PjQf9UwL_af7b73ed29688ae5b082c46c5fe84b8539769656.gif",
+    "rideable": false
+  },
+  {
+    "id": "186",
+    "name": "어린 골드 드래곤",
+    "attr": "풍화",
+    "attrs": [
+      [
+        "풍",
+        9
+      ],
+      [
+        "화",
+        1
+      ]
+    ],
+    "obtain": "지원",
+    "growthS": [
+      9.727,
+      1.959,
+      1.068,
+      1.955
+    ],
+    "initS": [
+      51,
+      10,
+      5,
+      10
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_MyWQf4GS_a9ce53c8a302ba388537eb8d06a27bf535cd9071.gif",
+    "rideable": false
+  },
+  {
+    "id": "185",
+    "name": "어린 어스 드래곤",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        9
+      ],
+      [
+        "풍",
+        1
+      ]
+    ],
+    "obtain": "지원",
+    "growthS": [
+      10.406,
+      2.264,
+      1.35,
+      1.204
+    ],
+    "initS": [
+      54,
+      11,
+      7,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_yXsnCwm2_87e8305db47aa68672bcceede8376c6ae14b6a21.gif",
+    "rideable": false
+  },
+  {
+    "id": "184",
+    "name": "어린 아이스 드래곤",
+    "attr": "수화",
+    "attrs": [
+      [
+        "수",
+        9
+      ],
+      [
+        "화",
+        1
+      ]
+    ],
+    "obtain": "지원",
+    "growthS": [
+      10.222,
+      2.258,
+      1.234,
+      1.411
+    ],
+    "initS": [
+      53,
+      11,
+      6,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_yC3r1RO2_a34ae93c41d5cf96b5050c22fa4c08edd8b04dc6.gif",
+    "rideable": false
+  },
+  {
+    "id": "183",
+    "name": "어린 레드 드래곤",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        9
+      ],
+      [
+        "풍",
+        1
+      ]
+    ],
+    "obtain": "지원",
+    "growthS": [
+      10.031,
+      2.248,
+      1.189,
+      1.418
+    ],
+    "initS": [
+      54,
+      12,
+      6,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_pwbSOhNA_0201dadb686f056a5293f334c90a9ac98afd8b22.gif",
+    "rideable": false
+  },
+  {
+    "id": "182",
+    "name": "꼬비오",
+    "attr": "풍없음",
+    "attrs": [
+      [
+        "풍",
+        10
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.571,
+      1.953,
+      1.355,
+      1.734
+    ],
+    "initS": [
+      42,
+      8,
+      5,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_bXq8FQ3M_b366e62a3af3e4a5635049420cf1eef7cf5648fc.gif",
+    "rideable": false
+  },
+  {
+    "id": "181",
+    "name": "꼬비",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        5
+      ],
+      [
+        "풍",
+        5
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.761,
+      1.963,
+      1.45,
+      1.639
+    ],
+    "initS": [
+      41,
+      8,
+      6,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_rCTOjgZ9_ba200f60a73cf6c1e8266ca79ccf1fbcdc8cd116.gif",
+    "rideable": false
+  },
+  {
+    "id": "180",
+    "name": "꼬꼬비",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        3
+      ],
+      [
+        "풍",
+        7
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.605,
+      1.989,
+      1.387,
+      1.674
+    ],
+    "initS": [
+      41,
+      8,
+      5,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_4WHkLfT1_e1402d815d5a44b46a348c2d7fda0c3f55aeb31e.gif",
+    "rideable": false
+  },
+  {
+    "id": "179",
+    "name": "꼬미",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        6
+      ],
+      [
+        "풍",
+        4
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.759,
+      1.992,
+      1.389,
+      1.622
+    ],
+    "initS": [
+      41,
+      8,
+      5,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_rJVtdHOw_7f2e66904f6f700a6234b01b94a0c94f3e3f9ac2.gif",
+    "rideable": false
+  },
+  {
+    "id": "178",
+    "name": "카르곤",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        8
+      ],
+      [
+        "풍",
+        2
+      ]
+    ],
+    "obtain": "퀘스트",
+    "growthS": [
+      9.761,
+      2.086,
+      1.231,
+      1.734
+    ],
+    "initS": [
+      51,
+      10,
+      6,
+      9
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_LXNJ7zTD_37e269be225b07a69aaa9e6e5b79cc4d2217016d.gif",
+    "rideable": true
+  },
+  {
+    "id": "177",
+    "name": "고루루",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        5
+      ],
+      [
+        "수",
+        5
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.123,
+      2.12,
+      1.273,
+      1.609
+    ],
+    "initS": [
+      51,
+      10,
+      6,
+      8
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_L7BbFkRj_f423eabc4b6e321b5f6b19be654c9644c23b855a.gif",
+    "rideable": true
+  },
+  {
+    "id": "176",
+    "name": "페루루",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        5
+      ],
+      [
+        "풍",
+        5
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      9.761,
+      2.089,
+      1.277,
+      1.686
+    ],
+    "initS": [
+      51,
+      10,
+      6,
+      8
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_qxoT7jWp_1b985a73bf821a1f5c808260ea2fafde80678c56.gif",
+    "rideable": true
+  },
+  {
+    "id": "175",
+    "name": "성호",
+    "attr": "수없음",
+    "attrs": [
+      [
+        "수",
+        10
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.521,
+      2.056,
+      1.243,
+      1.591
+    ],
+    "initS": [
+      55,
+      10,
+      6,
+      8
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_uYJM3yfk_e04ed214609d6467e265c18294fa74119261b8f3.gif",
+    "rideable": true
+  },
+  {
+    "id": "174",
+    "name": "기바바",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        8
+      ],
+      [
+        "수",
+        2
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.321,
+      2.011,
+      1.788,
+      1.213
+    ],
+    "initS": [
+      47,
+      9,
+      8,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_HkQq1RVK_90279dc1842fb41512cba60eedbaf0a052270383.gif",
+    "rideable": false
+  },
+  {
+    "id": "173",
+    "name": "주니",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        3
+      ],
+      [
+        "풍",
+        7
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      9.809,
+      1.963,
+      1.407,
+      1.734
+    ],
+    "initS": [
+      43,
+      8,
+      6,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_NODHnKmc_e31b2cabf02a7dfec717310ee1b0547f0e1844cb.gif",
+    "rideable": false
+  },
+  {
+    "id": "172",
+    "name": "라루루",
+    "attr": "풍화",
+    "attrs": [
+      [
+        "풍",
+        8
+      ],
+      [
+        "화",
+        2
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      9.925,
+      1.979,
+      1.355,
+      1.658
+    ],
+    "initS": [
+      42,
+      8,
+      5,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_kPOcS0Ns_f8523c637715dd48b0ff478699fc0ce5e3fd925a.gif",
+    "rideable": false
+  },
+  {
+    "id": "171",
+    "name": "킹북이",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        8
+      ],
+      [
+        "풍",
+        2
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      9.999,
+      1.673,
+      2.742,
+      0.499
+    ],
+    "initS": [
+      39,
+      6,
+      10,
+      1
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_189hnNUQ_b3dc6e2ba385489c566a974b991246d647308cdd.gif",
+    "rideable": false
+  },
+  {
+    "id": "170",
+    "name": "철북이",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        4
+      ],
+      [
+        "풍",
+        6
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      9.727,
+      2.12,
+      2.343,
+      0.52
+    ],
+    "initS": [
+      35,
+      7,
+      8,
+      1
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_djKABLP8_08fef808fb914951a07cc43f80a4d6e2f57406bd.gif",
+    "rideable": false
+  },
+  {
+    "id": "169",
+    "name": "자라북",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        5
+      ],
+      [
+        "수",
+        5
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.569,
+      1.906,
+      2.633,
+      0.404
+    ],
+    "initS": [
+      42,
+      7,
+      10,
+      1
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_PlFBxLey_b99341a850251ec8906e45d51b5def17af166fa5.gif",
+    "rideable": false
+  },
+  {
+    "id": "168",
+    "name": "물북이",
+    "attr": "수없음",
+    "attrs": [
+      [
+        "수",
+        10
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.284,
+      1.704,
+      2.388,
+      0.736
+    ],
+    "initS": [
+      28,
+      4,
+      6,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_TdSl6RMN_f4f18d0afb28fd2f8501f4a39c149b2d03a8f4c4.gif",
+    "rideable": false
+  },
+  {
+    "id": "167",
+    "name": "노투투",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        3
+      ],
+      [
+        "풍",
+        7
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      9.666,
+      1.728,
+      1.258,
+      2.161
+    ],
+    "initS": [
+      28,
+      5,
+      3,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_IzoXdQnJ_84045a25383b1366751eb1bd75a6f7ed9112d926.gif",
+    "rideable": false
+  },
+  {
+    "id": "166",
+    "name": "푸투투",
+    "attr": "수지",
+    "attrs": [
+      [
+        "수",
+        8
+      ],
+      [
+        "지",
+        2
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.566,
+      1.708,
+      1.323,
+      1.739
+    ],
+    "initS": [
+      31,
+      5,
+      3,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_17gemdk4_ab6557f562a06cf3b116f49ba52a3a3cbcccb65c.gif",
+    "rideable": false
+  },
+  {
+    "id": "165",
+    "name": "푸투",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        9
+      ],
+      [
+        "풍",
+        1
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      9.875,
+      1.823,
+      1.11,
+      2.005
+    ],
+    "initS": [
+      27,
+      5,
+      3,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_H0EXVeA4_82236b5b62da6895a6065e6dacdb836d2517fc5b.gif",
+    "rideable": false
+  },
+  {
+    "id": "164",
+    "name": "포포",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        7
+      ],
+      [
+        "풍",
+        3
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      9.571,
+      1.847,
+      1.034,
+      2.161
+    ],
+    "initS": [
+      28,
+      5,
+      3,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_payC2WJ6_6000e2d3a8019ddd4029f71094b0cb1a29c7e37c.gif",
+    "rideable": true
+  },
+  {
+    "id": "163",
+    "name": "꼬꼬미",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        8
+      ],
+      [
+        "풍",
+        2
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.141,
+      1.972,
+      1.459,
+      1.639
+    ],
+    "initS": [
+      44,
+      8,
+      6,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_b7smpyz8_7a4bea93f66def78cce387035e187c3650ac4450.gif",
+    "rideable": false
+  },
+  {
+    "id": "162",
+    "name": "푸미",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        4
+      ],
+      [
+        "수",
+        6
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.469,
+      2.088,
+      1.419,
+      1.46
+    ],
+    "initS": [
+      46,
+      9,
+      6,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_pad6AEe9_996704b33f8a5e845531f446be0a2429a212ca0b.gif",
+    "rideable": false
+  },
+  {
+    "id": "161",
+    "name": "돌꼬미",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        4
+      ],
+      [
+        "수",
+        6
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.123,
+      2.083,
+      1.459,
+      1.46
+    ],
+    "initS": [
+      44,
+      9,
+      6,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_fzGaJrI2_9f3b36a4af9d1d8478b30788da63590cfbada1f2.gif",
+    "rideable": false
+  },
+  {
+    "id": "160",
+    "name": "꼬이미",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        6
+      ],
+      [
+        "풍",
+        4
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      9.727,
+      2.031,
+      1.541,
+      1.411
+    ],
+    "initS": [
+      39,
+      8,
+      6,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_bkl596Wq_d021c0ccff1401892a1a62b884318e73f6c215dc.gif",
+    "rideable": false
+  },
+  {
+    "id": "159",
+    "name": "바우트",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        9
+      ],
+      [
+        "수",
+        1
+      ]
+    ],
+    "obtain": "지원",
+    "growthS": [
+      11.329,
+      2.255,
+      2.17,
+      0.356
+    ],
+    "initS": [
+      69,
+      13,
+      13,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_LlKdr7xw_484d5894cff2f4873e034b062292e8a28536f51b.gif",
+    "rideable": true
+  },
+  {
+    "id": "158",
+    "name": "히파",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        5
+      ],
+      [
+        "풍",
+        5
+      ]
+    ],
+    "obtain": "지원",
+    "growthS": [
+      9.974,
+      2.013,
+      1.078,
+      1.955
+    ],
+    "initS": [
+      50,
+      10,
+      5,
+      9
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_Tjh0xYdM_7bb9b54ba5c2bec7d2e07bec980cf09296a62b69.gif",
+    "rideable": true
+  },
+  {
+    "id": "157",
+    "name": "크로아치",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        7
+      ],
+      [
+        "수",
+        3
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.284,
+      2.205,
+      1.564,
+      1.259
+    ],
+    "initS": [
+      54,
+      11,
+      8,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_C3gHpAVl_2ae50c7ccfb77462d987975bf354107e7d291b08.gif",
+    "rideable": false
+  },
+  {
+    "id": "156",
+    "name": "테로노돈",
+    "attr": "수없음",
+    "attrs": [
+      [
+        "수",
+        10
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.222,
+      1.974,
+      1.172,
+      1.757
+    ],
+    "initS": [
+      53,
+      10,
+      6,
+      9
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_IbOAu70h_a3b56d72fc4c94f41ffcc4aa029db0afc51e6a3e.gif",
+    "rideable": false
+  },
+  {
+    "id": "155",
+    "name": "타키온",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        1
+      ],
+      [
+        "수",
+        9
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.569,
+      2.063,
+      1.336,
+      1.544
+    ],
+    "initS": [
+      53,
+      10,
+      6,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_FdntLzip_6f804208fb157c2e194cac1e4eee03f55debaf08.gif",
+    "rideable": false
+  },
+  {
+    "id": "154",
+    "name": "포이비스",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        5
+      ],
+      [
+        "풍",
+        5
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.951,
+      2.013,
+      1.457,
+      1.591
+    ],
+    "initS": [
+      54,
+      11,
+      7,
+      8
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_Lk9JM6fc_ded06cdb7917d39f8a596410dcf536d7c88872ad.gif",
+    "rideable": false
+  },
+  {
+    "id": "153",
+    "name": "크랩",
+    "attr": "수없음",
+    "attrs": [
+      [
+        "수",
+        10
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.766,
+      2.107,
+      1.707,
+      1.064
+    ],
+    "initS": [
+      52,
+      10,
+      8,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_JjOyWxre_4e2467f895eb1781b21642fe51b3b48eac0c58c6.gif",
+    "rideable": false
+  },
+  {
+    "id": "152",
+    "name": "포레스트크랩",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        5
+      ],
+      [
+        "수",
+        5
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      12.041,
+      1.996,
+      2.167,
+      0.404
+    ],
+    "initS": [
+      63,
+      10,
+      11,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_XK48lZc7_9b7092355bc046b55c0a4eea59648431e1dc1818.gif",
+    "rideable": false
+  },
+  {
+    "id": "151",
+    "name": "킹크랩",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        9
+      ],
+      [
+        "풍",
+        1
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      11.756,
+      2.21,
+      2.039,
+      0.404
+    ],
+    "initS": [
+      56,
+      10,
+      9,
+      1
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_2B3wdYEV_f86d054f238c06f3c144eaa02af4a5a6d25a8d54.gif",
+    "rideable": false
+  },
+  {
+    "id": "150",
+    "name": "지라크",
+    "attr": "지없음",
+    "attrs": [
+      [
+        "지",
+        10
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.521,
+      1.927,
+      1.372,
+      1.591
+    ],
+    "initS": [
+      50,
+      9,
+      6,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_4uQMh8Bn_7f241eb339f87a2a0e44cc1649d8de786b6ed28c.gif",
+    "rideable": false
+  },
+  {
+    "id": "149",
+    "name": "기가로스",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        3
+      ],
+      [
+        "풍",
+        7
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.123,
+      1.922,
+      1.966,
+      1.114
+    ],
+    "initS": [
+      57,
+      10,
+      11,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_VzbCXh7B_4ba7e8c1f6d5a8370a025877a0be117243aa1d8c.gif",
+    "rideable": false
+  },
+  {
+    "id": "148",
+    "name": "가가로스",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        8
+      ],
+      [
+        "수",
+        2
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.996,
+      2.155,
+      2.027,
+      0.831
+    ],
+    "initS": [
+      60,
+      11,
+      11,
+      4
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_9bryWJN1_9e7d50c2f2662ff468e12885ace97895331b6a53.gif",
+    "rideable": true
+  },
+  {
+    "id": "147",
+    "name": "타키",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        2
+      ],
+      [
+        "풍",
+        8
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.45,
+      1.781,
+      1.178,
+      2.137
+    ],
+    "initS": [
+      34,
+      6,
+      4,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_m8oXJWnH_2f63ae2cb302acc140f475a9cacb181df0d03f91.gif",
+    "rideable": false
+  },
+  {
+    "id": "146",
+    "name": "호르쿠",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        3
+      ],
+      [
+        "풍",
+        7
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.553,
+      1.688,
+      1.271,
+      2.034
+    ],
+    "initS": [
+      33,
+      5,
+      4,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_Z5GJrYhW_ec63379ee2a3fc1a5806bf9ebfe9b0b8cb5c75a1.gif",
+    "rideable": true
+  },
+  {
+    "id": "145",
+    "name": "쿠쿠",
+    "attr": "풍없음",
+    "attrs": [
+      [
+        "풍",
+        10
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.193,
+      1.721,
+      1.119,
+      2.189
+    ],
+    "initS": [
+      33,
+      6,
+      4,
+      8
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_9Nr43B8e_7a6839addd4ecbd50df23a1fdf1e8089e9e8a282.gif",
+    "rideable": true
+  },
+  {
+    "id": "144",
+    "name": "카키",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        5
+      ],
+      [
+        "풍",
+        5
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.296,
+      1.83,
+      1.227,
+      2.086
+    ],
+    "initS": [
+      34,
+      6,
+      4,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_M4vj9Wey_2aa8b658842ef9b53ad35b452576e5486ecfbe4e.gif",
+    "rideable": true
+  },
+  {
+    "id": "143",
+    "name": "판지",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        2
+      ],
+      [
+        "수",
+        8
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.892,
+      2.254,
+      1.374,
+      1.107
+    ],
+    "initS": [
+      42,
+      8,
+      5,
+      4
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_fHixbZ9s_1f5b6ac2159e3d1157021620e8c481b7f7608cb9.gif",
+    "rideable": false
+  },
+  {
+    "id": "142",
+    "name": "쟈그라",
+    "attr": "수화",
+    "attrs": [
+      [
+        "수",
+        5
+      ],
+      [
+        "화",
+        5
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.299,
+      2.259,
+      1.344,
+      1.097
+    ],
+    "initS": [
+      38,
+      8,
+      5,
+      4
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_Ypn1Fwjl_fc985c4a7e617c6be2842068ca2d3770077adca4.gif",
+    "rideable": false
+  },
+  {
+    "id": "141",
+    "name": "고반케스",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        4
+      ],
+      [
+        "수",
+        6
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.566,
+      2.224,
+      1.502,
+      1.043
+    ],
+    "initS": [
+      41,
+      8,
+      5,
+      4
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_f0Q7ukit_6d915ffae90557e96acb18e2a978e012676ffff0.gif",
+    "rideable": false
+  },
+  {
+    "id": "140",
+    "name": "쟈그",
+    "attr": "수없음",
+    "attrs": [
+      [
+        "수",
+        10
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      11.047,
+      2.254,
+      1.327,
+      1.107
+    ],
+    "initS": [
+      42,
+      8,
+      5,
+      4
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_S5tCIsZW_4a387c3f63cc662fb62bf5be5e20c215ebfc9702.gif",
+    "rideable": false
+  },
+  {
+    "id": "139",
+    "name": "도르도르",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        2
+      ],
+      [
+        "수",
+        8
+      ]
+    ],
+    "obtain": "레이드",
+    "growthS": [
+      10.123,
+      2.075,
+      1.318,
+      1.609
+    ],
+    "initS": [
+      47,
+      9,
+      6,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_hQNcJb5I_579f25019fe426bafca07e98e3a7d5eb8e4ce7bc.gif",
+    "rideable": true
+  },
+  {
+    "id": "138",
+    "name": "베로바드",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        5
+      ],
+      [
+        "수",
+        5
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      11.139,
+      2.018,
+      1.932,
+      1.021
+    ],
+    "initS": [
+      56,
+      10,
+      9,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_Tc6GmoSt_7d98d8e4f4fe25a3088dfa6a4c895b7d19e6e9ed.gif",
+    "rideable": false
+  },
+  {
+    "id": "137",
+    "name": "베노투리",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        7
+      ],
+      [
+        "풍",
+        3
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      11.329,
+      1.728,
+      2.326,
+      0.926
+    ],
+    "initS": [
+      57,
+      8,
+      11,
+      4
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_BSJidlkM_b0a43e910a7db7a86dfa41b36a79d66cce21a2fd.gif",
+    "rideable": false
+  },
+  {
+    "id": "136",
+    "name": "베톤",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        8
+      ],
+      [
+        "수",
+        2
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      11.756,
+      1.692,
+      2.376,
+      0.784
+    ],
+    "initS": [
+      59,
+      8,
+      12,
+      3
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_xu7YXizI_7fa19df225ec0d5cb8576d4e7438695373d5adbd.gif",
+    "rideable": false
+  },
+  {
+    "id": "135",
+    "name": "베노노크",
+    "attr": "풍화",
+    "attrs": [
+      [
+        "풍",
+        8
+      ],
+      [
+        "화",
+        2
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      11.234,
+      1.749,
+      1.963,
+      1.164
+    ],
+    "initS": [
+      56,
+      8,
+      9,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_sVR3k8wr_be05bbbaa1710441a1f721904cff883c753666b4.gif",
+    "rideable": false
+  },
+  {
+    "id": "134",
+    "name": "프로돈",
+    "attr": "수지",
+    "attrs": [
+      [
+        "수",
+        8
+      ],
+      [
+        "지",
+        2
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      11.234,
+      2.257,
+      1.36,
+      1.259
+    ],
+    "initS": [
+      63,
+      12,
+      7,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_7hTUqgJI_6efa2ba1bc89310c4c70159af9f44882f6d244a2.gif",
+    "rideable": false
+  },
+  {
+    "id": "133",
+    "name": "기비노",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        8
+      ],
+      [
+        "수",
+        2
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.094,
+      2.457,
+      1.303,
+      1.259
+    ],
+    "initS": [
+      48,
+      11,
+      6,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_1ApcxtSI_ed956605674921b1957a45f0bd68f3973697ebd2.gif",
+    "rideable": false
+  },
+  {
+    "id": "132",
+    "name": "기라노",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        8
+      ],
+      [
+        "풍",
+        2
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.616,
+      2.341,
+      1.443,
+      1.211
+    ],
+    "initS": [
+      64,
+      14,
+      8,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_1jXbkv5U_9413c3687e95354f5252d4649e039e087fef9b45.gif",
+    "rideable": true
+  },
+  {
+    "id": "131",
+    "name": "타로아",
+    "attr": "수화",
+    "attrs": [
+      [
+        "수",
+        5
+      ],
+      [
+        "화",
+        5
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.172,
+      2.33,
+      1.662,
+      1.064
+    ],
+    "initS": [
+      41,
+      9,
+      6,
+      4
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_MIViXQoj_0ddde838888a102fdd7577f0e89f82c08423054f.gif",
+    "rideable": false
+  },
+  {
+    "id": "130",
+    "name": "기고아",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        7
+      ],
+      [
+        "수",
+        3
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      9.776,
+      2.234,
+      1.788,
+      1.015
+    ],
+    "initS": [
+      39,
+      9,
+      7,
+      4
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_oYqPfVSU_ffe461d6705d1ad27658cf1f32b4c615c73b0e74.gif",
+    "rideable": false
+  },
+  {
+    "id": "129",
+    "name": "골드곤",
+    "attr": "풍지",
+    "attrs": [
+      [
+        "풍",
+        6
+      ],
+      [
+        "지",
+        4
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.123,
+      2.187,
+      1.652,
+      1.163
+    ],
+    "initS": [
+      40,
+      8,
+      6,
+      4
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_McQnhbpu_0c9c2a3de5281c7c75432b4976fbb70c8b8b5866.gif",
+    "rideable": false
+  },
+  {
+    "id": "128",
+    "name": "깡우비",
+    "attr": "풍화",
+    "attrs": [
+      [
+        "풍",
+        6
+      ],
+      [
+        "화",
+        4
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.854,
+      2.122,
+      1.524,
+      1.211
+    ],
+    "initS": [
+      47,
+      9,
+      6,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_OLh6d8BR_c2e8ae99c1a2b077d0717d6cbd2c294c8b8a65f8.gif",
+    "rideable": false
+  },
+  {
+    "id": "127",
+    "name": "푸이",
+    "attr": "수없음",
+    "attrs": [
+      [
+        "수",
+        10
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      11.063,
+      2.199,
+      1.575,
+      1.015
+    ],
+    "initS": [
+      58,
+      11,
+      8,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_xBTzdXDi_0d86ec3d0352d8f60464e7b855fd85598597c0a3.gif",
+    "rideable": false
+  },
+  {
+    "id": "126",
+    "name": "푸비",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        5
+      ],
+      [
+        "수",
+        5
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.667,
+      2.1,
+      1.655,
+      1.015
+    ],
+    "initS": [
+      56,
+      11,
+      8,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_uHlm1O8N_32199aea817a273d5a16ec39e31c7cfbb04b2061.gif",
+    "rideable": false
+  },
+  {
+    "id": "125",
+    "name": "녹우리",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        6
+      ],
+      [
+        "풍",
+        4
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.123,
+      2.043,
+      1.598,
+      1.361
+    ],
+    "initS": [
+      42,
+      8,
+      6,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_djB8TRvf_5434a69e6d839132ea21d235661ee2ed1332099f.gif",
+    "rideable": false
+  },
+  {
+    "id": "124",
+    "name": "푸우리",
+    "attr": "수화",
+    "attrs": [
+      [
+        "수",
+        9
+      ],
+      [
+        "화",
+        1
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.429,
+      2.046,
+      1.258,
+      1.571
+    ],
+    "initS": [
+      40,
+      7,
+      4,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_4HzUxy0l_f350e1f3040fbeef02464a49daa352f5eac91b37.gif",
+    "rideable": false
+  },
+  {
+    "id": "123",
+    "name": "부르보",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        4
+      ],
+      [
+        "풍",
+        6
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.875,
+      1.86,
+      1.815,
+      1.262
+    ],
+    "initS": [
+      37,
+      7,
+      6,
+      4
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_chr5tB0W_3e414a7a5ffbb2fc1e568a1f47895618a272b640.gif",
+    "rideable": false
+  },
+  {
+    "id": "122",
+    "name": "쿠보",
+    "attr": "수화",
+    "attrs": [
+      [
+        "수",
+        5
+      ],
+      [
+        "화",
+        5
+      ]
+    ],
+    "obtain": "퀘스트",
+    "growthS": [
+      9.764,
+      1.767,
+      1.815,
+      1.204
+    ],
+    "initS": [
+      38,
+      6,
+      7,
+      4
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_u7Pvmj0Y_a398d5d46372954636c4b24e06def6959cfcef71.gif",
+    "rideable": false
+  },
+  {
+    "id": "121",
+    "name": "샤크론",
+    "attr": "수없음",
+    "attrs": [
+      [
+        "수",
+        10
+      ]
+    ],
+    "obtain": "지원",
+    "growthS": [
+      10.474,
+      2.148,
+      1.25,
+      1.639
+    ],
+    "initS": [
+      57,
+      11,
+      6,
+      8
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_Pd5gGIYS_92ec290c63bf72a3aa1380f004c495075ad4826c.gif",
+    "rideable": true
+  },
+  {
+    "id": "120",
+    "name": "파베로스",
+    "attr": "풍없음",
+    "attrs": [
+      [
+        "풍",
+        10
+      ]
+    ],
+    "obtain": "지원",
+    "growthS": [
+      9.904,
+      2.174,
+      1.148,
+      1.686
+    ],
+    "initS": [
+      56,
+      12,
+      6,
+      9
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_dImntSNM_d39b646af82746d468fd4bce98efb27bcecbbe8e.gif",
+    "rideable": false
+  },
+  {
+    "id": "119",
+    "name": "카우거",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        8
+      ],
+      [
+        "풍",
+        2
+      ]
+    ],
+    "obtain": "지원",
+    "growthS": [
+      10.094,
+      2.181,
+      1.198,
+      1.639
+    ],
+    "initS": [
+      57,
+      12,
+      6,
+      9
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_fNoi7aGD_4a43f6ea325086b941b7767dcfb04c54e34b26a5.gif",
+    "rideable": true
+  },
+  {
+    "id": "118",
+    "name": "갈푸스",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        9
+      ],
+      [
+        "풍",
+        1
+      ]
+    ],
+    "obtain": "지원",
+    "growthS": [
+      9.761,
+      2.219,
+      1.193,
+      1.639
+    ],
+    "initS": [
+      55,
+      12,
+      6,
+      9
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_QLtIbyG3_fbc78f1ae9ea81fc7deb702ea449f17480fe5653.gif",
+    "rideable": true
+  },
+  {
+    "id": "117",
+    "name": "아리노스",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        5
+      ],
+      [
+        "수",
+        5
+      ]
+    ],
+    "obtain": "퀘스트",
+    "growthS": [
+      10.996,
+      1.55,
+      1.806,
+      1.259
+    ],
+    "initS": [
+      53,
+      7,
+      8,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_Sdfs3Eqp_ce892f4f6285a3bb0ab14fb964076e699699141d.gif",
+    "rideable": false
+  },
+  {
+    "id": "116",
+    "name": "아토라지",
+    "attr": "수없음",
+    "attrs": [
+      [
+        "수",
+        10
+      ]
+    ],
+    "obtain": "퀘스트",
+    "growthS": [
+      10.996,
+      1.54,
+      1.626,
+      1.449
+    ],
+    "initS": [
+      50,
+      7,
+      7,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_vwpCF7J6_67e0a8746d2034f455d363d9fa955d1e2168b9be.gif",
+    "rideable": false
+  },
+  {
+    "id": "115",
+    "name": "스토라지",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        2
+      ],
+      [
+        "수",
+        8
+      ]
+    ],
+    "obtain": "퀘스트",
+    "growthS": [
+      10.964,
+      1.637,
+      1.682,
+      1.361
+    ],
+    "initS": [
+      46,
+      6,
+      7,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_dtgaXmQY_d7255e01dbd00040074c898e3f735c31085d4f5d.gif",
+    "rideable": false
+  },
+  {
+    "id": "114",
+    "name": "다이노로스",
+    "attr": "수화",
+    "attrs": [
+      [
+        "수",
+        5
+      ],
+      [
+        "화",
+        5
+      ]
+    ],
+    "obtain": "퀘스트",
+    "growthS": [
+      11.509,
+      1.744,
+      1.699,
+      1.213
+    ],
+    "initS": [
+      58,
+      8,
+      8,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_X5CgOZ7k_57e7985e3d0045933877f0e5896ed74aec5aa1c9.gif",
+    "rideable": false
+  },
+  {
+    "id": "113",
+    "name": "아코로비",
+    "attr": "수지",
+    "attrs": [
+      [
+        "수",
+        9
+      ],
+      [
+        "지",
+        1
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.426,
+      2.158,
+      1.474,
+      1.354
+    ],
+    "initS": [
+      59,
+      12,
+      8,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_KqUOB8Ts_0239d1e1d8901a0cce597e8955cbe48cbccdaf75.gif",
+    "rideable": false
+  },
+  {
+    "id": "112",
+    "name": "그린고르",
+    "attr": "지없음",
+    "attrs": [
+      [
+        "지",
+        10
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.62,
+      2.053,
+      2.149,
+      0.401
+    ],
+    "initS": [
+      51,
+      9,
+      10,
+      1
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_NMGjxiFK_eea7a1aae4924fd71d225a650d2f16cd5aba8082.gif",
+    "rideable": false
+  },
+  {
+    "id": "111",
+    "name": "쿠팡",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        3
+      ],
+      [
+        "풍",
+        7
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.336,
+      2.133,
+      1.17,
+      1.685
+    ],
+    "initS": [
+      40,
+      9,
+      5,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_p68PBz9h_e3db1be7731e76ebe00d74c41c076d192355a46a.gif",
+    "rideable": false
+  },
+  {
+    "id": "110",
+    "name": "쿠아",
+    "attr": "수화",
+    "attrs": [
+      [
+        "수",
+        5
+      ],
+      [
+        "화",
+        5
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.965,
+      2.048,
+      1.446,
+      1.519
+    ],
+    "initS": [
+      46,
+      9,
+      6,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_ORkaCAs9_c9127d0bc8a48061012fc6623d83dd00bd7a680a.gif",
+    "rideable": false
+  },
+  {
+    "id": "109",
+    "name": "프이토",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        2
+      ],
+      [
+        "풍",
+        8
+      ]
+    ],
+    "obtain": "퀘스트",
+    "growthS": [
+      9.55,
+      1.612,
+      1.756,
+      1.632
+    ],
+    "initS": [
+      46,
+      7,
+      8,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_NSdJpTMl_211a83c4f901d85848166230d345e613d5c4456b.gif",
+    "rideable": false
+  },
+  {
+    "id": "108",
+    "name": "라이혼",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        5
+      ],
+      [
+        "수",
+        5
+      ]
+    ],
+    "obtain": "퀘스트",
+    "growthS": [
+      9.904,
+      1.98,
+      1.638,
+      1.591
+    ],
+    "initS": [
+      56,
+      11,
+      9,
+      9
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_Q723nJil_19ff70fc9c868363f8a3f766c70250a7d3d7d96f.gif",
+    "rideable": false
+  },
+  {
+    "id": "107",
+    "name": "라나프",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        8
+      ],
+      [
+        "풍",
+        2
+      ]
+    ],
+    "obtain": "퀘스트",
+    "growthS": [
+      9.038,
+      1.855,
+      1.763,
+      1.674
+    ],
+    "initS": [
+      49,
+      10,
+      9,
+      9
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_xZ26h5rH_1f1e622c5d3473cfc415ef13c073e758ee0066d7.gif",
+    "rideable": false
+  },
+  {
+    "id": "106",
+    "name": "푸룡",
+    "attr": "수지",
+    "attrs": [
+      [
+        "수",
+        9
+      ],
+      [
+        "지",
+        1
+      ]
+    ],
+    "obtain": "복권",
+    "growthS": [
+      10.616,
+      2.246,
+      1.348,
+      1.401
+    ],
+    "initS": [
+      60,
+      12,
+      7,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_GzeYCaXT_f32e8b7b7e56316f5214c6aebb0cbf3fcd4f2ced.gif",
+    "rideable": true
+  },
+  {
+    "id": "105",
+    "name": "골로스",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        5
+      ],
+      [
+        "풍",
+        5
+      ]
+    ],
+    "obtain": "퀘스트",
+    "growthS": [
+      9.904,
+      2.284,
+      1.514,
+      1.211
+    ],
+    "initS": [
+      60,
+      13,
+      9,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_JHLp4xcw_f787a4cdc2b9ac511514fab38367a291a0de506f.gif",
+    "rideable": true
+  },
+  {
+    "id": "104",
+    "name": "모가로스",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        8
+      ],
+      [
+        "수",
+        2
+      ]
+    ],
+    "obtain": "퀘스트",
+    "growthS": [
+      10.189,
+      2.288,
+      1.433,
+      1.401
+    ],
+    "initS": [
+      57,
+      13,
+      8,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_jGbtEKHw_5981911ac18f534d600a5c3c77ae9e697a1686f4.gif",
+    "rideable": true
+  },
+  {
+    "id": "103",
+    "name": "오르곤",
+    "attr": "수화",
+    "attrs": [
+      [
+        "수",
+        8
+      ],
+      [
+        "화",
+        2
+      ]
+    ],
+    "obtain": "퀘스트",
+    "growthS": [
+      10.759,
+      2.167,
+      1.526,
+      1.259
+    ],
+    "initS": [
+      63,
+      12,
+      8,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_UkNB7KIc_1475e931f04085ffc02ae65b8b0962d422b731b5.gif",
+    "rideable": true
+  },
+  {
+    "id": "102",
+    "name": "오가로스",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        6
+      ],
+      [
+        "수",
+        4
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.123,
+      2.147,
+      1.791,
+      1.064
+    ],
+    "initS": [
+      55,
+      11,
+      9,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_XBf6yeV5_01ea34be46239e16f8a70d8979d69b11e78406de.gif",
+    "rideable": true
+  },
+  {
+    "id": "101",
+    "name": "리비노",
+    "attr": "지없음",
+    "attrs": [
+      [
+        "지",
+        10
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.017,
+      2.293,
+      1.505,
+      1.056
+    ],
+    "initS": [
+      52,
+      12,
+      7,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_9OXQWjUZ_80fc3d128e7a98537d31840d88c23cb688df9f09.gif",
+    "rideable": true
+  },
+  {
+    "id": "100",
+    "name": "얀기로",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        7
+      ],
+      [
+        "수",
+        3
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.469,
+      2.323,
+      1.432,
+      1.213
+    ],
+    "initS": [
+      57,
+      12,
+      7,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_YbzXE9np_cf9076f06da07cf101f3bc327584daabd38c6276.gif",
+    "rideable": true
+  },
+  {
+    "id": "99",
+    "name": "반보로",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        5
+      ],
+      [
+        "풍",
+        5
+      ]
+    ],
+    "obtain": "퀘스트",
+    "growthS": [
+      10.141,
+      2.376,
+      1.436,
+      1.259
+    ],
+    "initS": [
+      55,
+      13,
+      7,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_9bnjxAGT_ab6a4a8892221699d3bd74bd28e11d0a0bbe3ccc.gif",
+    "rideable": true
+  },
+  {
+    "id": "98",
+    "name": "부르돈",
+    "attr": "풍화",
+    "attrs": [
+      [
+        "풍",
+        8
+      ],
+      [
+        "화",
+        2
+      ]
+    ],
+    "obtain": "퀘스트",
+    "growthS": [
+      10.236,
+      2.236,
+      1.338,
+      1.401
+    ],
+    "initS": [
+      51,
+      11,
+      6,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_NQyrl8wt_08646946fa1a4e3342f04e27371e0ea816cd5a58.gif",
+    "rideable": true
+  },
+  {
+    "id": "97",
+    "name": "반기노",
+    "attr": "화없음",
+    "attrs": [
+      [
+        "화",
+        10
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.951,
+      2.417,
+      1.433,
+      1.211
+    ],
+    "initS": [
+      52,
+      12,
+      7,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_PfrBsUSD_7b049d74b5feb04ff92d9cf2cfcf692330374632.gif",
+    "rideable": true
+  },
+  {
+    "id": "95",
+    "name": "마모나스",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        7
+      ],
+      [
+        "수",
+        3
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      12.659,
+      1.97,
+      2.227,
+      0.451
+    ],
+    "initS": [
+      66,
+      10,
+      11,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_7RC3IxYy_5cafe823fd85878234e6996b04b1be477f31e1eb.gif",
+    "rideable": false
+  },
+  {
+    "id": "94",
+    "name": "만모르",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        8
+      ],
+      [
+        "수",
+        2
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      12.231,
+      1.999,
+      2.127,
+      0.451
+    ],
+    "initS": [
+      66,
+      10,
+      11,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_96upFU2G_bdfdf542567af98301c8c9bbfe2f0bf5fedfd6eb.gif",
+    "rideable": false
+  },
+  {
+    "id": "93",
+    "name": "만모",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        9
+      ],
+      [
+        "수",
+        1
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      12.516,
+      1.785,
+      2.255,
+      0.451
+    ],
+    "initS": [
+      71,
+      10,
+      12,
+      22
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_MjgIxOcf_f4f27ec9ab908167aff7c0ff9985c4a3bf5c6d3e.gif",
+    "rideable": false
+  },
+  {
+    "id": "92",
+    "name": "프라키토스",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        8
+      ],
+      [
+        "수",
+        2
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      11.424,
+      2.243,
+      1.944,
+      0.499
+    ],
+    "initS": [
+      57,
+      11,
+      9,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_7jf0rNkC_a31e394a5218415964129d4363347cec60377cda.gif",
+    "rideable": true
+  },
+  {
+    "id": "91",
+    "name": "프리토스",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        2
+      ],
+      [
+        "풍",
+        8
+      ]
+    ],
+    "obtain": "복권",
+    "growthS": [
+      11.851,
+      2.037,
+      2.079,
+      0.641
+    ],
+    "initS": [
+      64,
+      11,
+      11,
+      3
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_1nD28Cbo_bc9d7e59b438e8281772733b1cb423fc3ebddd62.gif",
+    "rideable": true
+  },
+  {
+    "id": "90",
+    "name": "다이노스",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        3
+      ],
+      [
+        "수",
+        7
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      12.421,
+      1.958,
+      2.129,
+      0.499
+    ],
+    "initS": [
+      67,
+      10,
+      11,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_kN9S6u07_4dcc044591bc0a89244ec1c2dc2a3e0c0be10735.gif",
+    "rideable": true
+  },
+  {
+    "id": "89",
+    "name": "루이",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        2
+      ],
+      [
+        "수",
+        8
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      11.519,
+      1.932,
+      2.018,
+      0.641
+    ],
+    "initS": [
+      55,
+      9,
+      9,
+      3
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_76fSjXhN_a6f9552743939b8597c822a7a6febd3066bea712.gif",
+    "rideable": false
+  },
+  {
+    "id": "88",
+    "name": "무이",
+    "attr": "수없음",
+    "attrs": [
+      [
+        "수",
+        10
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      12.231,
+      1.904,
+      2.032,
+      0.641
+    ],
+    "initS": [
+      56,
+      8,
+      9,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_ikOF0UYj_d455ac08cf225d3c6f2b239728ab181b7f63d141.gif",
+    "rideable": true
+  },
+  {
+    "id": "87",
+    "name": "씨보스",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        2
+      ],
+      [
+        "수",
+        7
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      11.851,
+      1.892,
+      1.977,
+      0.689
+    ],
+    "initS": [
+      57,
+      9,
+      9,
+      3
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_sb6aMFmX_2d9ebe56917f628965188b6405cf3a65afcad172.gif",
+    "rideable": false
+  },
+  {
+    "id": "86",
+    "name": "투이",
+    "attr": "수화",
+    "attrs": [
+      [
+        "수",
+        5
+      ],
+      [
+        "화",
+        5
+      ]
+    ],
+    "obtain": "퀘스트",
+    "growthS": [
+      12.016,
+      1.805,
+      1.855,
+      0.583
+    ],
+    "initS": [
+      51,
+      7,
+      8,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_4ksavz3I_2b360880f60550075344af0c810d1977c8cea95f.gif",
+    "rideable": false
+  },
+  {
+    "id": "85",
+    "name": "메가로스",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        4
+      ],
+      [
+        "수",
+        6
+      ]
+    ],
+    "obtain": "퀘스트",
+    "growthS": [
+      11.329,
+      1.923,
+      1.923,
+      0.736
+    ],
+    "initS": [
+      64,
+      10,
+      10,
+      4
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_9ncHFwx5_9a1e1efc91a818e8fc2aedfe01daa13a1133eb6a.gif",
+    "rideable": false
+  },
+  {
+    "id": "84",
+    "name": "비트로스",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        3
+      ],
+      [
+        "풍",
+        7
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.321,
+      2.103,
+      1.835,
+      0.866
+    ],
+    "initS": [
+      54,
+      11,
+      9,
+      4
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_h3o7XkpI_4e7caa4ade0eaacd66f1d15ba679f1028cefad6e.gif",
+    "rideable": false
+  },
+  {
+    "id": "83",
+    "name": "토르프스",
+    "attr": "지없음",
+    "attrs": [
+      [
+        "지",
+        10
+      ]
+    ],
+    "obtain": "퀘스트",
+    "growthS": [
+      10.299,
+      1.697,
+      2.227,
+      0.776
+    ],
+    "initS": [
+      28,
+      4,
+      6,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_5kCTNt63_c182154cac0d8158a9d97adb3bdbfac2b7bc0669.gif",
+    "rideable": false
+  },
+  {
+    "id": "82",
+    "name": "토리케라",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        7
+      ],
+      [
+        "수",
+        3
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.906,
+      1.547,
+      2.246,
+      0.86
+    ],
+    "initS": [
+      33,
+      4,
+      6,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_nIRSZCj0_4674e77d88b70d9b9d6fbb53c8be297f6b830cb3.gif",
+    "rideable": false
+  },
+  {
+    "id": "81",
+    "name": "펜타스",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        2
+      ],
+      [
+        "수",
+        8
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.566,
+      1.593,
+      2.123,
+      0.829
+    ],
+    "initS": [
+      31,
+      4,
+      6,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_GolQEbNu_7a2092b5d02ff187659d08001976be8f1df1e194.gif",
+    "rideable": false
+  },
+  {
+    "id": "80",
+    "name": "토리노프스",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        7
+      ],
+      [
+        "수",
+        3
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.24,
+      1.777,
+      1.927,
+      0.916
+    ],
+    "initS": [
+      25,
+      4,
+      4,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_AScbqnLZ_381dd50248263737af7041f084aba7c6b64b778a.gif",
+    "rideable": false
+  },
+  {
+    "id": "79",
+    "name": "베르가",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        6
+      ],
+      [
+        "수",
+        4
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.073,
+      2.028,
+      1.36,
+      1.559
+    ],
+    "initS": [
+      46,
+      9,
+      6,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_Q32DiEuk_64d7ca32fb3cc3226c73f10733198183002011e6.gif",
+    "rideable": true
+  },
+  {
+    "id": "78",
+    "name": "베루루",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        3
+      ],
+      [
+        "풍",
+        7
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.759,
+      2.082,
+      1.248,
+      1.674
+    ],
+    "initS": [
+      41,
+      8,
+      5,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_TFJv4fYx_bd80b6348ef7d812c96773188fa752c3c01398b1.gif",
+    "rideable": true
+  },
+  {
+    "id": "77",
+    "name": "고르고르",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        8
+      ],
+      [
+        "풍",
+        2
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.399,
+      2.126,
+      1.291,
+      1.622
+    ],
+    "initS": [
+      38,
+      8,
+      5,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_7tbN8Qn6_613d1911c9a601bedc52da80978653a2cd1651a1.gif",
+    "rideable": true
+  },
+  {
+    "id": "76",
+    "name": "노르노르",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        3
+      ],
+      [
+        "풍",
+        7
+      ]
+    ],
+    "obtain": "복권",
+    "growthS": [
+      9.708,
+      2.046,
+      1.443,
+      1.674
+    ],
+    "initS": [
+      47,
+      9,
+      7,
+      8
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_KEWMpIqB_bfbfd13e62ac05c61feb5e0f10253b9250d0db51.gif",
+    "rideable": true
+  },
+  {
+    "id": "75",
+    "name": "카우",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        7
+      ],
+      [
+        "풍",
+        2
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      8.781,
+      1.801,
+      1.801,
+      1.622
+    ],
+    "initS": [
+      27,
+      5,
+      5,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_ldwX16WM_71eb060b68503a7c55829f8abc800c598b2ca421.gif",
+    "rideable": false
+  },
+  {
+    "id": "74",
+    "name": "바우",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        2
+      ],
+      [
+        "풍",
+        8
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.296,
+      1.85,
+      1.618,
+      1.674
+    ],
+    "initS": [
+      28,
+      5,
+      5,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_2KeySGQx_c633bf8ca0545cb26825504298f2fbaee34459c3.gif",
+    "rideable": false
+  },
+  {
+    "id": "73",
+    "name": "바카",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        4
+      ],
+      [
+        "풍",
+        6
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.502,
+      1.858,
+      1.672,
+      1.622
+    ],
+    "initS": [
+      36,
+      7,
+      6,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_ZFfPH81E_9a2965500ddeb646ff1870ff4b21c0b0d30483de.gif",
+    "rideable": false
+  },
+  {
+    "id": "72",
+    "name": "카쿠",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        3
+      ],
+      [
+        "수",
+        7
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.924,
+      1.767,
+      1.671,
+      1.525
+    ],
+    "initS": [
+      33,
+      5,
+      5,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_Ifqt1kH5_73d9e696732bf21d601b43b05bc72cab97e72165.gif",
+    "rideable": false
+  },
+  {
+    "id": "71",
+    "name": "토로쟈",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        7
+      ],
+      [
+        "수",
+        3
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.299,
+      1.938,
+      1.89,
+      1.097
+    ],
+    "initS": [
+      40,
+      7,
+      7,
+      4
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_zI9nZ7xH_78252469472d7b8eb3e6a6b481f341988e5e40d1.gif",
+    "rideable": false
+  },
+  {
+    "id": "70",
+    "name": "포보",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        3
+      ],
+      [
+        "수",
+        7
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.739,
+      1.791,
+      1.941,
+      0.971
+    ],
+    "initS": [
+      38,
+      6,
+      6,
+      3
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_lwNL7eXY_e386782ea634debd8d713f364c62884d35c96dff.gif",
+    "rideable": false
+  },
+  {
+    "id": "69",
+    "name": "휴보",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        8
+      ],
+      [
+        "수",
+        2
+      ]
+    ],
+    "obtain": "퀘스트",
+    "growthS": [
+      9.871,
+      1.975,
+      1.831,
+      1.097
+    ],
+    "initS": [
+      42,
+      8,
+      7,
+      4
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_6JWgHbiA_b3866cf3a4a77b538c5f7fab07fba20cf9a67e63.gif",
+    "rideable": false
+  },
+  {
+    "id": "68",
+    "name": "고르고",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        9
+      ],
+      [
+        "풍",
+        1
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.862,
+      2.095,
+      1.492,
+      1.313
+    ],
+    "initS": [
+      49,
+      10,
+      7,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_egV5huqG_defeee4af6fca5e6167e015d5ef8fab0550b6118.gif",
+    "rideable": true
+  },
+  {
+    "id": "67",
+    "name": "투르돈",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        7
+      ],
+      [
+        "수",
+        3
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.352,
+      2.069,
+      1.539,
+      1.15
+    ],
+    "initS": [
+      48,
+      9,
+      7,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_42TSB8Ku_5a9e3ebb02a5629cb45b8ae0f45e186c865ac25c.gif",
+    "rideable": false
+  },
+  {
+    "id": "66",
+    "name": "기라돈",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        8
+      ],
+      [
+        "수",
+        2
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.295,
+      1.927,
+      1.727,
+      1.027
+    ],
+    "initS": [
+      46,
+      8,
+      7,
+      4
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_dHV9NRQl_be95fb43e0110b197a2e54bca6d9c3ca0e987f88.gif",
+    "rideable": false
+  },
+  {
+    "id": "65",
+    "name": "고르돈",
+    "attr": "지없음",
+    "attrs": [
+      [
+        "지",
+        10
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.172,
+      2.048,
+      1.736,
+      1.064
+    ],
+    "initS": [
+      51,
+      10,
+      8,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_nF2WyozR_8e7c3f668d1777b5ba7b56056c975f5d9589ef8e.gif",
+    "rideable": true
+  },
+  {
+    "id": "64",
+    "name": "골드카비트",
+    "attr": "풍없음",
+    "attrs": [
+      [
+        "풍",
+        10
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      8.999,
+      1.669,
+      1.41,
+      1.869
+    ],
+    "initS": [
+      26,
+      4,
+      4,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_XoLYOFcC_02699a44fc0774feebd470252bf67815945346f3.gif",
+    "rideable": false
+  },
+  {
+    "id": "63",
+    "name": "큐이",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        5
+      ],
+      [
+        "풍",
+        5
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      8.769,
+      1.724,
+      1.517,
+      1.696
+    ],
+    "initS": [
+      19,
+      3,
+      3,
+      3
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_RctPdxw6_afacea609dc4a7191130188efc6ebec38e3a8d80.gif",
+    "rideable": false
+  },
+  {
+    "id": "62",
+    "name": "케이비",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        2
+      ],
+      [
+        "풍",
+        8
+      ]
+    ],
+    "obtain": "기타",
+    "growthS": [
+      9.015,
+      1.743,
+      1.55,
+      1.792
+    ],
+    "initS": [
+      30,
+      5,
+      5,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_W6eZ0osu_c47c8ef5463afdb587cb3f9200abf00083581173.gif",
+    "rideable": false
+  },
+  {
+    "id": "61",
+    "name": "카비트",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        7
+      ],
+      [
+        "풍",
+        3
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.282,
+      1.753,
+      1.609,
+      1.792
+    ],
+    "initS": [
+      29,
+      5,
+      5,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_Y39gzVHu_08451935f00ef6409feb4d8c3c64dcd18b4468bf.gif",
+    "rideable": false
+  },
+  {
+    "id": "60",
+    "name": "리스키",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        2
+      ],
+      [
+        "수",
+        8
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.685,
+      1.761,
+      1.711,
+      1.471
+    ],
+    "initS": [
+      29,
+      5,
+      5,
+      4
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_KBbYrp8z_882732b03789d11a37858f7f71bc23f32e5bbbd3.gif",
+    "rideable": false
+  },
+  {
+    "id": "59",
+    "name": "포링",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        6
+      ],
+      [
+        "수",
+        4
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.796,
+      1.702,
+      1.603,
+      1.526
+    ],
+    "initS": [
+      33,
+      5,
+      5,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_qd84P0X5_ee7471e93ccabbf26b8b58bfb522a89881ec6f2c.gif",
+    "rideable": false
+  },
+  {
+    "id": "58",
+    "name": "쿠쿠르",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        3
+      ],
+      [
+        "수",
+        7
+      ]
+    ],
+    "obtain": "기타",
+    "growthS": [
+      10.189,
+      1.664,
+      1.621,
+      1.639
+    ],
+    "initS": [
+      40,
+      6,
+      6,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_70LDwPc2_93b136f993d4d23ca5f2937acba58cdda069db38.gif",
+    "rideable": false
+  },
+  {
+    "id": "57",
+    "name": "쿠링",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        6
+      ],
+      [
+        "수",
+        4
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.189,
+      1.671,
+      1.756,
+      1.496
+    ],
+    "initS": [
+      36,
+      5,
+      6,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_8gGSpvaH_3dbb9ead7b64ef9cf5d9aa8297130ad207309aba.gif",
+    "rideable": false
+  },
+  {
+    "id": "56",
+    "name": "카르기안",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        2
+      ],
+      [
+        "풍",
+        8
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.326,
+      1.899,
+      2.177,
+      0.901
+    ],
+    "initS": [
+      38,
+      7,
+      8,
+      3
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_pAlLvDM6_5129b5e7b9235257d57e1d5d171b7a0fadd8decc.gif",
+    "rideable": false
+  },
+  {
+    "id": "55",
+    "name": "쿠타스",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        4
+      ],
+      [
+        "수",
+        6
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      11.234,
+      1.939,
+      2.238,
+      0.499
+    ],
+    "initS": [
+      49,
+      8,
+      9,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_aXbvAY1U_824fb721b31e9da73bb79f02c225a4f8c192eb22.gif",
+    "rideable": false
+  },
+  {
+    "id": "54",
+    "name": "아이카스",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        5
+      ],
+      [
+        "수",
+        5
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      11.162,
+      1.776,
+      2.444,
+      0.47
+    ],
+    "initS": [
+      49,
+      7,
+      10,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_NjJvUhwo_39add6a017bf066dce20ccc79b11c762a8fd3777.gif",
+    "rideable": false
+  },
+  {
+    "id": "53",
+    "name": "로기안",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        8
+      ],
+      [
+        "풍",
+        2
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.222,
+      1.81,
+      2.523,
+      0.569
+    ],
+    "initS": [
+      45,
+      8,
+      11,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_PHJaTcmX_2f4ca5b6bd6471e69c92780e47d2cb98d32cbe4b.gif",
+    "rideable": false
+  },
+  {
+    "id": "52",
+    "name": "코로카스",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        6
+      ],
+      [
+        "수",
+        4
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.686,
+      1.912,
+      2.375,
+      0.438
+    ],
+    "initS": [
+      37,
+      6,
+      8,
+      1
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_UH4jvoC5_e47aa82679f96be4fffb33898b90649dca7aa709.gif",
+    "rideable": false
+  },
+  {
+    "id": "51",
+    "name": "쿠카스",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        8
+      ],
+      [
+        "수",
+        2
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.377,
+      1.768,
+      2.509,
+      0.541
+    ],
+    "initS": [
+      44,
+      7,
+      10,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_lX1acOrn_9c70335b0fac71febce844d4be1d38e200da17f0.gif",
+    "rideable": false
+  },
+  {
+    "id": "50",
+    "name": "카타르카스",
+    "attr": "지없음",
+    "attrs": [
+      [
+        "지",
+        10
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.326,
+      1.873,
+      2.615,
+      0.489
+    ],
+    "initS": [
+      44,
+      8,
+      11,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_48awDxfK_7bc2d08bfa6370eb2bf3bfdc8bb540efe8f6ce26.gif",
+    "rideable": true
+  },
+  {
+    "id": "49",
+    "name": "쿠로로",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        4
+      ],
+      [
+        "수",
+        6
+      ]
+    ],
+    "obtain": "기타",
+    "growthS": [
+      10.171,
+      1.711,
+      1.526,
+      1.571
+    ],
+    "initS": [
+      43,
+      7,
+      6,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_wvuG1QZP_70223616ad60ac35a33f299411606ca4d19c4746.gif",
+    "rideable": true
+  },
+  {
+    "id": "48",
+    "name": "루니",
+    "attr": "지없음",
+    "attrs": [
+      [
+        "지",
+        10
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.965,
+      1.781,
+      1.92,
+      1.313
+    ],
+    "initS": [
+      36,
+      6,
+      7,
+      4
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_aFIB9KuW_271bce19101feb2541d558ffccad4b4904fdbc75.gif",
+    "rideable": false
+  },
+  {
+    "id": "47",
+    "name": "토루루",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        6
+      ],
+      [
+        "풍",
+        4
+      ]
+    ],
+    "obtain": "퀘스트",
+    "growthS": [
+      9.656,
+      1.77,
+      1.817,
+      1.519
+    ],
+    "initS": [
+      39,
+      7,
+      7,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_npWTe6Lv_66f796dd41b831f6831e724ebf2eb8ba77e3d82d.gif",
+    "rideable": false
+  },
+  {
+    "id": "46",
+    "name": "후바바",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        6
+      ],
+      [
+        "풍",
+        4
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.811,
+      1.86,
+      1.629,
+      1.571
+    ],
+    "initS": [
+      41,
+      7,
+      6,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_zOAcZfRt_49467a9a96466281f6dc8db4e4c3da6f33d55995.gif",
+    "rideable": false
+  },
+  {
+    "id": "45",
+    "name": "라고고",
+    "attr": "화없음",
+    "attrs": [
+      [
+        "화",
+        10
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.811,
+      1.999,
+      1.49,
+      1.571
+    ],
+    "initS": [
+      43,
+      8,
+      6,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_buXqx40Z_fc2f22490e56041254c9661902ace6874bbc8f94.gif",
+    "rideable": true
+  },
+  {
+    "id": "44",
+    "name": "보크곤",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        2
+      ],
+      [
+        "풍",
+        8
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.443,
+      2.211,
+      1.585,
+      1.311
+    ],
+    "initS": [
+      40,
+      9,
+      6,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_vXFpG60O_f8c79f3197632ff1657ffda8e839624a50b41df9.gif",
+    "rideable": false
+  },
+  {
+    "id": "43",
+    "name": "다고스",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        2
+      ],
+      [
+        "수",
+        8
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.862,
+      2.249,
+      1.647,
+      1.004
+    ],
+    "initS": [
+      44,
+      10,
+      7,
+      4
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_XtFm2GiZ_24527f4d200c0fd3aefd2857811eaf664caaf068.gif",
+    "rideable": false
+  },
+  {
+    "id": "42",
+    "name": "타로곤",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        7
+      ],
+      [
+        "풍",
+        3
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.708,
+      2.2,
+      1.69,
+      1.056
+    ],
+    "initS": [
+      43,
+      9,
+      7,
+      4
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_BCa1KenL_84c8f26d8156cf6712935f18b4b89180454cfa9c.gif",
+    "rideable": false
+  },
+  {
+    "id": "41",
+    "name": "네고스",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        4
+      ],
+      [
+        "수",
+        6
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.914,
+      2.208,
+      1.745,
+      1.004
+    ],
+    "initS": [
+      42,
+      9,
+      7,
+      4
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_5Y2UPNxe_2f8ed106ac83390314d0bac324a6017779c8af26.gif",
+    "rideable": false
+  },
+  {
+    "id": "40",
+    "name": "아고아",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        7
+      ],
+      [
+        "수",
+        3
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.759,
+      2.298,
+      1.649,
+      1.056
+    ],
+    "initS": [
+      41,
+      9,
+      7,
+      4
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_UAP9ewsC_76f054ebbbc2f6e2d49411b87fd0070ffc9470ba.gif",
+    "rideable": false
+  },
+  {
+    "id": "39",
+    "name": "돌북이",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        9
+      ],
+      [
+        "풍",
+        1
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.962,
+      1.658,
+      2.707,
+      0.416
+    ],
+    "initS": [
+      37,
+      6,
+      10,
+      1
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_D0vgNAwK_cb9c4ab70d39b58530d32b310a4c4cb9467563d0.gif",
+    "rideable": true
+  },
+  {
+    "id": "38",
+    "name": "깡북이",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        8
+      ],
+      [
+        "풍",
+        2
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.851,
+      1.958,
+      2.407,
+      0.527
+    ],
+    "initS": [
+      21,
+      4,
+      5,
+      1
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_xqThcSJg_f6757e297b0a2c611b9eb882b9869dc59649c462.gif",
+    "rideable": false
+  },
+  {
+    "id": "37",
+    "name": "북이",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        6
+      ],
+      [
+        "풍",
+        4
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.907,
+      1.697,
+      2.496,
+      0.527
+    ],
+    "initS": [
+      24,
+      4,
+      6,
+      1
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_KxIqi8f4_701f601eb6354a637935942f5e470197fd44da3b.gif",
+    "rideable": false
+  },
+  {
+    "id": "36",
+    "name": "노북이",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        3
+      ],
+      [
+        "풍",
+        7
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.851,
+      1.639,
+      2.438,
+      0.583
+    ],
+    "initS": [
+      24,
+      4,
+      6,
+      1
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_TQBIk0rK_73b4a646559fd1e9a48a353d0f73711d84a28225.gif",
+    "rideable": false
+  },
+  {
+    "id": "35",
+    "name": "베로포리",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        7
+      ],
+      [
+        "수",
+        3
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      11.063,
+      1.716,
+      2.206,
+      0.886
+    ],
+    "initS": [
+      53,
+      8,
+      10,
+      4
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_kVgBdYs5_5e7a7e8d175bd45e891025fb8aa440270b69d014.gif",
+    "rideable": false
+  },
+  {
+    "id": "34",
+    "name": "베로보크",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        3
+      ],
+      [
+        "수",
+        7
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      11.509,
+      1.437,
+      2.194,
+      0.817
+    ],
+    "initS": [
+      58,
+      7,
+      11,
+      4
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_6wS7FbWD_27c15f53712142406347d1317ab8a5c362057940.gif",
+    "rideable": false
+  },
+  {
+    "id": "33",
+    "name": "베로로크",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        7
+      ],
+      [
+        "수",
+        3
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      11.36,
+      1.432,
+      2.145,
+      0.916
+    ],
+    "initS": [
+      50,
+      6,
+      9,
+      4
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_0VRuZcJ4_f52e577370ecba56e4602cba313b046b6a772877.gif",
+    "rideable": false
+  },
+  {
+    "id": "32",
+    "name": "베론",
+    "attr": "수없음",
+    "attrs": [
+      [
+        "수",
+        10
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      11.804,
+      1.402,
+      2.129,
+      0.974
+    ],
+    "initS": [
+      62,
+      7,
+      11,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_MStoBL3w_3500894c60ba71610300f1ed2ca4163c70ab23e0.gif",
+    "rideable": false
+  },
+  {
+    "id": "31",
+    "name": "오투투",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        6
+      ],
+      [
+        "풍",
+        4
+      ]
+    ],
+    "obtain": "기타",
+    "growthS": [
+      9.74,
+      1.644,
+      1.444,
+      1.915
+    ],
+    "initS": [
+      35,
+      5,
+      5,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_NLfX8WBJ_422595880fc0f085a808c4fa94255ddc6a9885ac.gif",
+    "rideable": false
+  },
+  {
+    "id": "30",
+    "name": "투투",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        3
+      ],
+      [
+        "수",
+        7
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.299,
+      1.842,
+      1.119,
+      1.739
+    ],
+    "initS": [
+      30,
+      5,
+      3,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_LvQ9J48r_c0c1db8fcdd6932e1bbdf35275cc060e556b7785.gif",
+    "rideable": false
+  },
+  {
+    "id": "29",
+    "name": "우푸",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        6
+      ],
+      [
+        "풍",
+        4
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.502,
+      1.819,
+      1.031,
+      2.086
+    ],
+    "initS": [
+      23,
+      4,
+      2,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_GpbS03Iv_7c2f2ea0c14ec0fe46719b431a948a26e50c75f7.gif",
+    "rideable": false
+  },
+  {
+    "id": "28",
+    "name": "푸푸",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        3
+      ],
+      [
+        "풍",
+        7
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.352,
+      1.73,
+      1.231,
+      2.081
+    ],
+    "initS": [
+      18,
+      3,
+      2,
+      4
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_SwGBPker_811f445104e81b80ddc5c7f4f83625404642dd1a.gif",
+    "rideable": false
+  },
+  {
+    "id": "27",
+    "name": "얼룩부이비",
+    "attr": "지없음",
+    "attrs": [
+      [
+        "지",
+        10
+      ]
+    ],
+    "obtain": "퀘스트",
+    "growthS": [
+      10.406,
+      1.911,
+      1.478,
+      1.204
+    ],
+    "initS": [
+      35,
+      6,
+      4,
+      4
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_woArEPV8_cfa4e50a65ec974c59027b3e227d66629573bf71.gif",
+    "rideable": false
+  },
+  {
+    "id": "26",
+    "name": "부이비",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        6
+      ],
+      [
+        "수",
+        4
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      11.315,
+      1.925,
+      1.395,
+      1.15
+    ],
+    "initS": [
+      35,
+      6,
+      4,
+      3
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_1GVpyfzx_258ef2f470b2d689a8bdc15f68f2fd7a369f31b1.gif",
+    "rideable": false
+  },
+  {
+    "id": "25",
+    "name": "부이",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        8
+      ],
+      [
+        "수",
+        2
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      13.348,
+      1.711,
+      1.47,
+      0.829
+    ],
+    "initS": [
+      47,
+      6,
+      5,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_AltbcR8f_b3e02ce507e57e15e27aaef2f0a965ff5b92d87d.gif",
+    "rideable": false
+  },
+  {
+    "id": "24",
+    "name": "골드부비",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        3
+      ],
+      [
+        "풍",
+        7
+      ]
+    ],
+    "obtain": "퀘스트",
+    "growthS": [
+      10.887,
+      1.748,
+      1.989,
+      0.936
+    ],
+    "initS": [
+      50,
+      8,
+      9,
+      4
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_VtaTl7y3_78b2b9d99adf3f4a73b0e83259ef030f36322b24.gif",
+    "rideable": false
+  },
+  {
+    "id": "23",
+    "name": "부비",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        8
+      ],
+      [
+        "수",
+        2
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      12.653,
+      1.593,
+      1.497,
+      0.829
+    ],
+    "initS": [
+      37,
+      4,
+      4,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_D6H8E4Yu_b01a779fde5e155c1dbd98e79ef0ad8881b2587c.gif",
+    "rideable": false
+  },
+  {
+    "id": "22",
+    "name": "환생얼룩우리",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        5
+      ],
+      [
+        "풍",
+        5
+      ]
+    ],
+    "obtain": "퀘스트",
+    "growthS": [
+      10.223,
+      1.629,
+      1.768,
+      1.468
+    ],
+    "initS": [
+      47,
+      7,
+      8,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_MDIljd4g_587a3d1d8e2115075b9ddd6506a28ac110691f74.gif",
+    "rideable": true
+  },
+  {
+    "id": "21",
+    "name": "실버우리",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        5
+      ],
+      [
+        "풍",
+        5
+      ]
+    ],
+    "obtain": "복권",
+    "growthS": [
+      9.71,
+      1.716,
+      1.764,
+      1.471
+    ],
+    "initS": [
+      36,
+      6,
+      6,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_N1xFvHGm_98391cf8aa05098c631f02ceb0f20a24c273ff63.gif",
+    "rideable": false
+  },
+  {
+    "id": "19",
+    "name": "얼룩우리",
+    "attr": "지없음",
+    "attrs": [
+      [
+        "지",
+        10
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.689,
+      1.577,
+      1.629,
+      1.294
+    ],
+    "initS": [
+      28,
+      4,
+      4,
+      3
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_RxlwjfCH_c06f3abc95e75445d8a81b0af832e5947f6dd41b.gif",
+    "rideable": true
+  },
+  {
+    "id": "18",
+    "name": "두리",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        6
+      ],
+      [
+        "수",
+        4
+      ]
+    ],
+    "obtain": "기타",
+    "growthS": [
+      10.018,
+      1.908,
+      1.408,
+      1.526
+    ],
+    "initS": [
+      34,
+      6,
+      4,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_SkTiYwlK_5307dbd7a9177b40bbd0d3b62bb8ff3a9b7cda04.gif",
+    "rideable": false
+  },
+  {
+    "id": "17",
+    "name": "우리",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        8
+      ],
+      [
+        "수",
+        2
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      9.401,
+      1.287,
+      1.442,
+      1.696
+    ],
+    "initS": [
+      16,
+      2,
+      2,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_7GoaD61L_d2b927b561a05cda99bd0030b9f145c380f8326e.gif",
+    "rideable": false
+  }
+]
