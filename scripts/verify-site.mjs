@@ -21,6 +21,10 @@ const additionalPets = JSON.parse(await readFile(path.join(root, 'data', 'additi
 for (const addition of additionalPets) {
   const pet = pets.find(item => item.id === addition.id);
   if (!pet || !pet.ok || JSON.stringify(pet.initS) !== JSON.stringify(addition.initS) || JSON.stringify(pet.growthS) !== JSON.stringify(addition.growthS)) throw new Error(`Additional pet mismatch: ${addition.name}`);
+  if (addition.imageFile) {
+    const bytes = await readFile(path.join(root, addition.imageFile));
+    if (pet.imageMime !== 'image/gif' || pet.img !== bytes.toString('base64')) throw new Error(`Additional pet image mismatch: ${addition.name}`);
+  }
 }
 if (pets.length < snapshot.length) throw new Error('Merged catalog lost pets');
 if (new Set(pets.map(pet => pet.id)).size !== pets.length) throw new Error('Duplicate pet IDs');

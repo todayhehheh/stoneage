@@ -193,7 +193,15 @@ const missingPortrait = '<svg xmlns="http://www.w3.org/2000/svg" width="192" hei
 for (const pet of additionalPets) {
   if (updatePets.some(item => item.id === pet.id || item.name === pet.name)) throw new Error(`Duplicate additional pet: ${pet.name}`);
   updatePets.push(pet);
-  imageResults.set(pet.id, { img: Buffer.from(missingPortrait).toString('base64'), imageMime: 'image/svg+xml' });
+  if (pet.imageFile) {
+    const imagePath = path.resolve(root, pet.imageFile);
+    if (!imagePath.startsWith(root + path.sep)) throw new Error(`Image path outside project: ${pet.name}`);
+    const bytes = await readFile(imagePath);
+    if (bytes.subarray(0, 3).toString() !== 'GIF') throw new Error(`Expected GIF: ${pet.name}`);
+    imageResults.set(pet.id, { img: bytes.toString('base64'), imageMime: 'image/gif' });
+  } else {
+    imageResults.set(pet.id, { img: Buffer.from(missingPortrait).toString('base64'), imageMime: 'image/svg+xml' });
+  }
 }
 let addedPets = 0;
 for (const update of updatePets) {
