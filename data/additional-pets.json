@@ -10,5 +10,17 @@
     "obtain": "퀘스트",
     "saleGrade": "상급",
     "rideable": null
+  },
+  {
+    "id": "user-baroroks",
+    "name": "바로로크스",
+    "imageFile": "assets/pets/baroroks.gif",
+    "initS": [41, 6, 7, 5],
+    "growthS": [10.274, 1.675, 1.768, 1.262],
+    "attr": "지수",
+    "attrs": [["지", 4], ["수", 6]],
+    "obtain": "필드 포획 (사이너스)",
+    "saleGrade": "일반등급",
+    "rideable": null
   }
 ]
