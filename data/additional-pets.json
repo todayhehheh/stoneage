@@ -1,0 +1,12 @@
+[
+  {
+    "id": "user-monashif",
+    "name": "모나시프",
+    "initS": [50, 7, 8, 8],
+    "growthS": [9.914, 1.572, 1.711, 1.674],
+    "attr": "미확인",
+    "attrs": [],
+    "obtain": "획득 방법 미확인",
+    "rideable": null
+  }
+]

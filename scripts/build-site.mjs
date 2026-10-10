@@ -188,6 +188,13 @@ await Promise.all(Array.from({ length: 6 }, async () => {
     imageResults.set(update.id, { img: bytes.toString('base64'), imageMime });
   }
 }));
+const additionalPets = JSON.parse(await readFile(path.join(root, 'data', 'additional-pets.json'), 'utf8'));
+const missingPortrait = '<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192"><text x="96" y="100" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#7b6b5e">이미지 미등록</text></svg>';
+for (const pet of additionalPets) {
+  if (updatePets.some(item => item.id === pet.id || item.name === pet.name)) throw new Error(`Duplicate additional pet: ${pet.name}`);
+  updatePets.push(pet);
+  imageResults.set(pet.id, { img: Buffer.from(missingPortrait).toString('base64'), imageMime: 'image/svg+xml' });
+}
 let addedPets = 0;
 for (const update of updatePets) {
   const existing = pets.find(pet => String(pet.id) === update.id || pet.name === update.name);

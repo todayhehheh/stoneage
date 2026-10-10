@@ -17,6 +17,11 @@ if (!rankMatch) throw new Error('rank-compare-data missing');
 const rankCompare = JSON.parse(rankMatch[1]);
 const snapshot = JSON.parse(await readFile(path.join(root, 'data', 'petinfo-update.json'), 'utf8'));
 const initialCorrections = JSON.parse(await readFile(path.join(root, 'data', 'pet-initial-corrections.json'), 'utf8'));
+const additionalPets = JSON.parse(await readFile(path.join(root, 'data', 'additional-pets.json'), 'utf8'));
+for (const addition of additionalPets) {
+  const pet = pets.find(item => item.id === addition.id);
+  if (!pet || !pet.ok || JSON.stringify(pet.initS) !== JSON.stringify(addition.initS) || JSON.stringify(pet.growthS) !== JSON.stringify(addition.growthS)) throw new Error(`Additional pet mismatch: ${addition.name}`);
+}
 if (pets.length < snapshot.length) throw new Error('Merged catalog lost pets');
 if (new Set(pets.map(pet => pet.id)).size !== pets.length) throw new Error('Duplicate pet IDs');
 if (new Set(pets.map(pet => pet.name)).size !== pets.length) throw new Error('Duplicate pet names');
@@ -141,6 +146,12 @@ const correctedResults = Object.keys(initialCorrections).map(name => {
   const result = matchesFor(pet);
   return { name, initS: pet.initS, k: pet.k, matches: result.total, eight: result.counts[8] || 0 };
 });
+const additionalResults = additionalPets.map(addition => {
+  const pet = pets.find(item => item.id === addition.id);
+  const result = matchesFor(pet);
+  if (!result.total) throw new Error(`Additional pet does not calculate: ${pet.name}`);
+  return { name: pet.name, k: pet.k, matches: result.total };
+});
 
 console.log(JSON.stringify({
   pets: pets.length,
@@ -149,6 +160,7 @@ console.log(JSON.stringify({
   rideablePets: rideable.length,
   dataWarnings: [beropori.name],
   correctedResults,
+  additionalResults,
   regressionCases: Object.keys(expected).length,
   rebirthRegression: true
 }, null, 2));
