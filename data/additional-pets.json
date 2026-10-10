@@ -8,6 +8,7 @@
     "attr": "풍없음",
     "attrs": [["풍", 10]],
     "obtain": "퀘스트",
+    "saleGrade": "상급",
     "rideable": null
   }
 ]

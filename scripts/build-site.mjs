@@ -486,6 +486,7 @@ replacePattern(
             \${p.approx?'<span class="tag warn">추정 데이터</span>':(!p.ok?'<span class="tag warn">계산 미지원</span>':'')}
           </div>
           <div class="obtain-card"><span>획득 방법</span><strong>\${p.obtainDetail||p.obtain}</strong></div>
+          <div class="sale-info"><span>판매 등급</span><strong>\${p.saleGrade||'미확인'}</strong></div>
         </div>
       </div>
       <div class="growth-panel">

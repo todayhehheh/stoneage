@@ -21,6 +21,7 @@ const additionalPets = JSON.parse(await readFile(path.join(root, 'data', 'additi
 for (const addition of additionalPets) {
   const pet = pets.find(item => item.id === addition.id);
   if (!pet || !pet.ok || JSON.stringify(pet.initS) !== JSON.stringify(addition.initS) || JSON.stringify(pet.growthS) !== JSON.stringify(addition.growthS)) throw new Error(`Additional pet mismatch: ${addition.name}`);
+  if (pet.saleGrade !== addition.saleGrade) throw new Error(`Sale grade mismatch: ${addition.name}`);
   if (addition.imageFile) {
     const bytes = await readFile(path.join(root, addition.imageFile));
     if (pet.imageMime !== 'image/gif' || pet.img !== bytes.toString('base64')) throw new Error(`Additional pet image mismatch: ${addition.name}`);
@@ -93,6 +94,7 @@ if (!html.includes('class="pet-portrait"') || !html.includes('class="obtain-card
   throw new Error('Selected pet showcase layout missing');
 }
 if (!html.includes('Keep the requested three-column catalog')) throw new Error('Three-column catalog override missing');
+if (!html.includes('class="sale-info"') || !html.includes('판매 등급')) throw new Error('Sale grade display missing');
 if (!html.includes('역산 계수 또는 계산 모델 확인이 필요합니다.')) throw new Error('Calculation failure explanation missing');
 
 const distributions = Array.from({ length: 11 }, () => []);
