@@ -7,7 +7,10 @@ import { decimalCalculate } from './decimal-calculator.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const html = await readFile(path.join(root, 'dist', 'index.html'), 'utf8');
-if (html.includes('가능 등급 분포') || !html.includes('소수점 계산기') || !html.includes('decimalForm')) throw new Error('Decimal calculator replacement missing');
+if (html.includes('가능 등급 분포') || !html.includes('초기치 소수점') || !html.includes('성장률 소수점') || !html.includes('id="decimalOutput"')) throw new Error('Decimal calculator replacement missing');
+for (const removed of ['소수점 계산기', '입력값 확인·직접 수정', '초기치 역산은 원본과 동일하게 내구력을 기준으로 합니다.', '선택한 펫의 등록 초기치·성장률로 자동 계산합니다.', 'decimalForm']) {
+  if (html.includes(removed)) throw new Error('Removed decimal UI returned: '+removed);
+}
 const monaDecimal = decimalCalculate([50,7,8,8], [9.91,1.57,1.71,1.67]);
 assert.deepEqual(monaDecimal.origin, [25,21,24,30]);
 assert.equal(monaDecimal.factor, 515);
