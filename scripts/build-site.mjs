@@ -726,12 +726,21 @@ const rebirthScript = `
     return '<article class="rebirth-stage" data-stage-card="'+i+'"><div class="stage-title"><strong>'+i+'환 → '+(i+1)+'환</strong><span>'+String(i+1).padStart(2,'0')+'</span></div><div class="rebirth-fields"><label class="rebirth-field full"><span>초기 스탯</span><input type="number" data-r-base="'+i+'" value="'+(i===0?'20':'')+'" readonly></label>'+inputs+'</div><div class="rebirth-output"><div class="rebirth-output-grid"><div><span>체력</span><b data-out="hp">—</b></div><div><span>완력</span><b data-out="atk">—</b></div><div><span>건강</span><b data-out="def">—</b></div><div><span>순발</span><b data-out="agi">—</b></div></div><div class="rebirth-total"><span>총 환포</span><strong data-out="total">—</strong></div><p class="rebirth-warning" data-out="warning"></p></div></article>';
   }
   stages.innerHTML=[0,1,2,3,4].map(stageMarkup).join('');
+  stages.querySelectorAll('.rebirth-stage').forEach(function(card){
+    const details=document.createElement('div');
+    details.className='rebirth-output-grid';
+    details.innerHTML='<div><span>남은 스탯</span><b data-out="remaining">—</b></div><div><span>총 스탯</span><b data-out="totalStat">—</b></div><div><span>계산식</span><b data-out="formula">—</b></div><div><span>총 환포 · 소수점</span><b data-out="decimal">—</b></div>';
+    card.querySelector('.rebirth-output').prepend(details);
+  });
+  const loadButton=document.createElement('button');
+  loadButton.type='button';loadButton.id='loadRebirth';loadButton.className='quiet-btn';loadButton.textContent='불러오기';
+  document.getElementById('saveRebirth').after(loadButton);
 
   function numberValue(field,i){
     const el=document.querySelector('[data-r-field="'+field+'"][data-stage="'+i+'"]');
     return Number(el.value)||0;
   }
-  function trunc2(value){ return Math.trunc(value*100)/100; }
+  function trunc2(value){ const str=value.toFixed(4); return Number(str.substring(0,str.indexOf('.')+3)); }
   function clearStage(i){
     const card=document.querySelector('[data-stage-card="'+i+'"]');
     card.classList.remove('is-latest');
@@ -761,6 +770,10 @@ const rebirthScript = `
       const card=document.querySelector('[data-stage-card="'+i+'"]');
       ['hp','atk','def','agi'].forEach(function(field,index){card.querySelector('[data-out="'+field+'"]').textContent=Math.floor(calculated[index])+' · '+calculated[index].toFixed(2);});
       card.querySelector('[data-out="total"]').textContent=final;
+      card.querySelector('[data-out="remaining"]').textContent=remaining;
+      card.querySelector('[data-out="totalStat"]').textContent=totalStat;
+      card.querySelector('[data-out="formula"]').textContent=formula;
+      card.querySelector('[data-out="decimal"]').textContent=(calculated.reduce(function(sum,value){return sum+value;},0)+(i+1)*10).toFixed(2);
       card.querySelector('[data-out="warning"]').textContent=remaining<0?'분배 스탯이 총 스탯을 '+Math.abs(remaining)+' 초과했습니다.':'';
       lastResults.push({stage:i+1,base:base,level:level,totalStat:totalStat,remaining:remaining,formula:formula,stats:calculated,final:final,decimal:Number((calculated.reduce(function(sum,value){return sum+value;},0)+(i+1)*10).toFixed(2))});
     }
@@ -809,6 +822,7 @@ const rebirthScript = `
     window.scrollTo({top:0,behavior:'smooth'});
   }
   document.querySelector('.app-switcher').addEventListener('click',function(event){const btn=event.target.closest('[data-app-tab]');if(btn)switchApp(btn.dataset.appTab);});
+  loadButton.addEventListener('click',function(){switchApp('saved');});
   document.getElementById('rebirthReset').addEventListener('click',function(){
     fields.forEach(function(field){for(let i=0;i<5;i++){document.querySelector('[data-r-field="'+field+'"][data-stage="'+i+'"]').value=field==='q'?(i+1)*10:'';}});document.getElementById('saveName').value='';runRebirth();showFeedback('입력값을 초기화했습니다.');
   });

@@ -46,13 +46,20 @@ if (!html.includes('총성장률') || !html.includes('growthS.slice(1)')) throw 
 if (html.includes('입력값과 일치하는 경우의 비율')) throw new Error('Removed distribution helper copy returned');
 if (!html.includes('환생포인트 계산기') || !html.includes('id="savedPanel"')) throw new Error('Rebirth or saved tab missing');
 if (!html.includes("const STORAGE_KEY='ohr_rebirth_saves_v1'")) throw new Error('Saved calculations storage missing');
+for (const field of ['remaining', 'totalStat', 'formula', 'decimal']) {
+  if (!html.includes('data-out="'+field+'"')) throw new Error('Rebirth detail missing: '+field);
+}
+if (!html.includes("loadButton.id='loadRebirth'")) throw new Error('Rebirth load button missing');
 
 function verifyRebirthStage({ base, level, stats, quest, totalLevel, stage, leftovers = [0, 0, 0, 0] }) {
   const totalStat = base + Math.max(0, level - 1) * 3;
   const remaining = totalStat - stats.reduce((sum, value) => sum + value, 0);
   const actualTotal = stats.reduce((sum, value, index) => sum + value + leftovers[index], remaining);
   const formula = Math.floor(actualTotal / 12 + quest / 4 + (totalLevel - stage * 85) / 4);
-  const calculated = stats.map((value, index) => Math.trunc((((value + leftovers[index]) / actualTotal) * formula + 0.5) * 100) / 100);
+  const calculated = stats.map((value, index) => {
+    const str=(((value + leftovers[index]) / actualTotal) * formula + 0.5).toFixed(4);
+    return Number(str.substring(0,str.indexOf('.')+3));
+  });
   const final = calculated.reduce((sum, value) => sum + Math.floor(value), 0) + stage * 10;
   return { totalStat, remaining, formula, calculated, final };
 }
