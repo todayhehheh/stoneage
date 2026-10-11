@@ -517,18 +517,12 @@ replacePattern(
 
 replacePattern(
   /    const rows = GRADES\.filter\(g=>counts\[g\]\)[\s\S]*?\n    \}\);\n  \}\n\n  \/\/ RANK별 보정계수/,
-  `    const rows=GRADES.filter(g=>counts[g]).map(g=>{
-      const pct=counts[g]/total*100;
-      return \`<div class="grade-simple \${g===topGrade?'is-top':''}"><span class="glabel">\${g}등급</span><div class="gtrack"><div class="gfill" style="width:\${pct.toFixed(2)}%"></div></div><strong class="gpct">\${pct.toFixed(1)}%</strong></div>\`;
-    }).join('');
-    els.results.innerHTML=\`
+  `    els.results.innerHTML=\`
       <div class="result-hero">
         <div class="primary-result"><span>최고 가능 등급</span><strong class="mono">\${topGrade}<small>등급</small></strong></div>
         <div class="primary-result probability"><span>+8 환각 확률</span><strong class="mono">\${eightPct.toFixed(2)}<small>%</small></strong></div>
       </div>
       \${(isApprox||devFlag)?'<p class="result-caution">추정 데이터가 포함된 펫으로 결과는 참고용입니다.</p>':''}
-      <div class="distribution-heading"><strong>가능 등급 분포</strong></div>
-      <div class="grade-list simple">\${rows}</div>
     \`;
   }
 
@@ -842,6 +836,9 @@ const rebirthScript = `
 </script>`;
 replaceRequired('</script>\n</body>', '</script>\n' + rebirthScript + '\n</body>', 'rebirth calculator behavior');
 
+const decimalCode = (await readFile(path.join(root, 'scripts', 'decimal-calculator.mjs'), 'utf8')).replace('export function', 'function');
+const decimalUi = await readFile(path.join(root, 'scripts', 'decimal-ui.js'), 'utf8');
+replaceRequired('</body>', '<script>\n(function(){\n'+decimalCode+'\n'+decimalUi+'\n})();\n</script>\n</body>', 'decimal calculator');
 await mkdir(path.dirname(outputPath), { recursive: true });
 await writeFile(outputPath, html, 'utf8');
 console.log(JSON.stringify({ source: SOURCE_URL, outputPath, pets: pets.length, bytes: Buffer.byteLength(html) }));

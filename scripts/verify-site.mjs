@@ -2,9 +2,22 @@ import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { Script } from 'node:vm';
+import assert from 'node:assert/strict';
+import { decimalCalculate } from './decimal-calculator.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const html = await readFile(path.join(root, 'dist', 'index.html'), 'utf8');
+if (html.includes('가능 등급 분포') || !html.includes('소수점 계산기') || !html.includes('decimalForm')) throw new Error('Decimal calculator replacement missing');
+const monaDecimal = decimalCalculate([50,7,8,8], [9.91,1.57,1.71,1.67]);
+assert.deepEqual(monaDecimal.origin, [25,21,24,30]);
+assert.equal(monaDecimal.factor, 515);
+assert.equal(monaDecimal.allStatsMatch, true);
+for (const [index,value] of [50.05,7.9365,8.6385,8.45].entries()) assert.ok(Math.abs(monaDecimal.initial[index]-value)<1e-9);
+assert.ok(Math.abs(monaDecimal.growth[1]-1.5720375)<1e-9);
+assert.equal(decimalCalculate([50,99,99,99], [9.91,1.57,1.71,1.67]).allStatsMatch,false);
+assert.throws(()=>decimalCalculate([50,7,8,8],[9.914,1.572,1.711,1.674]), /둘째/);
+assert.throws(()=>decimalCalculate([9999,7,8,8],[9.91,1.57,1.71,1.67]), /내구력/);
+assert.throws(()=>decimalCalculate([50.5,7,8,8],[9.91,1.57,1.71,1.67]), /정수/);
 for (const script of html.matchAll(/<script([^>]*)>([\s\S]*?)<\/script>/g)) {
   if (/application\/json|\bsrc=/.test(script[1])) continue;
   new Script(script[2]);
