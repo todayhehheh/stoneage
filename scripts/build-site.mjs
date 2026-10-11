@@ -838,6 +838,8 @@ replaceRequired('</script>\n</body>', '</script>\n' + rebirthScript + '\n</body>
 
 const decimalCode = (await readFile(path.join(root, 'scripts', 'decimal-calculator.mjs'), 'utf8')).replace('export function', 'function');
 const decimalUi = await readFile(path.join(root, 'scripts', 'decimal-ui.js'), 'utf8');
+const decimalCss = await readFile(path.join(root, 'scripts', 'decimal-ui.css'), 'utf8');
+replaceRequired('</head>', '<style>\n'+decimalCss+'\n</style>\n</head>', 'decimal layout');
 replaceRequired('</body>', '<script>\n(function(){\n'+decimalCode+'\n'+decimalUi+'\n})();\n</script>\n</body>', 'decimal calculator');
 await mkdir(path.dirname(outputPath), { recursive: true });
 await writeFile(outputPath, html, 'utf8');

@@ -1,0 +1,14 @@
+.decimal-panel{padding:20px!important;background:#fffdf9!important;border:1px solid #e9dfd1!important}
+.decimal-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.decimal-stat{min-width:0;border:1px solid #e9dfd1;border-radius:14px;background:#fff;overflow:hidden}
+.decimal-stat h3{margin:0;padding:12px 14px;background:#f6f0e7;color:#65523f;font-size:14px;font-weight:700;text-align:center;border-bottom:1px solid #eee5da}
+.decimal-stat dl{margin:0;padding:2px 14px}
+.decimal-stat dl>div{padding:14px 0}
+.decimal-stat dl>div+div{border-top:1px solid #eee8df}
+.decimal-stat dt{font-size:12px;color:#847969;line-height:1.5;margin-bottom:6px}
+.decimal-stat dd{margin:0;font-size:clamp(14px,1.4vw,20px);font-weight:750;letter-spacing:-.035em;line-height:1.4;white-space:nowrap;font-variant-numeric:tabular-nums;color:#544332}
+.decimal-stat .decimal-fraction{color:#936b3f}
+.decimal-stat dl>div+div dd,.decimal-stat dl>div+div .decimal-fraction{color:#47776d}
+@media(max-width:1180px) and (min-width:981px){.decimal-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.decimal-stat dd{font-size:20px}}
+@media(max-width:640px){.decimal-panel{padding:14px!important}.decimal-stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.decimal-stat dl{padding:2px 12px}.decimal-stat dd{font-size:18px}.decimal-stat h3{padding:10px}}
+@media(max-width:360px){.decimal-stat dd{font-size:15px}.decimal-stat dl{padding:2px 9px}}
