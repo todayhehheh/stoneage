@@ -1,0 +1,630 @@
+[
+  {
+    "id": "312",
+    "name": "모나시프",
+    "attr": "풍10",
+    "attrs": [
+      [
+        "풍",
+        10
+      ]
+    ],
+    "obtain": "채석장의 비밀 퀘스트 보상",
+    "growthS": [
+      9.914,
+      1.572,
+      1.711,
+      1.674
+    ],
+    "initS": [
+      50,
+      7,
+      8,
+      8
+    ],
+    "imageUrl": "https://sa000001.com/sa2/info/img/100376.gif",
+    "imageFallbackUrl": "https://sa000001.com/sa2/info/img/100376.png",
+    "externalImage": true,
+    "rideable": false,
+    "clientCatalog": {
+      "index": 82,
+      "sourceId": 100376,
+      "grade": "상급",
+      "capture": "불가"
+    }
+  },
+  {
+    "id": "325",
+    "name": "타르노로스",
+    "attr": "수7화3",
+    "attrs": [
+      [
+        "수",
+        7
+      ],
+      [
+        "화",
+        3
+      ]
+    ],
+    "obtain": "칠흑의동굴19층 (44.13)",
+    "growthS": [
+      11.756,
+      1.97,
+      1.671,
+      1.211
+    ],
+    "initS": [
+      64,
+      10,
+      9,
+      6
+    ],
+    "imageUrl": "https://sa000001.com/sa2/info/img/100383.gif",
+    "imageFallbackUrl": "https://sa000001.com/sa2/info/img/100383.png",
+    "externalImage": true,
+    "rideable": false,
+    "clientCatalog": {
+      "index": 89,
+      "sourceId": 100383,
+      "grade": "일반",
+      "capture": "불가"
+    }
+  },
+  {
+    "id": "331",
+    "name": "바로로크스",
+    "attr": "지4수6",
+    "attrs": [
+      [
+        "지",
+        4
+      ],
+      [
+        "수",
+        6
+      ]
+    ],
+    "obtain": "사이너스 (382.468)",
+    "growthS": [
+      10.274,
+      1.675,
+      1.768,
+      1.262
+    ],
+    "initS": [
+      41,
+      6,
+      7,
+      5
+    ],
+    "imageUrl": "https://sa000001.com/sa2/info/img/100384.gif",
+    "imageFallbackUrl": "https://sa000001.com/sa2/info/img/100384.png",
+    "externalImage": true,
+    "rideable": false,
+    "clientCatalog": {
+      "index": 90,
+      "sourceId": 100384,
+      "grade": "일반",
+      "capture": "불가"
+    }
+  },
+  {
+    "id": "332",
+    "name": "란베르스",
+    "attr": "수7화3",
+    "attrs": [
+      [
+        "수",
+        7
+      ],
+      [
+        "화",
+        3
+      ]
+    ],
+    "obtain": "도둑의 동굴 지하2층(32.34)",
+    "growthS": [
+      10.459,
+      1.729,
+      1.729,
+      1.418
+    ],
+    "initS": [
+      43,
+      7,
+      7,
+      5
+    ],
+    "imageUrl": "https://sa000001.com/sa2/info/img/100385.gif",
+    "imageFallbackUrl": "https://sa000001.com/sa2/info/img/100385.png",
+    "externalImage": true,
+    "rideable": false,
+    "clientCatalog": {
+      "index": 91,
+      "sourceId": 100385,
+      "grade": "일반",
+      "capture": "불가"
+    }
+  },
+  {
+    "id": "333",
+    "name": "코리토르스",
+    "attr": "지7수3",
+    "attrs": [
+      [
+        "지",
+        7
+      ],
+      [
+        "수",
+        3
+      ]
+    ],
+    "obtain": "고야산 동굴 5층 (13.32)",
+    "growthS": [
+      10.031,
+      1.775,
+      1.823,
+      1.257
+    ],
+    "initS": [
+      35,
+      6,
+      6,
+      4
+    ],
+    "imageUrl": "https://sa000001.com/sa2/info/img/100386.gif",
+    "imageFallbackUrl": "https://sa000001.com/sa2/info/img/100386.png",
+    "externalImage": true,
+    "rideable": false,
+    "clientCatalog": {
+      "index": 92,
+      "sourceId": 100386,
+      "grade": "일반",
+      "capture": "불가"
+    }
+  },
+  {
+    "id": "9024",
+    "name": "스노밍코",
+    "attr": "지3수7",
+    "attrs": [
+      [
+        "지",
+        3
+      ],
+      [
+        "수",
+        7
+      ]
+    ],
+    "obtain": "포우렌 (267.696)",
+    "growthS": [
+      10.379,
+      1.564,
+      1.436,
+      1.734
+    ],
+    "initS": [
+      45,
+      6,
+      6,
+      7
+    ],
+    "imageUrl": "https://sa000001.com/sa2/info/img/112089.gif",
+    "imageFallbackUrl": "https://sa000001.com/sa2/info/img/112089.png",
+    "externalImage": true,
+    "rideable": false,
+    "clientCatalog": {
+      "index": 96,
+      "sourceId": 112089,
+      "grade": "일반",
+      "capture": "불가"
+    }
+  },
+  {
+    "id": "9022",
+    "name": "밍코",
+    "attr": "수6화4",
+    "attrs": [
+      [
+        "수",
+        6
+      ],
+      [
+        "화",
+        4
+      ]
+    ],
+    "obtain": "포우렌 (455.710)",
+    "growthS": [
+      10.321,
+      2.065,
+      1.13,
+      1.609
+    ],
+    "initS": [
+      45,
+      9,
+      5,
+      7
+    ],
+    "imageUrl": "https://sa000001.com/sa2/info/img/112090.gif",
+    "imageFallbackUrl": "https://sa000001.com/sa2/info/img/112090.png",
+    "externalImage": true,
+    "rideable": false,
+    "clientCatalog": {
+      "index": 97,
+      "sourceId": 112090,
+      "grade": "일반",
+      "capture": "불가"
+    }
+  },
+  {
+    "id": "9033",
+    "name": "포루나",
+    "attr": "지4수6",
+    "attrs": [
+      [
+        "지",
+        4
+      ],
+      [
+        "수",
+        6
+      ]
+    ],
+    "obtain": "하이하모(212.899)",
+    "growthS": [
+      10.172,
+      2.021,
+      1.219,
+      1.609
+    ],
+    "initS": [
+      49,
+      9,
+      5,
+      7
+    ],
+    "imageUrl": "https://sa000001.com/sa2/info/img/112124.gif",
+    "imageFallbackUrl": "https://sa000001.com/sa2/info/img/112124.png",
+    "externalImage": true,
+    "rideable": false,
+    "clientCatalog": {
+      "index": 98,
+      "sourceId": 112124,
+      "grade": "일반",
+      "capture": "불가"
+    }
+  },
+  {
+    "id": "9032",
+    "name": "피피아",
+    "attr": "지5수5",
+    "attrs": [
+      [
+        "지",
+        5
+      ],
+      [
+        "수",
+        5
+      ]
+    ],
+    "obtain": "하이하모(212.899)",
+    "growthS": [
+      10.024,
+      1.974,
+      1.261,
+      1.658
+    ],
+    "initS": [
+      48,
+      9,
+      6,
+      8
+    ],
+    "imageUrl": "https://sa000001.com/sa2/info/img/112125.gif",
+    "imageFallbackUrl": "https://sa000001.com/sa2/info/img/112125.png",
+    "externalImage": true,
+    "rideable": false,
+    "clientCatalog": {
+      "index": 99,
+      "sourceId": 112125,
+      "grade": "일반",
+      "capture": "불가"
+    }
+  },
+  {
+    "id": "4449",
+    "name": "돌꼬미",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        4
+      ],
+      [
+        "수",
+        6
+      ]
+    ],
+    "obtain": "라토토 동굴 3-3층 전역",
+    "growthS": [
+      10.123,
+      2.083,
+      1.459,
+      1.46
+    ],
+    "initS": [
+      44,
+      9,
+      6,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_fzGaJrI2_9f3b36a4af9d1d8478b30788da63590cfbada1f2.gif",
+    "rideable": false,
+    "clientCatalog": {
+      "index": 156,
+      "sourceId": 100828,
+      "grade": "일반",
+      "capture": "불가"
+    }
+  },
+  {
+    "id": "2368",
+    "name": "어린 아이스 드래곤",
+    "attr": "수화",
+    "attrs": [
+      [
+        "수",
+        9
+      ],
+      [
+        "화",
+        1
+      ]
+    ],
+    "obtain": "포인트 상점(한정)",
+    "growthS": [
+      10.222,
+      2.258,
+      1.234,
+      1.411
+    ],
+    "initS": [
+      53,
+      11,
+      6,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_yC3r1RO2_a34ae93c41d5cf96b5050c22fa4c08edd8b04dc6.gif",
+    "rideable": false,
+    "clientCatalog": {
+      "index": 182,
+      "sourceId": 112349,
+      "grade": "일반",
+      "capture": "불가"
+    }
+  },
+  {
+    "id": "2369",
+    "name": "어린 골드 드래곤",
+    "attr": "풍화",
+    "attrs": [
+      [
+        "풍",
+        9
+      ],
+      [
+        "화",
+        1
+      ]
+    ],
+    "obtain": "포인트 상점(한정)",
+    "growthS": [
+      9.727,
+      1.959,
+      1.068,
+      1.955
+    ],
+    "initS": [
+      51,
+      10,
+      5,
+      10
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_MyWQf4GS_a9ce53c8a302ba388537eb8d06a27bf535cd9071.gif",
+    "rideable": false,
+    "clientCatalog": {
+      "index": 183,
+      "sourceId": 112351,
+      "grade": "일반",
+      "capture": "불가"
+    }
+  },
+  {
+    "id": "2370",
+    "name": "어린 어스 드래곤",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        9
+      ],
+      [
+        "풍",
+        1
+      ]
+    ],
+    "obtain": "포인트 상점(한정)",
+    "growthS": [
+      10.406,
+      2.264,
+      1.35,
+      1.204
+    ],
+    "initS": [
+      54,
+      11,
+      7,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_yXsnCwm2_87e8305db47aa68672bcceede8376c6ae14b6a21.gif",
+    "rideable": false,
+    "clientCatalog": {
+      "index": 184,
+      "sourceId": 112352,
+      "grade": "일반",
+      "capture": "불가"
+    }
+  },
+  {
+    "id": "2371",
+    "name": "어린 레드 드래곤",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        9
+      ],
+      [
+        "풍",
+        1
+      ]
+    ],
+    "obtain": "포인트 상점(한정)",
+    "growthS": [
+      10.031,
+      2.248,
+      1.189,
+      1.418
+    ],
+    "initS": [
+      54,
+      12,
+      6,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_pwbSOhNA_0201dadb686f056a5293f334c90a9ac98afd8b22.gif",
+    "rideable": false,
+    "clientCatalog": {
+      "index": 185,
+      "sourceId": 112350,
+      "grade": "일반",
+      "capture": "불가"
+    }
+  },
+  {
+    "id": "2381",
+    "name": "어린 흑룡",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        5
+      ],
+      [
+        "풍",
+        5
+      ]
+    ],
+    "obtain": "주간레이드 [언딘 전리품]",
+    "growthS": [
+      9.811,
+      2.077,
+      1.196,
+      1.571
+    ],
+    "initS": [
+      53,
+      11,
+      6,
+      8
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_yOrFLb7V_1fcbf083acd6457879e64e362a208d5d2483dbd8.gif",
+    "rideable": false,
+    "clientCatalog": {
+      "index": 187,
+      "sourceId": 130068,
+      "grade": "일반",
+      "capture": "불가"
+    }
+  },
+  {
+    "id": "2382",
+    "name": "어린 백룡",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        8
+      ],
+      [
+        "수",
+        2
+      ]
+    ],
+    "obtain": "주간레이드 [헤티아 전리품]",
+    "growthS": [
+      9.974,
+      2.023,
+      1.355,
+      1.46
+    ],
+    "initS": [
+      48,
+      9,
+      6,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_PjQf9UwL_af7b73ed29688ae5b082c46c5fe84b8539769656.gif",
+    "rideable": false,
+    "clientCatalog": {
+      "index": 188,
+      "sourceId": 130066,
+      "grade": "일반",
+      "capture": "불가"
+    }
+  },
+  {
+    "id": "2375",
+    "name": "마루아치",
+    "attr": "지3풍7",
+    "attrs": [
+      [
+        "지",
+        3
+      ],
+      [
+        "풍",
+        7
+      ]
+    ],
+    "obtain": "크로아치의 방 전역",
+    "growthS": [
+      10.236,
+      2.286,
+      1.431,
+      1.259
+    ],
+    "initS": [
+      58,
+      12,
+      8,
+      7
+    ],
+    "imageUrl": "https://sa000001.com/sa2/info/img/112163.gif",
+    "imageFallbackUrl": "https://sa000001.com/sa2/info/img/112163.png",
+    "externalImage": true,
+    "rideable": false,
+    "clientCatalog": {
+      "index": 192,
+      "sourceId": 112163,
+      "grade": "일반",
+      "capture": "불가"
+    }
+  }
+]

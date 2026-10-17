@@ -32,14 +32,16 @@ const rankMatch = html.match(/<script\s+type="application\/json"\s+id="rank-comp
 if (!rankMatch) throw new Error('rank-compare-data missing');
 const rankCompare = JSON.parse(rankMatch[1]);
 const snapshot = JSON.parse(await readFile(path.join(root, 'data', 'petinfo-update.json'), 'utf8'));
+const catalogSupplement = JSON.parse(await readFile(path.join(root, 'data', 'client-catalog-supplement.json'), 'utf8'));
 const initialCorrections = JSON.parse(await readFile(path.join(root, 'data', 'pet-initial-corrections.json'), 'utf8'));
 const additionalPets = JSON.parse(await readFile(path.join(root, 'data', 'additional-pets.json'), 'utf8'));
+const activeAdditionalPets = additionalPets.filter(addition => !catalogSupplement.some(item => item.id === addition.id || item.name === addition.name));
 const saleGrades = JSON.parse(await readFile(path.join(root, 'data', 'pet-sale-grades.json'), 'utf8'));
 for (const [name, grade] of Object.entries(saleGrades)) {
   const pet = pets.find(item => item.name === name);
   if (!pet || pet.saleGrade !== grade) throw new Error(`Imported sale grade mismatch: ${name}`);
 }
-for (const addition of additionalPets) {
+for (const addition of activeAdditionalPets) {
   const pet = pets.find(item => item.id === addition.id);
   if (!pet || !pet.ok || JSON.stringify(pet.initS) !== JSON.stringify(addition.initS) || JSON.stringify(pet.growthS) !== JSON.stringify(addition.growthS)) throw new Error(`Additional pet mismatch: ${addition.name}`);
   if (pet.saleGrade !== addition.saleGrade) throw new Error(`Sale grade mismatch: ${addition.name}`);
@@ -91,6 +93,19 @@ if (!katarkas?.ok) throw new Error('Katarkas calculation missing');
 const rideable = pets.filter(pet => pet.rideable);
 if (!html.includes(`<b id="rideableCount">${rideable.length}</b>`)) throw new Error('Rideable count does not match actual data');
 if (!rideable.length) throw new Error('Rideable pet data missing');
+for (const update of catalogSupplement) {
+  const pet = pets.find(item => item.name === update.name);
+  if (!pet) throw new Error(`Catalog supplement pet missing: ${update.name}`);
+  const attributeTotal = pet.attrs.reduce((sum, [, value]) => sum + value, 0);
+  if (attributeTotal !== 10) throw new Error(`Catalog attribute scale mismatch: ${update.name} (${attributeTotal})`);
+  if (update.externalImage && (!pet.externalImage || pet.imageUrl !== update.imageUrl || pet.imageFallbackUrl !== update.imageFallbackUrl)) {
+    throw new Error(`External catalog image mismatch: ${update.name}`);
+  }
+}
+for (const typo of ['돌꼬비', '어린아이스드래곤', '어린골드드래곤', '어린어스드래곤', '어린레드드래곤', '어린흑룡', '어린백룡']) {
+  if (pets.some(pet => pet.name === typo)) throw new Error(`Duplicate or typo pet remained: ${typo}`);
+}
+if (!html.includes('p.externalImage?p.imageUrl') || !html.includes('p.imageFallbackUrl')) throw new Error('External catalog image rendering missing');
 for (const update of snapshot) {
   const pet=pets.find(item => item.id===update.id || item.name===update.name);
   if (!pet) throw new Error(`Snapshot pet missing: ${update.name}`);
@@ -180,7 +195,7 @@ const correctedResults = Object.keys(initialCorrections).map(name => {
   const result = matchesFor(pet);
   return { name, initS: pet.initS, k: pet.k, matches: result.total, eight: result.counts[8] || 0 };
 });
-const additionalResults = additionalPets.map(addition => {
+const additionalResults = activeAdditionalPets.map(addition => {
   const pet = pets.find(item => item.id === addition.id);
   const result = matchesFor(pet);
   if (!result.total) throw new Error(`Additional pet does not calculate: ${pet.name}`);

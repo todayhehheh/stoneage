@@ -6,6 +6,7 @@ const SOURCE_URL = 'https://stoneage-calculator.pages.dev/';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const outputPath = path.join(root, 'dist', 'index.html');
 const updateDataPath = path.join(root, 'data', 'petinfo-update.json');
+const clientCatalogPath = path.join(root, 'data', 'client-catalog-supplement.json');
 const obtainDataPath = path.join(root, 'data', 'pet-obtain-details.json');
 
 const response = await fetch(SOURCE_URL);
@@ -44,7 +45,7 @@ if (!rankMatch) throw new Error('rank-compare-data was not found');
 const rankCompare = JSON.parse(rankMatch[2]);
 const beropori = pets.find(pet => String(pet.id) === '35');
 const katarkas = pets.find(pet => String(pet.id) === '50');
-if (!beropori || !katarkas || pets.length !== 184) throw new Error('Unexpected reference dataset');
+if (!beropori || !katarkas || pets.length < 184) throw new Error(`Unexpected reference dataset (${pets.length})`);
 beropori.approx = true;
 beropori.dataNote = '성장률 역산 신뢰도가 낮아 원본계수와 등급 확률을 참고용으로만 제공합니다.';
 katarkas.referenceFeasible = false;
@@ -161,7 +162,10 @@ function makeRankComparison(update, production) {
   };
 }
 
-const updatePets = JSON.parse(await readFile(updateDataPath, 'utf8'));
+const updatePets = [
+  ...JSON.parse(await readFile(updateDataPath, 'utf8')),
+  ...JSON.parse(await readFile(clientCatalogPath, 'utf8')),
+];
 // Explicit user corrections take precedence over imported reference values.
 const initialCorrections = JSON.parse(await readFile(path.join(root, 'data', 'pet-initial-corrections.json'), 'utf8'));
 for (const [name, initS] of Object.entries(initialCorrections)) {
@@ -176,6 +180,10 @@ let imageIndex = 0;
 await Promise.all(Array.from({ length: 6 }, async () => {
   while (imageIndex < updatePets.length) {
     const update = updatePets[imageIndex++];
+    if (update.externalImage) {
+      imageResults.set(update.id, { externalImage: true });
+      continue;
+    }
     const cached = cachedImages.get(update.imageUrl);
     if (cached?.imageMime) { imageResults.set(update.id, cached); continue; }
     const response = await fetch(update.imageUrl, { signal: AbortSignal.timeout(30000) });
@@ -192,7 +200,7 @@ await Promise.all(Array.from({ length: 6 }, async () => {
 const additionalPets = JSON.parse(await readFile(path.join(root, 'data', 'additional-pets.json'), 'utf8'));
 const missingPortrait = '<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192"><text x="96" y="100" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#7b6b5e">이미지 미등록</text></svg>';
 for (const pet of additionalPets) {
-  if (updatePets.some(item => item.id === pet.id || item.name === pet.name)) throw new Error(`Duplicate additional pet: ${pet.name}`);
+  if (updatePets.some(item => item.id === pet.id || item.name === pet.name)) continue;
   updatePets.push(pet);
   if (pet.imageFile) {
     const imagePath = path.resolve(root, pet.imageFile);
@@ -262,6 +270,10 @@ for (const pet of pets) pet.saleGrade = pet.saleGrade || saleGrades[pet.name] ||
 html = html.replace(petDataPattern, `$1${JSON.stringify(pets)}$3`);
 html = html.replace(rankDataPattern, `$1${JSON.stringify(rankCompare)}$3`);
 html = html.replaceAll('data:image/webp;base64,${p.img}', 'data:${p.imageMime||\'image/webp\'};base64,${p.img}');
+html = html.replaceAll(
+  'src="data:${p.imageMime||\'image/webp\'};base64,${p.img}"',
+  'src="${p.externalImage?p.imageUrl:`data:${p.imageMime||\'image/webp\'};base64,${p.img}`}" ${p.externalImage&&p.imageFallbackUrl?`onerror="this.onerror=null;this.src=\'${p.imageFallbackUrl}\'"`:\'\'}'
+);
 
 replaceRequired(
   '<title>스톤에이지 환각 계산기</title>',
@@ -478,7 +490,7 @@ replacePattern(
     const growthLabels=['내구','공격','방어','순발'];
     els.detail.innerHTML = \`
       <div class="pet-detail">
-        <div class="pet-portrait"><img src="data:\${p.imageMime||'image/webp'};base64,\${p.img}" alt="\${p.name}"></div>
+        <div class="pet-portrait"><img src="\${p.externalImage?p.imageUrl:'data:'+(p.imageMime||'image/webp')+';base64,'+p.img}" \${p.externalImage&&p.imageFallbackUrl?'onerror="this.onerror=null;this.src=\\''+p.imageFallbackUrl+'\\'"':''} alt="\${p.name}"></div>
         <div class="pet-identity">
           <span class="detail-eyebrow">선택한 페트</span>
           <h2 class="pd-name">\${p.name}</h2>
