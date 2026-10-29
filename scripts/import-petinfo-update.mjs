@@ -22,7 +22,8 @@ for (let index = 0; index < starts.length; index++) {
   const end = index + 1 < starts.length ? starts[index + 1].index : html.length;
   const card = html.slice(match.index, end);
   const obtainMatch = card.match(/<div><b>획득:<\/b>\s*([^<]+)<\/div>/);
-  if (attributes.name && obtainMatch) obtainDetails[attributes.name] = obtainMatch[1].trim();
+  const obtainDetail = obtainMatch?.[1].trim() || attributes.obtain;
+  if (attributes.name) obtainDetails[String(id)] = obtainDetail;
   if (!Number.isInteger(id) || id < 1) throw new Error('Invalid pet ID');
 
   const stats = card.match(/<td class="val_red">[\d.]+<\/td><td>\d+<\/td><td>([^<]+)<\/td><td>(\d+)\s+(\d+)\s+(\d+)\s+(\d+)<\/td>/);
@@ -34,6 +35,9 @@ for (let index = 0; index < starts.length; index++) {
   pets.push({
     id: String(id),
     name: attributes.name,
+    sourceId: String(id),
+    obtainDetail,
+    variant: /\([^)]*진화\)/.test(obtainDetail) ? '진화' : /\([^)]*환생\)/.test(obtainDetail) && attributes.obtain === '환생,진화' ? '환생' : attributes.obtain === '환생,진화' ? '환생·진화' : '일반',
     attr: attributes.attr,
     attrs,
     obtain: attributes.obtain,
@@ -46,7 +50,6 @@ for (let index = 0; index < starts.length; index++) {
 
 if (pets.length < 200) throw new Error(`Incomplete pet snapshot: ${pets.length}`);
 if (new Set(pets.map(pet => pet.id)).size !== pets.length) throw new Error('Duplicate snapshot IDs');
-if (new Set(pets.map(pet => pet.name)).size !== pets.length) throw new Error('Duplicate snapshot names');
 for (const pet of pets) {
   if (![...pet.growthS, ...pet.initS].every(value => Number.isFinite(value) && value >= 0)) throw new Error(`Invalid stats: ${pet.name}`);
   if (!/^https:\/\/ohrsa\.net\/data\/file\/petinfo\//.test(pet.imageUrl)) throw new Error(`Unexpected image source: ${pet.name}`);

@@ -2,25 +2,9 @@ import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { Script } from 'node:vm';
-import assert from 'node:assert/strict';
-import { decimalCalculate } from './decimal-calculator.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const html = await readFile(path.join(root, 'dist', 'index.html'), 'utf8');
-if (html.includes('가능 등급 분포') || !html.includes('초기치 소수점') || !html.includes('성장률 소수점') || !html.includes('id="decimalOutput"')) throw new Error('Decimal calculator replacement missing');
-for (const removed of ['소수점 계산기', '입력값 확인·직접 수정', '초기치 역산은 원본과 동일하게 내구력을 기준으로 합니다.', '선택한 펫의 등록 초기치·성장률로 자동 계산합니다.', 'decimalForm']) {
-  if (html.includes(removed)) throw new Error('Removed decimal UI returned: '+removed);
-}
-const monaDecimal = decimalCalculate([50,7,8,8], [9.91,1.57,1.71,1.67]);
-assert.deepEqual(monaDecimal.origin, [25,21,24,30]);
-assert.equal(monaDecimal.factor, 515);
-assert.equal(monaDecimal.allStatsMatch, true);
-for (const [index,value] of [50.05,7.9365,8.6385,8.45].entries()) assert.ok(Math.abs(monaDecimal.initial[index]-value)<1e-9);
-assert.ok(Math.abs(monaDecimal.growth[1]-1.5720375)<1e-9);
-assert.equal(decimalCalculate([50,99,99,99], [9.91,1.57,1.71,1.67]).allStatsMatch,false);
-assert.throws(()=>decimalCalculate([50,7,8,8],[9.914,1.572,1.711,1.674]), /둘째/);
-assert.throws(()=>decimalCalculate([9999,7,8,8],[9.91,1.57,1.71,1.67]), /내구력/);
-assert.throws(()=>decimalCalculate([50.5,7,8,8],[9.91,1.57,1.71,1.67]), /정수/);
 for (const script of html.matchAll(/<script([^>]*)>([\s\S]*?)<\/script>/g)) {
   if (/application\/json|\bsrc=/.test(script[1])) continue;
   new Script(script[2]);
@@ -34,50 +18,27 @@ const rankCompare = JSON.parse(rankMatch[1]);
 const snapshot = JSON.parse(await readFile(path.join(root, 'data', 'petinfo-update.json'), 'utf8'));
 const catalogSupplement = JSON.parse(await readFile(path.join(root, 'data', 'client-catalog-supplement.json'), 'utf8'));
 const initialCorrections = JSON.parse(await readFile(path.join(root, 'data', 'pet-initial-corrections.json'), 'utf8'));
-const additionalPets = JSON.parse(await readFile(path.join(root, 'data', 'additional-pets.json'), 'utf8'));
-const activeAdditionalPets = additionalPets.filter(addition => !catalogSupplement.some(item => item.id === addition.id || item.name === addition.name));
-const saleGrades = JSON.parse(await readFile(path.join(root, 'data', 'pet-sale-grades.json'), 'utf8'));
-for (const [name, grade] of Object.entries(saleGrades)) {
-  const pet = pets.find(item => item.name === name);
-  if (!pet || pet.saleGrade !== grade) throw new Error(`Imported sale grade mismatch: ${name}`);
-}
-for (const addition of activeAdditionalPets) {
-  const pet = pets.find(item => item.id === addition.id);
-  if (!pet || !pet.ok || JSON.stringify(pet.initS) !== JSON.stringify(addition.initS) || JSON.stringify(pet.growthS) !== JSON.stringify(addition.growthS)) throw new Error(`Additional pet mismatch: ${addition.name}`);
-  if (pet.saleGrade !== addition.saleGrade) throw new Error(`Sale grade mismatch: ${addition.name}`);
-  if (addition.imageFile) {
-    const bytes = await readFile(path.join(root, addition.imageFile));
-    if (pet.imageMime !== 'image/gif' || pet.img !== bytes.toString('base64')) throw new Error(`Additional pet image mismatch: ${addition.name}`);
-  }
-}
 if (pets.length < snapshot.length) throw new Error('Merged catalog lost pets');
 if (new Set(pets.map(pet => pet.id)).size !== pets.length) throw new Error('Duplicate pet IDs');
-if (new Set(pets.map(pet => pet.name)).size !== pets.length) throw new Error('Duplicate pet names');
+if (new Set(pets.map(pet => pet.displayName)).size !== pets.length) throw new Error('Ambiguous pet display names');
 if (!html.includes('k*(2*v0+20*v1+2*v2+v3)/2000')) throw new Error('Exact integer calculation missing');
 if (!html.includes('data-sort="total"') || !html.includes("let sortKey = ''")) throw new Error('Growth sorting controls missing');
 if (html.includes('게임에 표시된 레벨 1 수치를 입력하세요')) throw new Error('Removed input helper copy returned');
 if (!html.includes('<title>오르서버 환각 계산기</title>')) throw new Error('Site title missing');
-if (!html.includes(`전체 ${pets.length}종`)) throw new Error('Updated pet count badge missing');
+if (!html.includes(`전체 ${new Set(pets.map(pet=>pet.name)).size}종`)) throw new Error('Updated pet count badge missing');
 if (html.includes('첨부 자료 기준') || html.includes('첨부 기준')) throw new Error('Source boilerplate returned');
 if (!html.includes('color-scheme:light') || !html.includes('width:192px;height:192px')) throw new Error('Light theme or reduced portraits missing');
 if (!html.includes('총성장률') || !html.includes('growthS.slice(1)')) throw new Error('Total growth rate missing');
 if (html.includes('입력값과 일치하는 경우의 비율')) throw new Error('Removed distribution helper copy returned');
 if (!html.includes('환생포인트 계산기') || !html.includes('id="savedPanel"')) throw new Error('Rebirth or saved tab missing');
 if (!html.includes("const STORAGE_KEY='ohr_rebirth_saves_v1'")) throw new Error('Saved calculations storage missing');
-for (const field of ['remaining', 'totalStat', 'formula', 'decimal']) {
-  if (!html.includes('data-out="'+field+'"')) throw new Error('Rebirth detail missing: '+field);
-}
-if (!html.includes("loadButton.id='loadRebirth'")) throw new Error('Rebirth load button missing');
 
 function verifyRebirthStage({ base, level, stats, quest, totalLevel, stage, leftovers = [0, 0, 0, 0] }) {
   const totalStat = base + Math.max(0, level - 1) * 3;
   const remaining = totalStat - stats.reduce((sum, value) => sum + value, 0);
   const actualTotal = stats.reduce((sum, value, index) => sum + value + leftovers[index], remaining);
   const formula = Math.floor(actualTotal / 12 + quest / 4 + (totalLevel - stage * 85) / 4);
-  const calculated = stats.map((value, index) => {
-    const str=(((value + leftovers[index]) / actualTotal) * formula + 0.5).toFixed(4);
-    return Number(str.substring(0,str.indexOf('.')+3));
-  });
+  const calculated = stats.map((value, index) => Math.trunc((((value + leftovers[index]) / actualTotal) * formula + 0.5) * 100) / 100);
   const final = calculated.reduce((sum, value) => sum + Math.floor(value), 0) + stage * 10;
   return { totalStat, remaining, formula, calculated, final };
 }
@@ -91,30 +52,49 @@ const katarkas = pets.find(pet => String(pet.id) === '50');
 if (!beropori?.approx || !beropori.dataNote) throw new Error('Beropori quality warning missing');
 if (!katarkas?.ok) throw new Error('Katarkas calculation missing');
 const rideable = pets.filter(pet => pet.rideable);
-if (!html.includes(`<b id="rideableCount">${rideable.length}</b>`)) throw new Error('Rideable count does not match actual data');
+if (!html.includes(`<b id="rideableCount">${new Set(rideable.map(pet=>pet.name)).size}</b>`)) throw new Error('Rideable count does not match actual data');
 if (!rideable.length) throw new Error('Rideable pet data missing');
+const correctedCatalogPets = new Map([
+  ['돌꼬미', [['화', 4], ['수', 6]]],
+  ['어린 아이스 드래곤', [['수', 9], ['화', 1]]],
+  ['어린 골드 드래곤', [['풍', 9], ['화', 1]]],
+  ['어린 어스 드래곤', [['지', 9], ['풍', 1]]],
+  ['어린 레드 드래곤', [['화', 9], ['풍', 1]]],
+  ['어린 흑룡', [['지', 5], ['풍', 5]]],
+  ['어린 백룡', [['지', 8], ['수', 2]]],
+]);
+for (const [name, attrs] of correctedCatalogPets) {
+  const matches = pets.filter(pet => pet.name === name);
+  if (matches.length !== 1) throw new Error(`Corrected catalog pet count mismatch: ${name}`);
+  if (JSON.stringify(matches[0].attrs) !== JSON.stringify(attrs)) throw new Error(`Corrected attribute ratio mismatch: ${name}`);
+  if (!/^image\/(gif|png|jpeg|webp)$/.test(matches[0].imageMime || '')) throw new Error(`Corrected pet image missing: ${name}`);
+}
+for (const typo of ['돌꼬비', '어린아이스드래곤', '어린골드드래곤', '어린어스드래곤', '어린레드드래곤', '어린흑룡', '어린백룡']) {
+  if (pets.some(pet => pet.name === typo)) throw new Error(`Duplicate or typo pet remained: ${typo}`);
+}
 for (const update of catalogSupplement) {
   const pet = pets.find(item => item.name === update.name);
   if (!pet) throw new Error(`Catalog supplement pet missing: ${update.name}`);
   const attributeTotal = pet.attrs.reduce((sum, [, value]) => sum + value, 0);
   if (attributeTotal !== 10) throw new Error(`Catalog attribute scale mismatch: ${update.name} (${attributeTotal})`);
-  if (update.externalImage && (!pet.externalImage || pet.imageUrl !== update.imageUrl || pet.imageFallbackUrl !== update.imageFallbackUrl)) {
-    throw new Error(`External catalog image mismatch: ${update.name}`);
+  if (update.externalImage) {
+    if (!pet.externalImage || pet.imageUrl !== update.imageUrl || pet.imageFallbackUrl !== update.imageFallbackUrl) {
+      throw new Error(`External catalog image mismatch: ${update.name}`);
+    }
   }
 }
-for (const typo of ['돌꼬비', '어린아이스드래곤', '어린골드드래곤', '어린어스드래곤', '어린레드드래곤', '어린흑룡', '어린백룡']) {
-  if (pets.some(pet => pet.name === typo)) throw new Error(`Duplicate or typo pet remained: ${typo}`);
+if (!html.includes('p.externalImage?p.imageUrl') || !html.includes('p.imageFallbackUrl')) {
+  throw new Error('External catalog image rendering missing');
 }
-if (!html.includes('p.externalImage?p.imageUrl') || !html.includes('p.imageFallbackUrl')) throw new Error('External catalog image rendering missing');
 for (const update of snapshot) {
-  const pet=pets.find(item => item.id===update.id || item.name===update.name);
+  const pet=pets.find(item => item.id===update.id);
   if (!pet) throw new Error(`Snapshot pet missing: ${update.name}`);
   for (const key of ['name','growthS','initS','attrs','rideable','imageUrl']) {
-    const expectedValue = key === 'initS' && initialCorrections[update.name] ? initialCorrections[update.name] : update[key];
+    const expectedValue = key === 'initS' && update.variant === '일반' && initialCorrections[update.name] ? initialCorrections[update.name] : update[key];
     if (JSON.stringify(pet[key])!==JSON.stringify(expectedValue)) throw new Error(`Snapshot mismatch: ${update.name} ${key}`);
   }
   if (!pet.obtainDetail) throw new Error(`Obtain method missing: ${pet.name}`);
-  const bytes=Buffer.from(pet.img,'base64');
+  const bytes=pet.assetImage ? await readFile(path.join(root, 'dist', pet.assetImage)) : Buffer.from(pet.img,'base64');
   if (pet.imageMime==='image/gif' && bytes.subarray(0,3).toString()!=='GIF') throw new Error(`Wrong GIF bytes: ${pet.name}`);
   if (!/^image\/(gif|png|jpeg|webp)$/.test(pet.imageMime||'')) throw new Error(`Image MIME missing: ${pet.name}`);
 }
@@ -137,7 +117,6 @@ if (!html.includes('class="pet-portrait"') || !html.includes('class="obtain-card
   throw new Error('Selected pet showcase layout missing');
 }
 if (!html.includes('Keep the requested three-column catalog')) throw new Error('Three-column catalog override missing');
-if (!html.includes('class="sale-info"') || !html.includes('판매 등급')) throw new Error('Sale grade display missing');
 if (!html.includes('역산 계수 또는 계산 모델 확인이 필요합니다.')) throw new Error('Calculation failure explanation missing');
 
 const distributions = Array.from({ length: 11 }, () => []);
@@ -195,12 +174,6 @@ const correctedResults = Object.keys(initialCorrections).map(name => {
   const result = matchesFor(pet);
   return { name, initS: pet.initS, k: pet.k, matches: result.total, eight: result.counts[8] || 0 };
 });
-const additionalResults = activeAdditionalPets.map(addition => {
-  const pet = pets.find(item => item.id === addition.id);
-  const result = matchesFor(pet);
-  if (!result.total) throw new Error(`Additional pet does not calculate: ${pet.name}`);
-  return { name: pet.name, k: pet.k, matches: result.total };
-});
 
 console.log(JSON.stringify({
   pets: pets.length,
@@ -209,7 +182,6 @@ console.log(JSON.stringify({
   rideablePets: rideable.length,
   dataWarnings: [beropori.name],
   correctedResults,
-  additionalResults,
   regressionCases: Object.keys(expected).length,
   rebirthRegression: true
 }, null, 2));

@@ -1,7 +1,2957 @@
 [
   {
+    "id": "332",
+    "name": "레오딘",
+    "sourceId": "332",
+    "obtainDetail": "듀얼 (듀얼 포인트 상점)",
+    "variant": "일반",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        8
+      ],
+      [
+        "수",
+        2
+      ]
+    ],
+    "obtain": "듀얼",
+    "growthS": [
+      10.141,
+      2.241,
+      1.429,
+      1.401
+    ],
+    "initS": [
+      55,
+      12,
+      7,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_D1ykxN8V_2c2f3439d788a6e3dcdb2d734fa7f35b2cfbb8db.gif",
+    "rideable": false
+  },
+  {
+    "id": "331",
+    "name": "리바이어던",
+    "sourceId": "331",
+    "obtainDetail": "듀얼 (정규듀얼 우승 선택 보상)",
+    "variant": "일반",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        1
+      ],
+      [
+        "수",
+        9
+      ]
+    ],
+    "obtain": "듀얼",
+    "growthS": [
+      13.514,
+      1.901,
+      2.286,
+      0.404
+    ],
+    "initS": [
+      79,
+      11,
+      13,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_xpiaUcZN_64c5570a96be16c8b2e6a5d44ab2d9ce001d7e3a.gif",
+    "rideable": false
+  },
+  {
+    "id": "330",
+    "name": "흑갈푸스",
+    "sourceId": "330",
+    "obtainDetail": "듀얼 (정규듀얼 우승 선택 보상)",
+    "variant": "일반",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        5
+      ],
+      [
+        "풍",
+        5
+      ]
+    ],
+    "obtain": "듀얼",
+    "growthS": [
+      9.809,
+      2.224,
+      1.241,
+      1.639
+    ],
+    "initS": [
+      53,
+      12,
+      6,
+      8
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_jyP9UX8S_1107a24308a964631472001a6f0323d10ee3872f.gif",
+    "rideable": false
+  },
+  {
+    "id": "329",
+    "name": "샤베르",
+    "sourceId": "329",
+    "obtainDetail": "희귀 (호피도)",
+    "variant": "일반",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        2
+      ],
+      [
+        "수",
+        8
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.094,
+      2.098,
+      1.329,
+      1.591
+    ],
+    "initS": [
+      48,
+      10,
+      6,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_MOhq2Quk_a5523bda72e18750029bf7490a17bc6d3d896632.gif",
+    "rideable": true
+  },
+  {
+    "id": "328",
+    "name": "레이론",
+    "sourceId": "328",
+    "obtainDetail": "필드포획 (호피도)",
+    "variant": "일반",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        7
+      ],
+      [
+        "수",
+        3
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.426,
+      2.208,
+      1.566,
+      1.211
+    ],
+    "initS": [
+      50,
+      10,
+      7,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_KenZikb1_c16153c55f1c586f371793524ef47997b30ab6e5.gif",
+    "rideable": false
+  },
+  {
+    "id": "327",
+    "name": "디메트로돈",
+    "sourceId": "327",
+    "obtainDetail": "필드포획 (호피도)",
+    "variant": "일반",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        8
+      ],
+      [
+        "수",
+        2
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      11.806,
+      2.011,
+      2.234,
+      0.322
+    ],
+    "initS": [
+      62,
+      10,
+      11,
+      1
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_swb6Yklq_033ec59a42a2f191f559af0a8d82a2d1ef72465a.gif",
+    "rideable": false
+  },
+  {
+    "id": "326",
+    "name": "포보스",
+    "sourceId": "326",
+    "obtainDetail": "희귀 (호피도)",
+    "variant": "일반",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        5
+      ],
+      [
+        "수",
+        5
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.141,
+      2.122,
+      1.737,
+      1.211
+    ],
+    "initS": [
+      51,
+      10,
+      8,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_YyVtB82i_e1a283865be39f3f351f5229b061593c535f519e.gif",
+    "rideable": false
+  },
+  {
+    "id": "325",
+    "name": "타이판",
+    "sourceId": "325",
+    "obtainDetail": "필드포획 (호피도)",
+    "variant": "일반",
+    "attr": "화화",
+    "attrs": [
+      [
+        "화",
+        4
+      ],
+      [
+        "화",
+        6
+      ]
+    ],
+    "obtain": "필드포획",
+    "growthS": [
+      10.326,
+      2.254,
+      1.513,
+      1.21
+    ],
+    "initS": [
+      46,
+      10,
+      6,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_iQ89aTvb_bf5784e24f461433e8e6c48a4f774a1356766fcc.gif",
+    "rideable": false
+  },
+  {
+    "id": "324",
+    "name": "노보스",
+    "sourceId": "324",
+    "obtainDetail": "희귀 (쟈루 섬)",
+    "variant": "일반",
+    "attr": "풍화",
+    "attrs": [
+      [
+        "풍",
+        7
+      ],
+      [
+        "화",
+        3
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      11.186,
+      2.065,
+      2.022,
+      0.736
+    ],
+    "initS": [
+      51,
+      9,
+      9,
+      3
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_D6YlzMnN_f085e361717a30805ec8ad214769d6de8bdb50de.gif",
+    "rideable": false
+  },
+  {
+    "id": "323",
+    "name": "루보스",
+    "sourceId": "323",
+    "obtainDetail": "희귀 (벽청의 동굴(나)8층)",
+    "variant": "일반",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        7
+      ],
+      [
+        "수",
+        3
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      11.614,
+      1.989,
+      2.16,
+      0.546
+    ],
+    "initS": [
+      53,
+      9,
+      10,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_unhqIblj_089d1abbcf68fc1acaaa94e81d69ce00c2e5d760.gif",
+    "rideable": false
+  },
+  {
+    "id": "322",
+    "name": "가이",
+    "sourceId": "322",
+    "obtainDetail": "희귀 (벽청의 동굴(나)8층)",
+    "variant": "일반",
+    "attr": "수화",
+    "attrs": [
+      [
+        "수",
+        7
+      ],
+      [
+        "화",
+        3
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      12.421,
+      2.041,
+      1.999,
+      0.546
+    ],
+    "initS": [
+      57,
+      9,
+      9,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_W48mv1aS_c60ac00ae0d1d08452e961331e62a948482e4133.gif",
+    "rideable": false
+  },
+  {
+    "id": "321",
+    "name": "누이",
+    "sourceId": "321",
+    "obtainDetail": "희귀 (쿠르 해저통로)",
+    "variant": "일반",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        8
+      ],
+      [
+        "풍",
+        2
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      11.186,
+      1.984,
+      2.198,
+      0.641
+    ],
+    "initS": [
+      51,
+      9,
+      10,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_7g5bHD8i_74fd80826b321bc3024656c67f8788db7b9b1014.gif",
+    "rideable": false
+  },
+  {
+    "id": "320",
+    "name": "쥬키",
+    "sourceId": "320",
+    "obtainDetail": "희귀 (사이너스 섬)",
+    "variant": "일반",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        5
+      ],
+      [
+        "풍",
+        5
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      9.336,
+      1.879,
+      1.157,
+      1.953
+    ],
+    "initS": [
+      33,
+      6,
+      4,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_61xwRGOL_9c6e4e716cfbdba568b557c96244ec2948df413f.gif",
+    "rideable": false
+  },
+  {
+    "id": "319",
+    "name": "흑카키",
+    "sourceId": "319",
+    "obtainDetail": "희귀 (쟈루 섬)",
+    "variant": "일반",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        6
+      ],
+      [
+        "풍",
+        4
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      9.619,
+      1.683,
+      1.298,
+      2.114
+    ],
+    "initS": [
+      36,
+      6,
+      4,
+      8
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_rag6ctJy_00ed0b802dc03a79c522cf90d862a02e0350f041.gif",
+    "rideable": true
+  },
+  {
+    "id": "318",
+    "name": "푸타카",
+    "sourceId": "318",
+    "obtainDetail": "희귀 (쟈루 섬)",
+    "variant": "일반",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        2
+      ],
+      [
+        "수",
+        8
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      9.904,
+      1.685,
+      1.258,
+      2.066
+    ],
+    "initS": [
+      37,
+      6,
+      4,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_ViSUfsFP_a2bea8b1889d851106da0ac6007a1c89e760e568.gif",
+    "rideable": false
+  },
+  {
+    "id": "317",
+    "name": "타르쿠",
+    "sourceId": "317",
+    "obtainDetail": "희귀 (사이너스 섬)",
+    "variant": "일반",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        8
+      ],
+      [
+        "풍",
+        2
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      9.571,
+      1.725,
+      1.298,
+      2.019
+    ],
+    "initS": [
+      36,
+      6,
+      4,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_9vLlZ62O_52dc36ab87db22b5763ef02ccc6b54d91f059db0.gif",
+    "rideable": false
+  },
+  {
+    "id": "316",
+    "name": "실버라곤",
+    "sourceId": "316",
+    "obtainDetail": "희귀 (비룡의 자하동굴 2층)",
+    "variant": "일반",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        5
+      ],
+      [
+        "수",
+        5
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.331,
+      2.025,
+      1.512,
+      1.544
+    ],
+    "initS": [
+      60,
+      11,
+      8,
+      9
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_cBSnxOMZ_6b5979f22cd0c62b20bc39322cf47c5c613f6868.gif",
+    "rideable": false
+  },
+  {
+    "id": "315",
+    "name": "쟈하드",
+    "sourceId": "315",
+    "obtainDetail": "희귀 (쟈하드)",
+    "variant": "일반",
+    "attr": "풍화",
+    "attrs": [
+      [
+        "풍",
+        8
+      ],
+      [
+        "화",
+        2
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.094,
+      2.281,
+      1.383,
+      1.354
+    ],
+    "initS": [
+      48,
+      11,
+      6,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_yDehuSYL_4df319d114531bfb2ded6d7d4222e5130a3d3a1f.gif",
+    "rideable": false
+  },
+  {
+    "id": "314",
+    "name": "판그",
+    "sourceId": "314",
+    "obtainDetail": "희귀 (해저터널 1층 (쟈루))",
+    "variant": "일반",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        8
+      ],
+      [
+        "수",
+        2
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.474,
+      2.246,
+      1.476,
+      1.116
+    ],
+    "initS": [
+      48,
+      10,
+      6,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_yQYBi87w_5fb75abacefc7603091684878a86eb93a1211412.gif",
+    "rideable": false
+  },
+  {
+    "id": "313",
+    "name": "판그라",
+    "sourceId": "313",
+    "obtainDetail": "희귀 (해저터널 1층 (쿠오))",
+    "variant": "일반",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        8
+      ],
+      [
+        "수",
+        2
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.284,
+      2.281,
+      1.383,
+      1.164
+    ],
+    "initS": [
+      49,
+      11,
+      6,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_q46T18tk_7e7f71512354c7873a602f48c7e655ae893f832d.gif",
+    "rideable": false
+  },
+  {
+    "id": "312",
+    "name": "석화케스",
+    "sourceId": "312",
+    "obtainDetail": "희귀 (쟈루 섬)",
+    "variant": "일반",
+    "attr": "수화",
+    "attrs": [
+      [
+        "수",
+        8
+      ],
+      [
+        "화",
+        2
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.569,
+      2.241,
+      1.386,
+      1.116
+    ],
+    "initS": [
+      48,
+      10,
+      6,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_iPOJ0jb8_f7a5d5ff994bfc0b92eb1f782f41119aec15a56a.gif",
+    "rideable": false
+  },
+  {
+    "id": "311",
+    "name": "타르프스",
+    "sourceId": "311",
+    "obtainDetail": "희귀 (쟈루 섬)",
+    "variant": "일반",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        8
+      ],
+      [
+        "수",
+        2
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.949,
+      1.716,
+      2.357,
+      0.689
+    ],
+    "initS": [
+      34,
+      5,
+      7,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_FCJLeRK4_947bef78afebead47ee65d08da2c22b8b56e6064.gif",
+    "rideable": false
+  },
+  {
+    "id": "310",
+    "name": "코발스",
+    "sourceId": "310",
+    "obtainDetail": "희귀 (쟈루 섬)",
+    "variant": "일반",
+    "attr": "수없음",
+    "attrs": [
+      [
+        "수",
+        10
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      11.768,
+      1.763,
+      1.994,
+      0.644
+    ],
+    "initS": [
+      38,
+      5,
+      6,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_QWdOe7hR_78e03858340d28f3d281b2b72e9c98f07bac4932.gif",
+    "rideable": false
+  },
+  {
+    "id": "309",
+    "name": "노타스",
+    "sourceId": "309",
+    "obtainDetail": "희귀 (사이너스 섬)",
+    "variant": "일반",
+    "attr": "풍없음",
+    "attrs": [
+      [
+        "풍",
+        10
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.949,
+      1.711,
+      2.181,
+      1.069
+    ],
+    "initS": [
+      34,
+      5,
+      6,
+      3
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_t1bDJUm3_4ec898f848f9467a5ad9c4f66f70c2943251770f.gif",
+    "rideable": false
+  },
+  {
+    "id": "308",
+    "name": "타노프스",
+    "sourceId": "308",
+    "obtainDetail": "희귀 (사이너스 섬)",
+    "variant": "일반",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        8
+      ],
+      [
+        "수",
+        2
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      11.201,
+      1.703,
+      2.028,
+      0.695
+    ],
+    "initS": [
+      41,
+      6,
+      7,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_8jNEGnWw_dcff115bdc086728197c4478bfaf04341b251c7d.gif",
+    "rideable": false
+  },
+  {
+    "id": "307",
+    "name": "바쿠",
+    "sourceId": "307",
+    "obtainDetail": "희귀 (숲의 동굴)",
+    "variant": "일반",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        9
+      ],
+      [
+        "수",
+        1
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      9.619,
+      2.056,
+      1.543,
+      1.496
+    ],
+    "initS": [
+      38,
+      8,
+      6,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_Q5lkeNnG_2ed9f53af06c8fbd3db0f4d4ff3f1d6c99329c01.gif",
+    "rideable": false
+  },
+  {
+    "id": "306",
+    "name": "푸쿠",
+    "sourceId": "306",
+    "obtainDetail": "희귀 (쟈루 섬)",
+    "variant": "일반",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        9
+      ],
+      [
+        "풍",
+        1
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      9.476,
+      2.051,
+      1.495,
+      1.591
+    ],
+    "initS": [
+      35,
+      7,
+      5,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_WQbkqv3R_a8285ac3dfdee7edd73da19c436c7f82add7e529.gif",
+    "rideable": false
+  },
+  {
+    "id": "305",
+    "name": "바쿠우",
+    "sourceId": "305",
+    "obtainDetail": "희귀 (쟈루 섬)",
+    "variant": "일반",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        3
+      ],
+      [
+        "수",
+        7
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      10.123,
+      2.036,
+      1.457,
+      1.51
+    ],
+    "initS": [
+      42,
+      8,
+      6,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_ZR856xFa_d7f3cd762f539a4de1d11a8322e5824756824a47.gif",
+    "rideable": false
+  },
+  {
+    "id": "304",
+    "name": "바카우",
+    "sourceId": "304",
+    "obtainDetail": "희귀 (숲의 동굴 4층)",
+    "variant": "일반",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        6
+      ],
+      [
+        "풍",
+        4
+      ]
+    ],
+    "obtain": "희귀",
+    "growthS": [
+      9.476,
+      2.006,
+      1.439,
+      1.639
+    ],
+    "initS": [
+      35,
+      7,
+      5,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_JpntHVQs_1c6dd763e0a09e180c8526a6efcc296b24d73a0f.gif",
+    "rideable": false
+  },
+  {
+    "id": "303",
+    "name": "테이토스",
+    "sourceId": "303",
+    "obtainDetail": "레이드 (테이토스의 전리품)",
+    "variant": "일반",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        5
+      ],
+      [
+        "수",
+        5
+      ]
+    ],
+    "obtain": "레이드",
+    "growthS": [
+      13.371,
+      2.029,
+      2.2,
+      0.404
+    ],
+    "initS": [
+      73,
+      11,
+      12,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_oqg1RNFE_79f6da2df0ff271f7df96ffbc7cdb11c16cff637.gif",
+    "rideable": true
+  },
+  {
+    "id": "302",
+    "name": "테이노스",
+    "sourceId": "302",
+    "obtainDetail": "레이드 (테이노스의 전리품)",
+    "variant": "일반",
+    "attr": "수화",
+    "attrs": [
+      [
+        "수",
+        8
+      ],
+      [
+        "화",
+        2
+      ]
+    ],
+    "obtain": "레이드",
+    "growthS": [
+      11.186,
+      2.31,
+      1.455,
+      1.259
+    ],
+    "initS": [
+      56,
+      11,
+      7,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_CLWcxwmj_bfc9fea7b0630913a17261066123363a9ae4527d.gif",
+    "rideable": false
+  },
+  {
+    "id": "301",
+    "name": "테르가",
+    "sourceId": "301",
+    "obtainDetail": "레이드 (테르가의 전리품)",
+    "variant": "일반",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        6
+      ],
+      [
+        "수",
+        4
+      ]
+    ],
+    "obtain": "레이드",
+    "growthS": [
+      10.094,
+      2.224,
+      1.155,
+      1.639
+    ],
+    "initS": [
+      57,
+      12,
+      6,
+      9
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_str3hKPB_2082fe8fd3328799298799c7977c482750e8e9b4.gif",
+    "rideable": true
+  },
+  {
+    "id": "300",
+    "name": "모사크",
+    "sourceId": "300",
+    "obtainDetail": "환생,진화 (지원 포인트 상점)",
+    "variant": "환생·진화",
+    "attr": "수없음",
+    "attrs": [
+      [
+        "수",
+        10
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.664,
+      2.25,
+      1.395,
+      1.401
+    ],
+    "initS": [
+      58,
+      12,
+      7,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_LaYEl13Z_c4d0edfd0020460adbbb431a0fa0733cfef50a7d.gif",
+    "rideable": false
+  },
+  {
+    "id": "299",
+    "name": "흑풍",
+    "sourceId": "299",
+    "obtainDetail": "환생,진화 (지원 포인트 상점)",
+    "variant": "환생·진화",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        9
+      ],
+      [
+        "풍",
+        1
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.141,
+      2.141,
+      1.243,
+      1.686
+    ],
+    "initS": [
+      59,
+      12,
+      7,
+      9
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_41WuUxQr_62a5f11f59ee896c257d30331222e14a2f05745a.gif",
+    "rideable": false
+  },
+  {
+    "id": "298",
+    "name": "성호",
+    "sourceId": "298",
+    "obtainDetail": "환생,진화 (Lv120이상 성호 진화)",
+    "variant": "진화",
+    "attr": "수없음",
+    "attrs": [
+      [
+        "수",
+        10
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.616,
+      2.105,
+      1.25,
+      1.639
+    ],
+    "initS": [
+      55,
+      11,
+      6,
+      8
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_EzN97nwy_7e8e36e1d4524544ff03755b29ddb493466ead4d.gif",
+    "rideable": false
+  },
+  {
+    "id": "297",
+    "name": "성호",
+    "sourceId": "297",
+    "obtainDetail": "환생,진화 (Lv120이상 성호 환생)",
+    "variant": "환생",
+    "attr": "수없음",
+    "attrs": [
+      [
+        "수",
+        10
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.616,
+      2.105,
+      1.25,
+      1.639
+    ],
+    "initS": [
+      55,
+      11,
+      6,
+      8
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_yfJkKZbU_8650248e11c6d7c01912b93f2cdbf386d6369de0.gif",
+    "rideable": true
+  },
+  {
+    "id": "296",
+    "name": "베르가",
+    "sourceId": "296",
+    "obtainDetail": "환생,진화 (Lv120이상 베르가 진화)",
+    "variant": "진화",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        6
+      ],
+      [
+        "수",
+        4
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.172,
+      2.08,
+      1.367,
+      1.609
+    ],
+    "initS": [
+      47,
+      9,
+      6,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_hgSwcM6f_0d06fe4348e853f1e8abbd78bebf266953e5d84d.gif",
+    "rideable": false
+  },
+  {
+    "id": "295",
+    "name": "베르가",
+    "sourceId": "295",
+    "obtainDetail": "환생,진화 (Lv120이상 베르가 환생)",
+    "variant": "환생",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        6
+      ],
+      [
+        "수",
+        4
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.172,
+      2.08,
+      1.367,
+      1.609
+    ],
+    "initS": [
+      47,
+      9,
+      6,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_DZEjFiOr_a5d7f6589c44ec13b233875da535c97c9c7974ca.gif",
+    "rideable": true
+  },
+  {
+    "id": "294",
+    "name": "베루루",
+    "sourceId": "294",
+    "obtainDetail": "환생,진화 (Lv120이상 베루루 진화)",
+    "variant": "진화",
+    "attr": "풍화",
+    "attrs": [
+      [
+        "풍",
+        7
+      ],
+      [
+        "화",
+        3
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.017,
+      2.139,
+      1.258,
+      1.674
+    ],
+    "initS": [
+      42,
+      9,
+      5,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_aWpNsmgy_b4bf668d07a7fe5da07ac5a068a73226ae4bb0a1.gif",
+    "rideable": false
+  },
+  {
+    "id": "293",
+    "name": "베루루",
+    "sourceId": "293",
+    "obtainDetail": "환생,진화 (Lv120이상 베루루 환생)",
+    "variant": "환생",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        3
+      ],
+      [
+        "풍",
+        7
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.017,
+      2.139,
+      1.258,
+      1.674
+    ],
+    "initS": [
+      42,
+      9,
+      5,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_FSCne8HG_23873f69cd19a6a00c1afff4f26a18884463975d.gif",
+    "rideable": true
+  },
+  {
+    "id": "292",
+    "name": "도르도르",
+    "sourceId": "292",
+    "obtainDetail": "환생,진화 (Lv120이상 도르도르 진화)",
+    "variant": "진화",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        2
+      ],
+      [
+        "수",
+        8
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.37,
+      2.13,
+      1.328,
+      1.609
+    ],
+    "initS": [
+      48,
+      9,
+      6,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_FlxhGNbS_67833351d5fc244ba6467895a6f869ace19549f0.gif",
+    "rideable": false
+  },
+  {
+    "id": "291",
+    "name": "도르도르",
+    "sourceId": "291",
+    "obtainDetail": "환생,진화 (Lv120이상 도르도르 환생)",
+    "variant": "환생",
+    "attr": "수지",
+    "attrs": [
+      [
+        "수",
+        8
+      ],
+      [
+        "지",
+        2
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.37,
+      2.13,
+      1.328,
+      1.609
+    ],
+    "initS": [
+      48,
+      9,
+      6,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_M45IJv3k_1d60096036680c5862667e2145319057e96d5259.gif",
+    "rideable": true
+  },
+  {
+    "id": "290",
+    "name": "노르노르",
+    "sourceId": "290",
+    "obtainDetail": "환생,진화 (Lv120이상 노르노르 진화)",
+    "variant": "진화",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        3
+      ],
+      [
+        "풍",
+        7
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      9.965,
+      2.102,
+      1.454,
+      1.674
+    ],
+    "initS": [
+      48,
+      10,
+      7,
+      8
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_GOR7q1Wo_885ab09eee11da4a04d43125ccf581753ed1ddd5.gif",
+    "rideable": false
+  },
+  {
+    "id": "289",
+    "name": "노르노르",
+    "sourceId": "289",
+    "obtainDetail": "환생,진화 (Lv120이상 노르노르 환생)",
+    "variant": "환생",
+    "attr": "풍지",
+    "attrs": [
+      [
+        "풍",
+        7
+      ],
+      [
+        "지",
+        3
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      9.965,
+      2.102,
+      1.454,
+      1.674
+    ],
+    "initS": [
+      48,
+      10,
+      7,
+      8
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_lDzL1WUn_4d88935fd9d8cdeeaba53e98b3747fb6c1f16e44.gif",
+    "rideable": true
+  },
+  {
+    "id": "288",
+    "name": "고르고르",
+    "sourceId": "288",
+    "obtainDetail": "환생,진화 (Lv120이상 고르고르 진화)",
+    "variant": "진화",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        8
+      ],
+      [
+        "풍",
+        2
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      9.656,
+      2.182,
+      1.302,
+      1.622
+    ],
+    "initS": [
+      39,
+      8,
+      5,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_yT0JMr2U_015173a61ebb5d17598244132cc940a49086f593.gif",
+    "rideable": false
+  },
+  {
+    "id": "287",
+    "name": "고르고르",
+    "sourceId": "287",
+    "obtainDetail": "환생,진화 (Lv120이상 고르고르 환생)",
+    "variant": "환생",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        8
+      ],
+      [
+        "풍",
+        2
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      9.656,
+      2.182,
+      1.302,
+      1.622
+    ],
+    "initS": [
+      39,
+      8,
+      5,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_z3i2CM4J_cb2b42e0880b1ba2157a85c427461a6ad93ce42e.gif",
+    "rideable": true
+  },
+  {
+    "id": "286",
+    "name": "하르가",
+    "sourceId": "286",
+    "obtainDetail": "환생,진화 (Lv120이상 하르가 환생)",
+    "variant": "환생",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        4
+      ],
+      [
+        "수",
+        6
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.37,
+      2.177,
+      1.33,
+      1.559
+    ],
+    "initS": [
+      52,
+      10,
+      6,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_jgSTyc8A_2303f9dd859cc783ffe302c21087aeb7d10ad708.gif",
+    "rideable": true
+  },
+  {
+    "id": "285",
+    "name": "페루루",
+    "sourceId": "285",
+    "obtainDetail": "환생,진화 (Lv120이상 페루루 환생)",
+    "variant": "환생",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        5
+      ],
+      [
+        "풍",
+        5
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      9.999,
+      2.141,
+      1.286,
+      1.686
+    ],
+    "initS": [
+      52,
+      11,
+      6,
+      8
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_AtMxP7DV_3141574410ad0cba9b9055e9fce393d2285483c4.gif",
+    "rideable": true
+  },
+  {
+    "id": "284",
+    "name": "고루루",
+    "sourceId": "284",
+    "obtainDetail": "환생,진화 (Lv120이상 고루루 환생)",
+    "variant": "환생",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        5
+      ],
+      [
+        "수",
+        5
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.37,
+      2.174,
+      1.283,
+      1.609
+    ],
+    "initS": [
+      52,
+      10,
+      6,
+      8
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_H1f5Icj0_638b9e5ecd71716fc10e35c584db3004d92896d5.gif",
+    "rideable": true
+  },
+  {
+    "id": "283",
+    "name": "베로로크",
+    "sourceId": "283",
+    "obtainDetail": "환생,진화 (Lv120이상 베로로크 환생)",
+    "variant": "환생",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        7
+      ],
+      [
+        "수",
+        3
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      11.707,
+      1.494,
+      2.206,
+      0.965
+    ],
+    "initS": [
+      52,
+      6,
+      9,
+      4
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_6mnDsZdG_a0a862667714ef8b53074352fb6418ee7c79673f.gif",
+    "rideable": false
+  },
+  {
+    "id": "282",
+    "name": "베로보크",
+    "sourceId": "282",
+    "obtainDetail": "환생,진화 (Lv120이상 베로보크 환생)",
+    "variant": "환생",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        3
+      ],
+      [
+        "수",
+        7
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      11.806,
+      1.494,
+      2.206,
+      0.866
+    ],
+    "initS": [
+      59,
+      7,
+      11,
+      4
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_qk1zglZs_743f77cfd3875b70cd90fbd11b34fe5562320eb4.gif",
+    "rideable": false
+  },
+  {
+    "id": "281",
+    "name": "베로포리",
+    "sourceId": "281",
+    "obtainDetail": "환생,진화 (Lv120이상 베로포리 환생)",
+    "variant": "환생",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        7
+      ],
+      [
+        "수",
+        3
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      11.36,
+      1.773,
+      2.219,
+      0.916
+    ],
+    "initS": [
+      55,
+      8,
+      10,
+      4
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_LWG4jUfr_9e6dc7cd9ab5fab5e3526575db524279318bda61.gif",
+    "rideable": false
+  },
+  {
+    "id": "280",
+    "name": "베론",
+    "sourceId": "280",
+    "obtainDetail": "환생,진화 (Lv120이상 베론 환생)",
+    "variant": "환생",
+    "attr": "수없음",
+    "attrs": [
+      [
+        "수",
+        10
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      12.136,
+      1.462,
+      2.189,
+      1.021
+    ],
+    "initS": [
+      63,
+      7,
+      11,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_rs2HQFZJ_7c933eb96793ae451e17c1cf8872466b1c9a7a75.gif",
+    "rideable": false
+  },
+  {
+    "id": "279",
+    "name": "얼룩부이비",
+    "sourceId": "279",
+    "obtainDetail": "환생,진화 (Lv120이상 얼룩부이비 환생)",
+    "variant": "환생",
+    "attr": "지없음",
+    "attrs": [
+      [
+        "지",
+        10
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.727,
+      1.973,
+      1.491,
+      1.257
+    ],
+    "initS": [
+      36,
+      6,
+      5,
+      4
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_ftMUjHcY_7b3348558ad3b5adb187bba353c29860283809f4.gif",
+    "rideable": false
+  },
+  {
+    "id": "278",
+    "name": "부이비",
+    "sourceId": "278",
+    "obtainDetail": "환생,진화 (Lv120이상 부이비 환생)",
+    "variant": "환생",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        6
+      ],
+      [
+        "수",
+        4
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      11.636,
+      1.938,
+      1.457,
+      1.204
+    ],
+    "initS": [
+      36,
+      6,
+      4,
+      3
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_AlrBvPea_0d8729efcf9342f3c33a1c4207c46be7207ac234.gif",
+    "rideable": false
+  },
+  {
+    "id": "277",
+    "name": "부이",
+    "sourceId": "277",
+    "obtainDetail": "환생,진화 (Lv120이상 부이 환생)",
+    "variant": "환생",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        8
+      ],
+      [
+        "수",
+        2
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      13.455,
+      1.719,
+      1.526,
+      0.883
+    ],
+    "initS": [
+      47,
+      6,
+      5,
+      3
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_Qij6lDA9_a80060676c1124192d773cbadf49cfe0747165ec.gif",
+    "rideable": false
+  },
+  {
+    "id": "276",
+    "name": "골드부비",
+    "sourceId": "276",
+    "obtainDetail": "환생,진화 (Lv120이상 골드부비 환생)",
+    "variant": "환생",
+    "attr": "풍화",
+    "attrs": [
+      [
+        "풍",
+        7
+      ],
+      [
+        "화",
+        3
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      11.048,
+      1.81,
+      2.05,
+      0.99
+    ],
+    "initS": [
+      51,
+      8,
+      9,
+      4
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_XazRJPlr_1431c7153f5c5bd3bfa80d80d29e680e56547315.gif",
+    "rideable": false
+  },
+  {
+    "id": "275",
+    "name": "부비",
+    "sourceId": "275",
+    "obtainDetail": "환생,진화 (Lv120이상 부비 환생)",
+    "variant": "환생",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        8
+      ],
+      [
+        "수",
+        2
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      12.76,
+      1.649,
+      1.505,
+      0.883
+    ],
+    "initS": [
+      38,
+      4,
+      4,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_tCJcLUGa_bc5e4898796d6f9e43686d3354a0f6d608d1a2e0.gif",
+    "rideable": false
+  },
+  {
+    "id": "274",
+    "name": "얼룩우리",
+    "sourceId": "274",
+    "obtainDetail": "환생,진화 (Lv120이상 얼룩우리 환생)",
+    "variant": "환생",
+    "attr": "지없음",
+    "attrs": [
+      [
+        "지",
+        10
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.034,
+      1.591,
+      1.695,
+      1.351
+    ],
+    "initS": [
+      29,
+      4,
+      5,
+      3
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_qn3Vb4sP_f609d729aa0accc6f112beb17338d0b6794deb70.gif",
+    "rideable": true
+  },
+  {
+    "id": "273",
+    "name": "두리",
+    "sourceId": "273",
+    "obtainDetail": "환생,진화 (Lv120이상 두리 환생)",
+    "variant": "환생",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        6
+      ],
+      [
+        "수",
+        4
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.406,
+      1.977,
+      1.478,
+      1.582
+    ],
+    "initS": [
+      35,
+      6,
+      5,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_DeyG0L7R_1d77b49bae6ee416761057930065a40417fc07d3.gif",
+    "rideable": false
+  },
+  {
+    "id": "272",
+    "name": "우리",
+    "sourceId": "272",
+    "obtainDetail": "환생,진화 (Lv120이상 우리 환생)",
+    "variant": "환생",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        8
+      ],
+      [
+        "수",
+        2
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      9.746,
+      1.301,
+      1.508,
+      1.754
+    ],
+    "initS": [
+      16,
+      2,
+      2,
+      3
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_tbS2MDdo_bd2f2745be13b13c965923815e178161bbb20fa1.gif",
+    "rideable": false
+  },
+  {
+    "id": "271",
+    "name": "흑호",
+    "sourceId": "271",
+    "obtainDetail": "퀘스트 (마리너스 목장의 의뢰)",
+    "variant": "일반",
+    "attr": "풍화",
+    "attrs": [
+      [
+        "풍",
+        8
+      ],
+      [
+        "화",
+        2
+      ]
+    ],
+    "obtain": "퀘스트",
+    "growthS": [
+      9.951,
+      2.048,
+      1.279,
+      1.734
+    ],
+    "initS": [
+      56,
+      11,
+      7,
+      9
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_9y1jXnlW_e7dd08c26dd520382d9ee6eb9b523ccda3cfbc2a.gif",
+    "rideable": true
+  },
+  {
+    "id": "270",
+    "name": "황호",
+    "sourceId": "270",
+    "obtainDetail": "퀘스트 (마리너스 목장의 의뢰)",
+    "variant": "일반",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        8
+      ],
+      [
+        "풍",
+        2
+      ]
+    ],
+    "obtain": "퀘스트",
+    "growthS": [
+      9.776,
+      2.117,
+      1.36,
+      1.559
+    ],
+    "initS": [
+      55,
+      11,
+      7,
+      8
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_RUsBNxV8_db652dcf5a52b4b1ed1d1c7bf03ae96abc4b4854.gif",
+    "rideable": true
+  },
+  {
+    "id": "269",
+    "name": "이블티거",
+    "sourceId": "269",
+    "obtainDetail": "퀘스트 (마리너스 목장의 의뢰)",
+    "variant": "일반",
+    "attr": "화없음",
+    "attrs": [
+      [
+        "화",
+        10
+      ]
+    ],
+    "obtain": "퀘스트",
+    "growthS": [
+      10.017,
+      2.242,
+      1.361,
+      1.468
+    ],
+    "initS": [
+      50,
+      11,
+      6,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_7XErd1HZ_72b7ee1eedb50fe30783539b38b99fb1419c7e3d.gif",
+    "rideable": true
+  },
+  {
+    "id": "268",
+    "name": "녹호",
+    "sourceId": "268",
+    "obtainDetail": "퀘스트 (마리너스 목장의 의뢰)",
+    "variant": "일반",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        9
+      ],
+      [
+        "수",
+        1
+      ]
+    ],
+    "obtain": "퀘스트",
+    "growthS": [
+      10.284,
+      2.253,
+      1.611,
+      1.164
+    ],
+    "initS": [
+      60,
+      13,
+      9,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_FgReVYWH_4a9ed8a8b306b9f719a23977205c51ccc4404af6.gif",
+    "rideable": true
+  },
+  {
+    "id": "267",
+    "name": "청호",
+    "sourceId": "267",
+    "obtainDetail": "퀘스트 (마리너스 목장의 의뢰)",
+    "variant": "일반",
+    "attr": "수지",
+    "attrs": [
+      [
+        "수",
+        8
+      ],
+      [
+        "지",
+        2
+      ]
+    ],
+    "obtain": "퀘스트",
+    "growthS": [
+      10.172,
+      2.226,
+      1.469,
+      1.361
+    ],
+    "initS": [
+      57,
+      12,
+      8,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_VYtl8T6E_31a8785b74dfde1d9c6e33350c7d6451d4539c68.gif",
+    "rideable": true
+  },
+  {
+    "id": "266",
+    "name": "얀기로",
+    "sourceId": "266",
+    "obtainDetail": "환생,진화 (Lv120이상 얀기로 환생)",
+    "variant": "환생",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        7
+      ],
+      [
+        "수",
+        3
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.766,
+      2.335,
+      1.489,
+      1.262
+    ],
+    "initS": [
+      58,
+      12,
+      8,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_2xGaKid7_1c961b08547b5b14c86c6154ca879ea2ecb5b047.gif",
+    "rideable": true
+  },
+  {
+    "id": "265",
+    "name": "얀기로",
+    "sourceId": "265",
+    "obtainDetail": "환생,진화 (Lv120이상 얀기로 진화)",
+    "variant": "진화",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        7
+      ],
+      [
+        "수",
+        3
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.766,
+      2.335,
+      1.489,
+      1.262
+    ],
+    "initS": [
+      58,
+      12,
+      8,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_fOvzb6q4_9bc962125827f2371e8555d56a978c0febe91056.gif",
+    "rideable": false
+  },
+  {
+    "id": "264",
+    "name": "반보로",
+    "sourceId": "264",
+    "obtainDetail": "환생,진화 (Lv120이상 반보로 환생)",
+    "variant": "환생",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        5
+      ],
+      [
+        "풍",
+        5
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.379,
+      2.386,
+      1.488,
+      1.259
+    ],
+    "initS": [
+      56,
+      13,
+      8,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_n6LWqNKM_636028c36ced585c5b8fa4318ab5d539ead5631f.gif",
+    "rideable": true
+  },
+  {
+    "id": "263",
+    "name": "반보로",
+    "sourceId": "263",
+    "obtainDetail": "환생,진화 (Lv120이상 반보로 진화)",
+    "variant": "진화",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        5
+      ],
+      [
+        "풍",
+        5
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.379,
+      2.386,
+      1.488,
+      1.259
+    ],
+    "initS": [
+      56,
+      13,
+      8,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_PWXjyzCc_5291c4a0250dc71879d2c863b8f1b0e525d6fe54.gif",
+    "rideable": false
+  },
+  {
+    "id": "262",
+    "name": "부르돈",
+    "sourceId": "262",
+    "obtainDetail": "환생,진화 (Lv120이상 부르돈 환생)",
+    "variant": "환생",
+    "attr": "풍화",
+    "attrs": [
+      [
+        "풍",
+        8
+      ],
+      [
+        "화",
+        2
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.331,
+      2.331,
+      1.348,
+      1.401
+    ],
+    "initS": [
+      52,
+      11,
+      6,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_fYH4CM0k_d9822de45be1a4c4ffe402b747b45e99c1503714.gif",
+    "rideable": true
+  },
+  {
+    "id": "261",
+    "name": "부르돈",
+    "sourceId": "261",
+    "obtainDetail": "환생,진화 (Lv120이상 부르돈 진화)",
+    "variant": "진화",
+    "attr": "풍화",
+    "attrs": [
+      [
+        "풍",
+        8
+      ],
+      [
+        "화",
+        2
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.331,
+      2.331,
+      1.348,
+      1.401
+    ],
+    "initS": [
+      52,
+      11,
+      6,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_kRO1rIpm_446b07c031ea5d2c530698c90b89357a50a4aaff.gif",
+    "rideable": false
+  },
+  {
+    "id": "260",
+    "name": "반기노",
+    "sourceId": "260",
+    "obtainDetail": "환생,진화 (Lv120이상 반기노 환생)",
+    "variant": "환생",
+    "attr": "화없음",
+    "attrs": [
+      [
+        "화",
+        10
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.189,
+      2.426,
+      1.486,
+      1.211
+    ],
+    "initS": [
+      53,
+      12,
+      7,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_Ic8h1sdS_5b4bd46d1901f7b024398e047fac3ec236fcb666.gif",
+    "rideable": true
+  },
+  {
+    "id": "259",
+    "name": "반기노",
+    "sourceId": "259",
+    "obtainDetail": "환생,진화 (Lv120이상 반기노 진화)",
+    "variant": "진화",
+    "attr": "화없음",
+    "attrs": [
+      [
+        "화",
+        10
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.189,
+      2.426,
+      1.486,
+      1.211
+    ],
+    "initS": [
+      53,
+      12,
+      7,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_oN8e1Txj_478970caab71ef2528b3f6548b519b98b3b5d85c.gif",
+    "rideable": false
+  },
+  {
+    "id": "258",
+    "name": "리비노",
+    "sourceId": "258",
+    "obtainDetail": "환생,진화 (Lv120이상 리비노 환생)",
+    "variant": "환생",
+    "attr": "지없음",
+    "attrs": [
+      [
+        "지",
+        10
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.171,
+      2.352,
+      1.564,
+      1.107
+    ],
+    "initS": [
+      53,
+      12,
+      8,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_Fjlvs5zN_863e94dd0a80b45ee293b3c2f4f98ecccdf85fb3.gif",
+    "rideable": true
+  },
+  {
+    "id": "257",
+    "name": "리비노",
+    "sourceId": "257",
+    "obtainDetail": "환생,진화 (Lv120이상 리비노 진화)",
+    "variant": "진화",
+    "attr": "지없음",
+    "attrs": [
+      [
+        "지",
+        10
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.171,
+      2.352,
+      1.564,
+      1.107
+    ],
+    "initS": [
+      53,
+      12,
+      8,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_6XJCWsUg_f1d1be118fc1ffc3ef12a9c87ef81500b4870f3e.gif",
+    "rideable": false
+  },
+  {
+    "id": "256",
+    "name": "투투",
+    "sourceId": "256",
+    "obtainDetail": "환생,진화 (Lv120이상 투투 환생)",
+    "variant": "환생",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        3
+      ],
+      [
+        "수",
+        7
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.673,
+      1.909,
+      1.186,
+      1.792
+    ],
+    "initS": [
+      31,
+      5,
+      3,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_vhGz5MLl_787dfcfe45fc8d65b1e1c78090b291587ca066e0.gif",
+    "rideable": false
+  },
+  {
+    "id": "255",
+    "name": "푸푸",
+    "sourceId": "255",
+    "obtainDetail": "환생,진화 (Lv120이상 푸푸 환생)",
+    "variant": "환생",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        3
+      ],
+      [
+        "풍",
+        7
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      9.685,
+      1.741,
+      1.242,
+      2.192
+    ],
+    "initS": [
+      19,
+      3,
+      2,
+      4
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_0YIW6guJ_cfdb1e695ae83081947ede2d032980e8f964aa75.gif",
+    "rideable": true
+  },
+  {
+    "id": "254",
+    "name": "우푸",
+    "sourceId": "254",
+    "obtainDetail": "환생,진화 (Lv120이상 우푸 환생)",
+    "variant": "환생",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        6
+      ],
+      [
+        "풍",
+        4
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      9.656,
+      1.878,
+      1.091,
+      2.137
+    ],
+    "initS": [
+      24,
+      4,
+      2,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_YAWkDcMs_9d7ccac04a5b59e55af1e98baba91393d8865dd8.gif",
+    "rideable": true
+  },
+  {
+    "id": "253",
+    "name": "오투투",
+    "sourceId": "253",
+    "obtainDetail": "환생,진화 (Lv120이상 오투투 환생)",
+    "variant": "환생",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        6
+      ],
+      [
+        "풍",
+        4
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      9.907,
+      1.708,
+      1.508,
+      1.97
+    ],
+    "initS": [
+      35,
+      6,
+      5,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_KFtxwWJh_8183a5a258e61b5c353e2fe63c1d993fd5a0e1e5.gif",
+    "rideable": false
+  },
+  {
+    "id": "252",
+    "name": "오투투",
+    "sourceId": "252",
+    "obtainDetail": "환생,진화 (Lv120이상 오투투 진화)",
+    "variant": "진화",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        6
+      ],
+      [
+        "풍",
+        4
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      9.907,
+      1.708,
+      1.508,
+      1.97
+    ],
+    "initS": [
+      35,
+      6,
+      5,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_APc5EOVw_5638c72731274e939b1eb7c1f1cb048ccd0253fe.gif",
+    "rideable": false
+  },
+  {
+    "id": "251",
+    "name": "우푸",
+    "sourceId": "251",
+    "obtainDetail": "환생,진화 (Lv120이상 우푸 진화)",
+    "variant": "진화",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        6
+      ],
+      [
+        "풍",
+        4
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      9.656,
+      1.878,
+      1.091,
+      2.137
+    ],
+    "initS": [
+      24,
+      4,
+      2,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_kCuLeyAE_3063cd09b850beb635bef1b09731ef623911d089.gif",
+    "rideable": false
+  },
+  {
+    "id": "250",
+    "name": "투투",
+    "sourceId": "250",
+    "obtainDetail": "환생,진화 (Lv120이상 투투 진화)",
+    "variant": "진화",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        3
+      ],
+      [
+        "수",
+        7
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.673,
+      1.909,
+      1.186,
+      1.792
+    ],
+    "initS": [
+      31,
+      5,
+      3,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_aC9vLZlS_fd3f084ba02ba1c53f98ed9e9820e47d7f99965d.gif",
+    "rideable": false
+  },
+  {
+    "id": "249",
+    "name": "푸푸",
+    "sourceId": "249",
+    "obtainDetail": "환생,진화 (Lv120이상 푸푸 진화)",
+    "variant": "진화",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        3
+      ],
+      [
+        "풍",
+        7
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      9.685,
+      1.741,
+      1.242,
+      2.192
+    ],
+    "initS": [
+      19,
+      3,
+      2,
+      4
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_lse9SP3Q_517d2e8589a6c088586024b706dd38104da4d5aa.gif",
+    "rideable": false
+  },
+  {
+    "id": "248",
+    "name": "베르푸스",
+    "sourceId": "248",
+    "obtainDetail": "환생,진화 (Lv120이상 토라 진화)",
+    "variant": "진화",
+    "attr": "풍없음",
+    "attrs": [
+      [
+        "풍",
+        10
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      9.817,
+      2.152,
+      1.285,
+      1.632
+    ],
+    "initS": [
+      47,
+      10,
+      6,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_h9FeO43r_84408ab171705d331feca4ed89b70be56c510280.gif",
+    "rideable": true
+  },
+  {
+    "id": "247",
+    "name": "흑룡",
+    "sourceId": "247",
+    "obtainDetail": "환생,진화 (Lv120이상 어린흑룡 진화)",
+    "variant": "진화",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        5
+      ],
+      [
+        "풍",
+        5
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.223,
+      2.144,
+      1.263,
+      1.674
+    ],
+    "initS": [
+      55,
+      11,
+      6,
+      9
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_0iBCFLNr_bd6b1457402c5ddad3be5fb64184ea00958b5b7b.gif",
+    "rideable": false
+  },
+  {
+    "id": "246",
+    "name": "백룡",
+    "sourceId": "246",
+    "obtainDetail": "환생,진화 (Lv120이상 어린백룡 진화)",
+    "variant": "진화",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        8
+      ],
+      [
+        "수",
+        2
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.172,
+      2.221,
+      1.375,
+      1.46
+    ],
+    "initS": [
+      49,
+      10,
+      6,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_JNlDY9uf_b047266253b97c849de9a91d8bf4969c96fa98dd.gif",
+    "rideable": false
+  },
+  {
+    "id": "245",
+    "name": "어스드래곤",
+    "sourceId": "245",
+    "obtainDetail": "환생,진화 (Lv120이상 어린어스드래곤 진화)",
+    "variant": "진화",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        9
+      ],
+      [
+        "풍",
+        1
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.994,
+      2.387,
+      1.424,
+      1.204
+    ],
+    "initS": [
+      57,
+      12,
+      7,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_y8KIm7E4_05fb31dde9d4c201c0645d29a2c41df327f13e7d.gif",
+    "rideable": false
+  },
+  {
+    "id": "244",
+    "name": "골드드래곤",
+    "sourceId": "244",
+    "obtainDetail": "환생,진화 (Lv120이상 어린골드드래곤 진화)",
+    "variant": "진화",
+    "attr": "풍화",
+    "attrs": [
+      [
+        "풍",
+        9
+      ],
+      [
+        "화",
+        1
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      9.826,
+      2.011,
+      1.075,
+      2.005
+    ],
+    "initS": [
+      51,
+      10,
+      5,
+      10
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_vuamLc43_dbb22d574db789d385d7dbb6d515fbcd2667fbb7.gif",
+    "rideable": true
+  },
+  {
+    "id": "243",
+    "name": "레드드래곤",
+    "sourceId": "243",
+    "obtainDetail": "환생,진화 (Lv120이상 어린레드드래곤 진화)",
+    "variant": "진화",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        9
+      ],
+      [
+        "풍",
+        1
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.459,
+      2.366,
+      1.21,
+      1.525
+    ],
+    "initS": [
+      56,
+      12,
+      6,
+      8
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_PFjfMHzN_0fbb41b6f65d4b1647e2c9cb903ba820c3386fd1.gif",
+    "rideable": true
+  },
+  {
+    "id": "242",
+    "name": "아이스드래곤",
+    "sourceId": "242",
+    "obtainDetail": "환생,진화 (Lv120이상 어린아이스드래곤 진화)",
+    "variant": "진화",
+    "attr": "수화",
+    "attrs": [
+      [
+        "수",
+        9
+      ],
+      [
+        "화",
+        1
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.42,
+      2.365,
+      1.296,
+      1.46
+    ],
+    "initS": [
+      54,
+      12,
+      6,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_7n6hOaAL_6e57adaf1d0a0a8ea11b76cca8ea59226d662da7.gif",
+    "rideable": true
+  },
+  {
     "id": "241",
     "name": "토라",
+    "sourceId": "241",
+    "obtainDetail": "퀘스트 (마함마의 증표 퀘스트)",
+    "variant": "일반",
     "attr": "풍없음",
     "attrs": [
       [
@@ -28,6 +2978,9 @@
   {
     "id": "240",
     "name": "불카노스",
+    "sourceId": "240",
+    "obtainDetail": "퀘스트 (샴기르의 영웅 퀘스트)",
+    "variant": "일반",
     "attr": "화수",
     "attrs": [
       [
@@ -58,6 +3011,9 @@
   {
     "id": "239",
     "name": "스텐토스",
+    "sourceId": "239",
+    "obtainDetail": "퀘스트 (쟈쟈의 영웅 퀘스트)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -88,6 +3044,9 @@
   {
     "id": "238",
     "name": "샤우트",
+    "sourceId": "238",
+    "obtainDetail": "듀얼 (개인 듀얼 상점)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -118,6 +3077,9 @@
   {
     "id": "237",
     "name": "부루마루",
+    "sourceId": "237",
+    "obtainDetail": "듀얼 (개인 듀얼 포인트)",
+    "variant": "일반",
     "attr": "수화",
     "attrs": [
       [
@@ -148,6 +3110,9 @@
   {
     "id": "236",
     "name": "마크론",
+    "sourceId": "236",
+    "obtainDetail": "듀얼 (개인 듀얼 상점)",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -178,6 +3143,9 @@
   {
     "id": "235",
     "name": "토우트",
+    "sourceId": "235",
+    "obtainDetail": "지원 (지원 포인트 페트)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -208,6 +3176,9 @@
   {
     "id": "234",
     "name": "토룡",
+    "sourceId": "234",
+    "obtainDetail": "지원 (지원 포인트 페트)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -238,6 +3209,9 @@
   {
     "id": "233",
     "name": "노스토로스",
+    "sourceId": "233",
+    "obtainDetail": "퀘스트 (코스 B 보상)",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -268,6 +3242,9 @@
   {
     "id": "232",
     "name": "테라곤",
+    "sourceId": "232",
+    "obtainDetail": "퀘스트 (코스 B 보상)",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -298,6 +3275,9 @@
   {
     "id": "231",
     "name": "링코",
+    "sourceId": "231",
+    "obtainDetail": "기타 (페트 자판기)",
+    "variant": "일반",
     "attr": "수지",
     "attrs": [
       [
@@ -328,6 +3308,9 @@
   {
     "id": "230",
     "name": "기린",
+    "sourceId": "230",
+    "obtainDetail": "기타 (페트 자판기)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -358,6 +3341,9 @@
   {
     "id": "229",
     "name": "스피노",
+    "sourceId": "229",
+    "obtainDetail": "기타 (페트 자판기)",
+    "variant": "일반",
     "attr": "화없음",
     "attrs": [
       [
@@ -384,6 +3370,9 @@
   {
     "id": "228",
     "name": "차이혼",
+    "sourceId": "228",
+    "obtainDetail": "기타 (페트 자판기)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -414,6 +3403,9 @@
   {
     "id": "227",
     "name": "핑코",
+    "sourceId": "227",
+    "obtainDetail": "기타 (페트 자판기)",
+    "variant": "일반",
     "attr": "화수",
     "attrs": [
       [
@@ -444,6 +3436,9 @@
   {
     "id": "226",
     "name": "램가스",
+    "sourceId": "226",
+    "obtainDetail": "기타 (페트 자판기)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -474,6 +3469,9 @@
   {
     "id": "225",
     "name": "칼로스",
+    "sourceId": "225",
+    "obtainDetail": "기타 (페트 자판기)",
+    "variant": "일반",
     "attr": "수화",
     "attrs": [
       [
@@ -504,6 +3502,9 @@
   {
     "id": "224",
     "name": "봉봉",
+    "sourceId": "224",
+    "obtainDetail": "기타 (페트 자판기)",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -534,6 +3535,9 @@
   {
     "id": "223",
     "name": "만모드",
+    "sourceId": "223",
+    "obtainDetail": "희귀 (가우린 채석장 3층)",
+    "variant": "일반",
     "attr": "지없음",
     "attrs": [
       [
@@ -560,6 +3564,9 @@
   {
     "id": "222",
     "name": "푸모나스",
+    "sourceId": "222",
+    "obtainDetail": "희귀 (가우리 섬)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -590,6 +3597,9 @@
   {
     "id": "221",
     "name": "실버로스",
+    "sourceId": "221",
+    "obtainDetail": "희귀 (세르노스 섬 전역)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -620,6 +3630,9 @@
   {
     "id": "220",
     "name": "메모스",
+    "sourceId": "220",
+    "obtainDetail": "희귀 (가우린 채석장 5층)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -650,6 +3663,9 @@
   {
     "id": "219",
     "name": "노라키토스",
+    "sourceId": "219",
+    "obtainDetail": "희귀 (세르노스 섬 전역)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -680,6 +3696,9 @@
   {
     "id": "218",
     "name": "브라키오스",
+    "sourceId": "218",
+    "obtainDetail": "희귀 (칠흑의 동굴 18층 )",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -710,6 +3729,9 @@
   {
     "id": "217",
     "name": "푸비토스",
+    "sourceId": "217",
+    "obtainDetail": "희귀 (칠흑의 동굴 18층)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -740,6 +3762,9 @@
   {
     "id": "216",
     "name": "기트로스",
+    "sourceId": "216",
+    "obtainDetail": "희귀 (아스마르 광산 1층 전역)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -770,6 +3795,9 @@
   {
     "id": "215",
     "name": "라가로스",
+    "sourceId": "215",
+    "obtainDetail": "희귀 (아스마르 광산 6층)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -800,6 +3828,9 @@
   {
     "id": "214",
     "name": "지가로스",
+    "sourceId": "214",
+    "obtainDetail": "희귀 (아스마르 광산 6층)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -830,6 +3861,9 @@
   {
     "id": "213",
     "name": "타루쟈",
+    "sourceId": "213",
+    "obtainDetail": "희귀 (속임수의 동굴 전역)",
+    "variant": "일반",
     "attr": "화없음",
     "attrs": [
       [
@@ -856,6 +3890,9 @@
   {
     "id": "212",
     "name": "푸보",
+    "sourceId": "212",
+    "obtainDetail": "희귀 (고야산 동굴 4층 전역)",
+    "variant": "일반",
     "attr": "수없음",
     "attrs": [
       [
@@ -882,6 +3919,9 @@
   {
     "id": "211",
     "name": "노라돈",
+    "sourceId": "211",
+    "obtainDetail": "희귀 (폐허가 된 탄광 4층)",
+    "variant": "일반",
     "attr": "풍화",
     "attrs": [
       [
@@ -912,6 +3952,9 @@
   {
     "id": "210",
     "name": "고라돈",
+    "sourceId": "210",
+    "obtainDetail": "희귀 (가우린 섬)",
+    "variant": "일반",
     "attr": "지없음",
     "attrs": [
       [
@@ -938,6 +3981,9 @@
   {
     "id": "209",
     "name": "실버고르돈",
+    "sourceId": "209",
+    "obtainDetail": "희귀 (폐허가 된 탄광 4층)",
+    "variant": "일반",
     "attr": "수화",
     "attrs": [
       [
@@ -968,6 +4014,9 @@
   {
     "id": "208",
     "name": "철기돈",
+    "sourceId": "208",
+    "obtainDetail": "희귀 (가우린 섬)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -998,6 +4047,9 @@
   {
     "id": "207",
     "name": "카이비",
+    "sourceId": "207",
+    "obtainDetail": "희귀 (사이너스 섬)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -1028,6 +4080,9 @@
   {
     "id": "206",
     "name": "키라비",
+    "sourceId": "206",
+    "obtainDetail": "희귀 (사이너스 섬)",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -1058,6 +4113,9 @@
   {
     "id": "205",
     "name": "연두큐이",
+    "sourceId": "205",
+    "obtainDetail": "희귀 (샴기르 앞마당)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -1088,6 +4146,9 @@
   {
     "id": "204",
     "name": "블루카비트",
+    "sourceId": "204",
+    "obtainDetail": "희귀 (샴기르 앞마당)",
+    "variant": "일반",
     "attr": "수지",
     "attrs": [
       [
@@ -1118,6 +4179,9 @@
   {
     "id": "203",
     "name": "범링",
+    "sourceId": "203",
+    "obtainDetail": "희귀 (쟈루 섬)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -1148,6 +4212,9 @@
   {
     "id": "202",
     "name": "토끼",
+    "sourceId": "202",
+    "obtainDetail": "희귀 (쟈루 섬)",
+    "variant": "일반",
     "attr": "수없음",
     "attrs": [
       [
@@ -1174,6 +4241,9 @@
   {
     "id": "201",
     "name": "라스키",
+    "sourceId": "201",
+    "obtainDetail": "희귀 (쟈루 섬)",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -1204,6 +4274,9 @@
   {
     "id": "200",
     "name": "노스키",
+    "sourceId": "200",
+    "obtainDetail": "희귀 (쟈루 섬)",
+    "variant": "일반",
     "attr": "풍화",
     "attrs": [
       [
@@ -1234,6 +4307,9 @@
   {
     "id": "199",
     "name": "익시노돈",
+    "sourceId": "199",
+    "obtainDetail": "희귀 (전리품의 방 전역)",
+    "variant": "일반",
     "attr": "풍없음",
     "attrs": [
       [
@@ -1260,6 +4336,9 @@
   {
     "id": "198",
     "name": "하르가",
+    "sourceId": "198",
+    "obtainDetail": "필드포획 (오르의 숲)",
+    "variant": "일반",
     "attr": "수화",
     "attrs": [
       [
@@ -1290,6 +4369,9 @@
   {
     "id": "197",
     "name": "블루문",
+    "sourceId": "197",
+    "obtainDetail": "필드포획 (오르의 숲)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -1320,6 +4402,9 @@
   {
     "id": "196",
     "name": "노르곤",
+    "sourceId": "196",
+    "obtainDetail": "필드포획 (오르의 숲)",
+    "variant": "일반",
     "attr": "풍화",
     "attrs": [
       [
@@ -1350,6 +4435,9 @@
   {
     "id": "195",
     "name": "한복밍코",
+    "sourceId": "195",
+    "obtainDetail": "기타 (한가위 토큰상점)",
+    "variant": "일반",
     "attr": "화수",
     "attrs": [
       [
@@ -1380,6 +4468,9 @@
   {
     "id": "194",
     "name": "한복메이",
+    "sourceId": "194",
+    "obtainDetail": "기타 (한가위 토큰상점)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -1410,6 +4501,9 @@
   {
     "id": "193",
     "name": "흑기린",
+    "sourceId": "193",
+    "obtainDetail": "레이드 (흑룡 전리품)",
+    "variant": "일반",
     "attr": "화수",
     "attrs": [
       [
@@ -1440,6 +4534,9 @@
   {
     "id": "192",
     "name": "라이쿠스",
+    "sourceId": "192",
+    "obtainDetail": "희귀 (복도 )",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -1470,6 +4567,9 @@
   {
     "id": "191",
     "name": "바라쿠스",
+    "sourceId": "191",
+    "obtainDetail": "필드포획 (복도)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -1500,6 +4600,9 @@
   {
     "id": "190",
     "name": "그램고르",
+    "sourceId": "190",
+    "obtainDetail": "필드포획 (그램고르의 방 전역)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -1530,6 +4633,9 @@
   {
     "id": "189",
     "name": "지고르",
+    "sourceId": "189",
+    "obtainDetail": "희귀 (그램고르의 방 전역)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -1560,6 +4666,9 @@
   {
     "id": "188",
     "name": "어린 흑룡",
+    "sourceId": "188",
+    "obtainDetail": "레이드 (언딘 전리품)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -1590,6 +4699,9 @@
   {
     "id": "187",
     "name": "어린 백룡",
+    "sourceId": "187",
+    "obtainDetail": "레이드 (헤티아 전리품)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -1620,6 +4732,9 @@
   {
     "id": "186",
     "name": "어린 골드 드래곤",
+    "sourceId": "186",
+    "obtainDetail": "지원 (지원 포인트)",
+    "variant": "일반",
     "attr": "풍화",
     "attrs": [
       [
@@ -1650,6 +4765,9 @@
   {
     "id": "185",
     "name": "어린 어스 드래곤",
+    "sourceId": "185",
+    "obtainDetail": "지원 (지원 포인트)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -1680,6 +4798,9 @@
   {
     "id": "184",
     "name": "어린 아이스 드래곤",
+    "sourceId": "184",
+    "obtainDetail": "지원 (지원 포인트)",
+    "variant": "일반",
     "attr": "수화",
     "attrs": [
       [
@@ -1710,6 +4831,9 @@
   {
     "id": "183",
     "name": "어린 레드 드래곤",
+    "sourceId": "183",
+    "obtainDetail": "지원 (지원 포인트)",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -1740,6 +4864,9 @@
   {
     "id": "182",
     "name": "꼬비오",
+    "sourceId": "182",
+    "obtainDetail": "필드포획 (라토토의 동굴3-4)",
+    "variant": "일반",
     "attr": "풍없음",
     "attrs": [
       [
@@ -1766,6 +4893,9 @@
   {
     "id": "181",
     "name": "꼬비",
+    "sourceId": "181",
+    "obtainDetail": "필드포획 (라토토의복도)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -1796,6 +4926,9 @@
   {
     "id": "180",
     "name": "꼬꼬비",
+    "sourceId": "180",
+    "obtainDetail": "필드포획 (라토토의 동굴 3-3 전역)",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -1826,6 +4959,9 @@
   {
     "id": "179",
     "name": "꼬미",
+    "sourceId": "179",
+    "obtainDetail": "필드포획 (라토토의 복도)",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -1856,6 +4992,9 @@
   {
     "id": "178",
     "name": "카르곤",
+    "sourceId": "178",
+    "obtainDetail": "퀘스트 (2환생 보상)",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -1886,6 +5025,9 @@
   {
     "id": "177",
     "name": "고루루",
+    "sourceId": "177",
+    "obtainDetail": "희귀 (쟈루 섬)",
+    "variant": "일반",
     "attr": "화수",
     "attrs": [
       [
@@ -1916,6 +5058,9 @@
   {
     "id": "176",
     "name": "페루루",
+    "sourceId": "176",
+    "obtainDetail": "희귀 (가우린 섬)",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -1946,6 +5091,9 @@
   {
     "id": "175",
     "name": "성호",
+    "sourceId": "175",
+    "obtainDetail": "희귀 (쟈루 섬)",
+    "variant": "일반",
     "attr": "수없음",
     "attrs": [
       [
@@ -1972,6 +5120,9 @@
   {
     "id": "174",
     "name": "기바바",
+    "sourceId": "174",
+    "obtainDetail": "희귀 (사이너스 섬)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -2002,6 +5153,9 @@
   {
     "id": "173",
     "name": "주니",
+    "sourceId": "173",
+    "obtainDetail": "희귀 (사이너스 섬)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -2032,6 +5186,9 @@
   {
     "id": "172",
     "name": "라루루",
+    "sourceId": "172",
+    "obtainDetail": "희귀 (가우린 섬)",
+    "variant": "일반",
     "attr": "풍화",
     "attrs": [
       [
@@ -2062,6 +5219,9 @@
   {
     "id": "171",
     "name": "킹북이",
+    "sourceId": "171",
+    "obtainDetail": "희귀 (사이너스)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -2092,6 +5252,9 @@
   {
     "id": "170",
     "name": "철북이",
+    "sourceId": "170",
+    "obtainDetail": "희귀 (쿠오산 소동굴 3층)",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -2122,6 +5285,9 @@
   {
     "id": "169",
     "name": "자라북",
+    "sourceId": "169",
+    "obtainDetail": "희귀 (쿠오산 소동굴 4층)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -2152,6 +5318,9 @@
   {
     "id": "168",
     "name": "물북이",
+    "sourceId": "168",
+    "obtainDetail": "희귀 (사이너스)",
+    "variant": "일반",
     "attr": "수없음",
     "attrs": [
       [
@@ -2178,6 +5347,9 @@
   {
     "id": "167",
     "name": "노투투",
+    "sourceId": "167",
+    "obtainDetail": "희귀 (쟈쟈마을 앞마당)",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -2208,6 +5380,9 @@
   {
     "id": "166",
     "name": "푸투투",
+    "sourceId": "166",
+    "obtainDetail": "희귀 (쟈쟈마을 앞마당 )",
+    "variant": "일반",
     "attr": "수지",
     "attrs": [
       [
@@ -2238,6 +5413,9 @@
   {
     "id": "165",
     "name": "푸투",
+    "sourceId": "165",
+    "obtainDetail": "희귀 (쟈루 섬)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -2268,6 +5446,9 @@
   {
     "id": "164",
     "name": "포포",
+    "sourceId": "164",
+    "obtainDetail": "희귀 (쟈쟈마을 앞마당 )",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -2298,6 +5479,9 @@
   {
     "id": "163",
     "name": "꼬꼬미",
+    "sourceId": "163",
+    "obtainDetail": "희귀 (라토토의 복도)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -2328,6 +5512,9 @@
   {
     "id": "162",
     "name": "푸미",
+    "sourceId": "162",
+    "obtainDetail": "희귀 (라토토 동굴 3-4층 전역)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -2358,6 +5545,9 @@
   {
     "id": "161",
     "name": "돌꼬미",
+    "sourceId": "161",
+    "obtainDetail": "희귀 (라토토 동굴 3-3층 전역)",
+    "variant": "일반",
     "attr": "화수",
     "attrs": [
       [
@@ -2388,6 +5578,9 @@
   {
     "id": "160",
     "name": "꼬이미",
+    "sourceId": "160",
+    "obtainDetail": "희귀 (라토토의 복도)",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -2418,6 +5611,9 @@
   {
     "id": "159",
     "name": "바우트",
+    "sourceId": "159",
+    "obtainDetail": "지원 (지원 포인트)",
+    "variant": "일반",
     "attr": "화수",
     "attrs": [
       [
@@ -2448,6 +5644,9 @@
   {
     "id": "158",
     "name": "히파",
+    "sourceId": "158",
+    "obtainDetail": "지원 (지원 포인트)",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -2478,6 +5677,9 @@
   {
     "id": "157",
     "name": "크로아치",
+    "sourceId": "157",
+    "obtainDetail": "필드포획 (크로아치의 방 전역)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -2508,6 +5710,9 @@
   {
     "id": "156",
     "name": "테로노돈",
+    "sourceId": "156",
+    "obtainDetail": "필드포획 (전리품의 방 전역)",
+    "variant": "일반",
     "attr": "수없음",
     "attrs": [
       [
@@ -2534,6 +5739,9 @@
   {
     "id": "155",
     "name": "타키온",
+    "sourceId": "155",
+    "obtainDetail": "필드포획 (복도15 11)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -2564,6 +5772,9 @@
   {
     "id": "154",
     "name": "포이비스",
+    "sourceId": "154",
+    "obtainDetail": "필드포획 (비룡의 지하동굴 2층)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -2594,6 +5805,9 @@
   {
     "id": "153",
     "name": "크랩",
+    "sourceId": "153",
+    "obtainDetail": "필드포획 (포우렌)",
+    "variant": "일반",
     "attr": "수없음",
     "attrs": [
       [
@@ -2620,6 +5834,9 @@
   {
     "id": "152",
     "name": "포레스트크랩",
+    "sourceId": "152",
+    "obtainDetail": "필드포획 (하이하모)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -2650,6 +5867,9 @@
   {
     "id": "151",
     "name": "킹크랩",
+    "sourceId": "151",
+    "obtainDetail": "필드포획 (포우렌)",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -2680,6 +5900,9 @@
   {
     "id": "150",
     "name": "지라크",
+    "sourceId": "150",
+    "obtainDetail": "필드포획 (하이하모)",
+    "variant": "일반",
     "attr": "지없음",
     "attrs": [
       [
@@ -2706,6 +5929,9 @@
   {
     "id": "149",
     "name": "기가로스",
+    "sourceId": "149",
+    "obtainDetail": "필드포획 (아스마르 광산 1층)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -2736,6 +5962,9 @@
   {
     "id": "148",
     "name": "가가로스",
+    "sourceId": "148",
+    "obtainDetail": "필드포획 (아스마르 광산 2층)",
+    "variant": "일반",
     "attr": "화수",
     "attrs": [
       [
@@ -2766,6 +5995,9 @@
   {
     "id": "147",
     "name": "타키",
+    "sourceId": "147",
+    "obtainDetail": "필드포획 (사이너스 섬)",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -2796,6 +6028,9 @@
   {
     "id": "146",
     "name": "호르쿠",
+    "sourceId": "146",
+    "obtainDetail": "필드포획 (쟈루 섬)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -2826,6 +6061,9 @@
   {
     "id": "145",
     "name": "쿠쿠",
+    "sourceId": "145",
+    "obtainDetail": "필드포획 (쟈루 섬)",
+    "variant": "일반",
     "attr": "풍없음",
     "attrs": [
       [
@@ -2852,6 +6090,9 @@
   {
     "id": "144",
     "name": "카키",
+    "sourceId": "144",
+    "obtainDetail": "필드포획 (사이너스 섬)",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -2882,6 +6123,9 @@
   {
     "id": "143",
     "name": "판지",
+    "sourceId": "143",
+    "obtainDetail": "필드포획 (쟈루 섬)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -2912,6 +6156,9 @@
   {
     "id": "142",
     "name": "쟈그라",
+    "sourceId": "142",
+    "obtainDetail": "필드포획 (해저터널 1층 )",
+    "variant": "일반",
     "attr": "수화",
     "attrs": [
       [
@@ -2942,6 +6189,9 @@
   {
     "id": "141",
     "name": "고반케스",
+    "sourceId": "141",
+    "obtainDetail": "필드포획 (쟈루 섬)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -2972,6 +6222,9 @@
   {
     "id": "140",
     "name": "쟈그",
+    "sourceId": "140",
+    "obtainDetail": "필드포획 (해저터널 1층)",
+    "variant": "일반",
     "attr": "수없음",
     "attrs": [
       [
@@ -2998,6 +6251,9 @@
   {
     "id": "139",
     "name": "도르도르",
+    "sourceId": "139",
+    "obtainDetail": "레이드 (고대의 제단)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -3028,6 +6284,9 @@
   {
     "id": "138",
     "name": "베로바드",
+    "sourceId": "138",
+    "obtainDetail": "희귀 (속임수의 동굴)",
+    "variant": "일반",
     "attr": "화수",
     "attrs": [
       [
@@ -3058,6 +6317,9 @@
   {
     "id": "137",
     "name": "베노투리",
+    "sourceId": "137",
+    "obtainDetail": "희귀 (아름산동굴 지하7층)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -3088,6 +6350,9 @@
   {
     "id": "136",
     "name": "베톤",
+    "sourceId": "136",
+    "obtainDetail": "희귀 (쿠링으로의길)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -3118,6 +6383,9 @@
   {
     "id": "135",
     "name": "베노노크",
+    "sourceId": "135",
+    "obtainDetail": "희귀 (쿠링으로의길)",
+    "variant": "일반",
     "attr": "풍화",
     "attrs": [
       [
@@ -3148,6 +6416,9 @@
   {
     "id": "134",
     "name": "프로돈",
+    "sourceId": "134",
+    "obtainDetail": "희귀 (가우린 섬)",
+    "variant": "일반",
     "attr": "수지",
     "attrs": [
       [
@@ -3178,6 +6449,9 @@
   {
     "id": "133",
     "name": "기비노",
+    "sourceId": "133",
+    "obtainDetail": "희귀 (유리의동굴 )",
+    "variant": "일반",
     "attr": "화수",
     "attrs": [
       [
@@ -3208,6 +6482,9 @@
   {
     "id": "132",
     "name": "기라노",
+    "sourceId": "132",
+    "obtainDetail": "희귀 (가우린 섬)",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -3238,6 +6515,9 @@
   {
     "id": "131",
     "name": "타로아",
+    "sourceId": "131",
+    "obtainDetail": "희귀 (쟈루섬)",
+    "variant": "일반",
     "attr": "수화",
     "attrs": [
       [
@@ -3268,6 +6548,9 @@
   {
     "id": "130",
     "name": "기고아",
+    "sourceId": "130",
+    "obtainDetail": "희귀 (진홍의 지하동굴)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -3298,6 +6581,9 @@
   {
     "id": "129",
     "name": "골드곤",
+    "sourceId": "129",
+    "obtainDetail": "희귀 (몽환의 동굴(낮))",
+    "variant": "일반",
     "attr": "풍지",
     "attrs": [
       [
@@ -3328,6 +6614,9 @@
   {
     "id": "128",
     "name": "깡우비",
+    "sourceId": "128",
+    "obtainDetail": "희귀 (쟈루섬)",
+    "variant": "일반",
     "attr": "풍화",
     "attrs": [
       [
@@ -3358,6 +6647,9 @@
   {
     "id": "127",
     "name": "푸이",
+    "sourceId": "127",
+    "obtainDetail": "희귀 (사이너스 섬)",
+    "variant": "일반",
     "attr": "수없음",
     "attrs": [
       [
@@ -3384,6 +6676,9 @@
   {
     "id": "126",
     "name": "푸비",
+    "sourceId": "126",
+    "obtainDetail": "희귀 (사이너스 섬)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -3414,6 +6709,9 @@
   {
     "id": "125",
     "name": "녹우리",
+    "sourceId": "125",
+    "obtainDetail": "희귀 (마리너스 앞마당)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -3444,6 +6742,9 @@
   {
     "id": "124",
     "name": "푸우리",
+    "sourceId": "124",
+    "obtainDetail": "희귀 (마리너스 앞마당)",
+    "variant": "일반",
     "attr": "수화",
     "attrs": [
       [
@@ -3474,6 +6775,9 @@
   {
     "id": "123",
     "name": "부르보",
+    "sourceId": "123",
+    "obtainDetail": "필드포획 (미로 3층)",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -3504,6 +6808,9 @@
   {
     "id": "122",
     "name": "쿠보",
+    "sourceId": "122",
+    "obtainDetail": "퀘스트 (베르가 포획)",
+    "variant": "일반",
     "attr": "수화",
     "attrs": [
       [
@@ -3534,6 +6841,9 @@
   {
     "id": "121",
     "name": "샤크론",
+    "sourceId": "121",
+    "obtainDetail": "지원 (지원포인트)",
+    "variant": "일반",
     "attr": "수없음",
     "attrs": [
       [
@@ -3560,6 +6870,9 @@
   {
     "id": "120",
     "name": "파베로스",
+    "sourceId": "120",
+    "obtainDetail": "지원 (지원포인트)",
+    "variant": "일반",
     "attr": "풍없음",
     "attrs": [
       [
@@ -3586,6 +6899,9 @@
   {
     "id": "119",
     "name": "카우거",
+    "sourceId": "119",
+    "obtainDetail": "지원 (지원포인트)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -3616,6 +6932,9 @@
   {
     "id": "118",
     "name": "갈푸스",
+    "sourceId": "118",
+    "obtainDetail": "지원 (지원포인트)",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -3646,6 +6965,9 @@
   {
     "id": "117",
     "name": "아리노스",
+    "sourceId": "117",
+    "obtainDetail": "퀘스트 (코스B 보상)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -3676,6 +6998,9 @@
   {
     "id": "116",
     "name": "아토라지",
+    "sourceId": "116",
+    "obtainDetail": "퀘스트 (코스C 보상)",
+    "variant": "일반",
     "attr": "수없음",
     "attrs": [
       [
@@ -3702,6 +7027,9 @@
   {
     "id": "115",
     "name": "스토라지",
+    "sourceId": "115",
+    "obtainDetail": "퀘스트 (코스D 보상)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -3732,6 +7060,9 @@
   {
     "id": "114",
     "name": "다이노로스",
+    "sourceId": "114",
+    "obtainDetail": "퀘스트 (코스A 보상)",
+    "variant": "일반",
     "attr": "수화",
     "attrs": [
       [
@@ -3762,6 +7093,9 @@
   {
     "id": "113",
     "name": "아코로비",
+    "sourceId": "113",
+    "obtainDetail": "필드포획 (하이하모)",
+    "variant": "일반",
     "attr": "수지",
     "attrs": [
       [
@@ -3792,6 +7126,9 @@
   {
     "id": "112",
     "name": "그린고르",
+    "sourceId": "112",
+    "obtainDetail": "필드포획 (눈물의 동굴 앞마당)",
+    "variant": "일반",
     "attr": "지없음",
     "attrs": [
       [
@@ -3818,6 +7155,9 @@
   {
     "id": "111",
     "name": "쿠팡",
+    "sourceId": "111",
+    "obtainDetail": "필드포획 (포우렌)",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -3848,6 +7188,9 @@
   {
     "id": "110",
     "name": "쿠아",
+    "sourceId": "110",
+    "obtainDetail": "필드포획 (포우렌)",
+    "variant": "일반",
     "attr": "수화",
     "attrs": [
       [
@@ -3878,6 +7221,9 @@
   {
     "id": "109",
     "name": "프이토",
+    "sourceId": "109",
+    "obtainDetail": "퀘스트 (코스A/C 보상)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -3908,6 +7254,9 @@
   {
     "id": "108",
     "name": "라이혼",
+    "sourceId": "108",
+    "obtainDetail": "퀘스트 (코스B/D 보상)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -3938,6 +7287,9 @@
   {
     "id": "107",
     "name": "라나프",
+    "sourceId": "107",
+    "obtainDetail": "퀘스트 (초보 모험가 퀘스트 보상)",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -3968,6 +7320,9 @@
   {
     "id": "106",
     "name": "푸룡",
+    "sourceId": "106",
+    "obtainDetail": "복권 (복권 1등 페트 쟈쟈)",
+    "variant": "일반",
     "attr": "수지",
     "attrs": [
       [
@@ -3998,6 +7353,9 @@
   {
     "id": "105",
     "name": "골로스",
+    "sourceId": "105",
+    "obtainDetail": "퀘스트 (5환생 퀘스트 )",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -4028,6 +7386,9 @@
   {
     "id": "104",
     "name": "모가로스",
+    "sourceId": "104",
+    "obtainDetail": "퀘스트 (퀴즈마스터(카루타나))",
+    "variant": "일반",
     "attr": "화수",
     "attrs": [
       [
@@ -4058,6 +7419,9 @@
   {
     "id": "103",
     "name": "오르곤",
+    "sourceId": "103",
+    "obtainDetail": "퀘스트 (퀴즈마스터(마리너스))",
+    "variant": "일반",
     "attr": "수화",
     "attrs": [
       [
@@ -4088,6 +7452,9 @@
   {
     "id": "102",
     "name": "오가로스",
+    "sourceId": "102",
+    "obtainDetail": "필드포획 (아스마르 광산 6층)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -4118,6 +7485,9 @@
   {
     "id": "101",
     "name": "리비노",
+    "sourceId": "101",
+    "obtainDetail": "필드포획 (유리의 동굴 13층)",
+    "variant": "일반",
     "attr": "지없음",
     "attrs": [
       [
@@ -4144,6 +7514,9 @@
   {
     "id": "100",
     "name": "얀기로",
+    "sourceId": "100",
+    "obtainDetail": "필드포획 (가우린 섬)",
+    "variant": "일반",
     "attr": "화수",
     "attrs": [
       [
@@ -4174,6 +7547,9 @@
   {
     "id": "99",
     "name": "반보로",
+    "sourceId": "99",
+    "obtainDetail": "퀘스트 (오형제의 시험)",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -4204,6 +7580,9 @@
   {
     "id": "98",
     "name": "부르돈",
+    "sourceId": "98",
+    "obtainDetail": "퀘스트 (오형제의 시험)",
+    "variant": "일반",
     "attr": "풍화",
     "attrs": [
       [
@@ -4234,6 +7613,9 @@
   {
     "id": "97",
     "name": "반기노",
+    "sourceId": "97",
+    "obtainDetail": "필드포획 (가우린 섬)",
+    "variant": "일반",
     "attr": "화없음",
     "attrs": [
       [
@@ -4260,6 +7642,9 @@
   {
     "id": "95",
     "name": "마모나스",
+    "sourceId": "95",
+    "obtainDetail": "필드포획 (가우린 섬)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -4290,6 +7675,9 @@
   {
     "id": "94",
     "name": "만모르",
+    "sourceId": "94",
+    "obtainDetail": "필드포획 (가우린채석장 5층)",
+    "variant": "일반",
     "attr": "화수",
     "attrs": [
       [
@@ -4320,6 +7708,9 @@
   {
     "id": "93",
     "name": "만모",
+    "sourceId": "93",
+    "obtainDetail": "필드포획 (가우린채석장 3층)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -4350,6 +7741,9 @@
   {
     "id": "92",
     "name": "프라키토스",
+    "sourceId": "92",
+    "obtainDetail": "필드포획 (세르노스 섬)",
+    "variant": "일반",
     "attr": "화수",
     "attrs": [
       [
@@ -4380,6 +7774,9 @@
   {
     "id": "91",
     "name": "프리토스",
+    "sourceId": "91",
+    "obtainDetail": "복권 (복권 1등 페트 샴기르)",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -4410,6 +7807,9 @@
   {
     "id": "90",
     "name": "다이노스",
+    "sourceId": "90",
+    "obtainDetail": "필드포획 (칠흑의 동굴18층)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -4440,6 +7840,9 @@
   {
     "id": "89",
     "name": "루이",
+    "sourceId": "89",
+    "obtainDetail": "필드포획 (벽청의동굴(나) 8층)",
+    "variant": "일반",
     "attr": "화수",
     "attrs": [
       [
@@ -4470,6 +7873,9 @@
   {
     "id": "88",
     "name": "무이",
+    "sourceId": "88",
+    "obtainDetail": "필드포획 (쿠르의 해저통로)",
+    "variant": "일반",
     "attr": "수없음",
     "attrs": [
       [
@@ -4496,6 +7902,9 @@
   {
     "id": "87",
     "name": "씨보스",
+    "sourceId": "87",
+    "obtainDetail": "필드포획 (쟈루 섬)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -4526,6 +7935,9 @@
   {
     "id": "86",
     "name": "투이",
+    "sourceId": "86",
+    "obtainDetail": "퀘스트 (3환생 보상)",
+    "variant": "일반",
     "attr": "수화",
     "attrs": [
       [
@@ -4556,6 +7968,9 @@
   {
     "id": "85",
     "name": "메가로스",
+    "sourceId": "85",
+    "obtainDetail": "퀘스트 (4환생 보상)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -4586,6 +8001,9 @@
   {
     "id": "84",
     "name": "비트로스",
+    "sourceId": "84",
+    "obtainDetail": "필드포획 (아스마르 광산 6층)",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -4616,6 +8034,9 @@
   {
     "id": "83",
     "name": "토르프스",
+    "sourceId": "83",
+    "obtainDetail": "퀘스트 (코스A 보상)",
+    "variant": "일반",
     "attr": "지없음",
     "attrs": [
       [
@@ -4642,6 +8063,9 @@
   {
     "id": "82",
     "name": "토리케라",
+    "sourceId": "82",
+    "obtainDetail": "필드포획 (사이너스 섬)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -4672,6 +8096,9 @@
   {
     "id": "81",
     "name": "펜타스",
+    "sourceId": "81",
+    "obtainDetail": "필드포획 (사이너스 섬)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -4702,6 +8129,9 @@
   {
     "id": "80",
     "name": "토리노프스",
+    "sourceId": "80",
+    "obtainDetail": "필드포획 (쟈루 섬)",
+    "variant": "일반",
     "attr": "화수",
     "attrs": [
       [
@@ -4732,6 +8162,9 @@
   {
     "id": "79",
     "name": "베르가",
+    "sourceId": "79",
+    "obtainDetail": "필드포획 (쟈루 섬)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -4762,6 +8195,9 @@
   {
     "id": "78",
     "name": "베루루",
+    "sourceId": "78",
+    "obtainDetail": "필드포획 (쟈루 섬 )",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -4792,6 +8228,9 @@
   {
     "id": "77",
     "name": "고르고르",
+    "sourceId": "77",
+    "obtainDetail": "필드포획 (가우린 섬)",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -4822,6 +8261,9 @@
   {
     "id": "76",
     "name": "노르노르",
+    "sourceId": "76",
+    "obtainDetail": "복권 (복권 1등 페트 마리너스)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -4852,6 +8294,9 @@
   {
     "id": "75",
     "name": "카우",
+    "sourceId": "75",
+    "obtainDetail": "필드포획 (숲의 동굴 4층)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -4882,6 +8327,9 @@
   {
     "id": "74",
     "name": "바우",
+    "sourceId": "74",
+    "obtainDetail": "필드포획 (숲의 동굴 2층)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -4912,6 +8360,9 @@
   {
     "id": "73",
     "name": "바카",
+    "sourceId": "73",
+    "obtainDetail": "필드포획 (쟈루 섬)",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -4942,6 +8393,9 @@
   {
     "id": "72",
     "name": "카쿠",
+    "sourceId": "72",
+    "obtainDetail": "필드포획 (쟈루 섬)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -4972,6 +8426,9 @@
   {
     "id": "71",
     "name": "토로쟈",
+    "sourceId": "71",
+    "obtainDetail": "필드포획 (속임수의 동굴 전역 포획)",
+    "variant": "일반",
     "attr": "화수",
     "attrs": [
       [
@@ -5002,6 +8459,9 @@
   {
     "id": "70",
     "name": "포보",
+    "sourceId": "70",
+    "obtainDetail": "필드포획 (고야산 동굴 4층 전역 포획)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -5032,6 +8492,9 @@
   {
     "id": "69",
     "name": "휴보",
+    "sourceId": "69",
+    "obtainDetail": "퀘스트 (황금색 페트(카난) 퀘스트 보상)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -5062,6 +8525,9 @@
   {
     "id": "68",
     "name": "고르고",
+    "sourceId": "68",
+    "obtainDetail": "필드포획 (폐허가 된 탄광 4층)",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -5092,6 +8558,9 @@
   {
     "id": "67",
     "name": "투르돈",
+    "sourceId": "67",
+    "obtainDetail": "필드포획 (가우린 섬)",
+    "variant": "일반",
     "attr": "화수",
     "attrs": [
       [
@@ -5122,6 +8591,9 @@
   {
     "id": "66",
     "name": "기라돈",
+    "sourceId": "66",
+    "obtainDetail": "필드포획 (폐허가 된 탄광 4층)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -5152,6 +8624,9 @@
   {
     "id": "65",
     "name": "고르돈",
+    "sourceId": "65",
+    "obtainDetail": "필드포획 (가우린 섬)",
+    "variant": "일반",
     "attr": "지없음",
     "attrs": [
       [
@@ -5178,6 +8653,9 @@
   {
     "id": "64",
     "name": "골드카비트",
+    "sourceId": "64",
+    "obtainDetail": "필드포획 (샴기르 앞마당)",
+    "variant": "일반",
     "attr": "풍없음",
     "attrs": [
       [
@@ -5204,6 +8682,9 @@
   {
     "id": "63",
     "name": "큐이",
+    "sourceId": "63",
+    "obtainDetail": "필드포획 (샴기르 앞마당)",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -5234,6 +8715,9 @@
   {
     "id": "62",
     "name": "케이비",
+    "sourceId": "62",
+    "obtainDetail": "기타 (초기 지원 페트)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -5264,6 +8748,9 @@
   {
     "id": "61",
     "name": "카비트",
+    "sourceId": "61",
+    "obtainDetail": "필드포획 (사이너스 섬)",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -5294,6 +8781,9 @@
   {
     "id": "60",
     "name": "리스키",
+    "sourceId": "60",
+    "obtainDetail": "필드포획 (쟈루섬)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -5324,6 +8814,9 @@
   {
     "id": "59",
     "name": "포링",
+    "sourceId": "59",
+    "obtainDetail": "필드포획 (쟈루 섬)",
+    "variant": "일반",
     "attr": "화수",
     "attrs": [
       [
@@ -5354,6 +8847,9 @@
   {
     "id": "58",
     "name": "쿠쿠르",
+    "sourceId": "58",
+    "obtainDetail": "기타 (초기 지원 페트)",
+    "variant": "일반",
     "attr": "화수",
     "attrs": [
       [
@@ -5384,6 +8880,9 @@
   {
     "id": "57",
     "name": "쿠링",
+    "sourceId": "57",
+    "obtainDetail": "필드포획 (쟈루섬)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -5414,6 +8913,9 @@
   {
     "id": "56",
     "name": "카르기안",
+    "sourceId": "56",
+    "obtainDetail": "필드포획 (칠흑의 동굴 5층)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -5444,6 +8946,9 @@
   {
     "id": "55",
     "name": "쿠타스",
+    "sourceId": "55",
+    "obtainDetail": "필드포획 (칠흑의 동굴 11층)",
+    "variant": "일반",
     "attr": "화수",
     "attrs": [
       [
@@ -5474,6 +8979,9 @@
   {
     "id": "54",
     "name": "아이카스",
+    "sourceId": "54",
+    "obtainDetail": "필드포획 (칠흑의 동굴 9층)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -5504,6 +9012,9 @@
   {
     "id": "53",
     "name": "로기안",
+    "sourceId": "53",
+    "obtainDetail": "필드포획 (유리의 동굴 13층 전역)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -5534,6 +9045,9 @@
   {
     "id": "52",
     "name": "코로카스",
+    "sourceId": "52",
+    "obtainDetail": "필드포획 (도둑의 동굴 지하 4층)",
+    "variant": "일반",
     "attr": "화수",
     "attrs": [
       [
@@ -5564,6 +9078,9 @@
   {
     "id": "51",
     "name": "쿠카스",
+    "sourceId": "51",
+    "obtainDetail": "필드포획 (통쿠링 탄광 2층)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -5594,6 +9111,9 @@
   {
     "id": "50",
     "name": "카타르카스",
+    "sourceId": "50",
+    "obtainDetail": "필드포획 (동쿠링 탄광1층)",
+    "variant": "일반",
     "attr": "지없음",
     "attrs": [
       [
@@ -5620,6 +9140,9 @@
   {
     "id": "49",
     "name": "쿠로로",
+    "sourceId": "49",
+    "obtainDetail": "기타 (초기 지원 페트)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -5650,6 +9173,9 @@
   {
     "id": "48",
     "name": "루니",
+    "sourceId": "48",
+    "obtainDetail": "필드포획 (사이너스 섬)",
+    "variant": "일반",
     "attr": "지없음",
     "attrs": [
       [
@@ -5676,6 +9202,9 @@
   {
     "id": "47",
     "name": "토루루",
+    "sourceId": "47",
+    "obtainDetail": "퀘스트 (코스D 보상)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -5706,6 +9235,9 @@
   {
     "id": "46",
     "name": "후바바",
+    "sourceId": "46",
+    "obtainDetail": "필드포획 (사이너스 섬)",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -5736,6 +9268,9 @@
   {
     "id": "45",
     "name": "라고고",
+    "sourceId": "45",
+    "obtainDetail": "필드포획 (가우린 섬)",
+    "variant": "일반",
     "attr": "화없음",
     "attrs": [
       [
@@ -5762,6 +9297,9 @@
   {
     "id": "44",
     "name": "보크곤",
+    "sourceId": "44",
+    "obtainDetail": "필드포획 (몽환의 동굴 (낮))",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -5792,6 +9330,9 @@
   {
     "id": "43",
     "name": "다고스",
+    "sourceId": "43",
+    "obtainDetail": "필드포획 (사이너스 섬)",
+    "variant": "일반",
     "attr": "화수",
     "attrs": [
       [
@@ -5822,6 +9363,9 @@
   {
     "id": "42",
     "name": "타로곤",
+    "sourceId": "42",
+    "obtainDetail": "필드포획 (사이너스 섬)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -5852,6 +9396,9 @@
   {
     "id": "41",
     "name": "네고스",
+    "sourceId": "41",
+    "obtainDetail": "필드포획 (쟈루 섬)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -5882,6 +9429,9 @@
   {
     "id": "40",
     "name": "아고아",
+    "sourceId": "40",
+    "obtainDetail": "필드포획 (진홍의 지하동굴(나) 6층 전역)",
+    "variant": "일반",
     "attr": "화수",
     "attrs": [
       [
@@ -5912,6 +9462,9 @@
   {
     "id": "39",
     "name": "돌북이",
+    "sourceId": "39",
+    "obtainDetail": "필드포획 (쿠오산 소동굴 4층)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -5942,6 +9495,9 @@
   {
     "id": "38",
     "name": "깡북이",
+    "sourceId": "38",
+    "obtainDetail": "필드포획 (쿠오산 소동굴 3층)",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -5972,6 +9528,9 @@
   {
     "id": "37",
     "name": "북이",
+    "sourceId": "37",
+    "obtainDetail": "필드포획 (사이너스 섬)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -6002,6 +9561,9 @@
   {
     "id": "36",
     "name": "노북이",
+    "sourceId": "36",
+    "obtainDetail": "필드포획 (사이너스 섬)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -6032,6 +9594,9 @@
   {
     "id": "35",
     "name": "베로포리",
+    "sourceId": "35",
+    "obtainDetail": "필드포획 (속임수의 동굴 전역 포획)",
+    "variant": "일반",
     "attr": "화수",
     "attrs": [
       [
@@ -6062,6 +9627,9 @@
   {
     "id": "34",
     "name": "베로보크",
+    "sourceId": "34",
+    "obtainDetail": "필드포획 (아름산의 동굴 지하 7층)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -6092,6 +9660,9 @@
   {
     "id": "33",
     "name": "베로로크",
+    "sourceId": "33",
+    "obtainDetail": "필드포획 (쿠링으로의 길 1층)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -6122,6 +9693,9 @@
   {
     "id": "32",
     "name": "베론",
+    "sourceId": "32",
+    "obtainDetail": "필드포획 (쿠링으로의 길 1층)",
+    "variant": "일반",
     "attr": "수없음",
     "attrs": [
       [
@@ -6148,6 +9722,9 @@
   {
     "id": "31",
     "name": "오투투",
+    "sourceId": "31",
+    "obtainDetail": "기타 (초기 지원 페트)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -6178,6 +9755,9 @@
   {
     "id": "30",
     "name": "투투",
+    "sourceId": "30",
+    "obtainDetail": "필드포획 (쟈루섬)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -6208,6 +9788,9 @@
   {
     "id": "29",
     "name": "우푸",
+    "sourceId": "29",
+    "obtainDetail": "필드포획 (쟈쟈마을 앞마당)",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -6238,6 +9821,9 @@
   {
     "id": "28",
     "name": "푸푸",
+    "sourceId": "28",
+    "obtainDetail": "필드포획 (쟈쟈마을 앞마당 )",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -6268,6 +9854,9 @@
   {
     "id": "27",
     "name": "얼룩부이비",
+    "sourceId": "27",
+    "obtainDetail": "퀘스트 (퀴즈마스터 샴기르)",
+    "variant": "일반",
     "attr": "지없음",
     "attrs": [
       [
@@ -6294,6 +9883,9 @@
   {
     "id": "26",
     "name": "부이비",
+    "sourceId": "26",
+    "obtainDetail": "필드포획 (쟈루 섬)",
+    "variant": "일반",
     "attr": "화수",
     "attrs": [
       [
@@ -6324,6 +9916,9 @@
   {
     "id": "25",
     "name": "부이",
+    "sourceId": "25",
+    "obtainDetail": "필드포획 (사이너스 섬)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -6354,6 +9949,9 @@
   {
     "id": "24",
     "name": "골드부비",
+    "sourceId": "24",
+    "obtainDetail": "퀘스트 (퀴즈마스터 카루타나)",
+    "variant": "일반",
     "attr": "화풍",
     "attrs": [
       [
@@ -6384,6 +9982,9 @@
   {
     "id": "23",
     "name": "부비",
+    "sourceId": "23",
+    "obtainDetail": "필드포획 (사이너스 섬)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [
@@ -6414,6 +10015,9 @@
   {
     "id": "22",
     "name": "환생얼룩우리",
+    "sourceId": "22",
+    "obtainDetail": "퀘스트 (1환생 보상)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -6444,6 +10048,9 @@
   {
     "id": "21",
     "name": "실버우리",
+    "sourceId": "21",
+    "obtainDetail": "복권 (복권 1등 페트 카루타나)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -6474,6 +10081,9 @@
   {
     "id": "19",
     "name": "얼룩우리",
+    "sourceId": "19",
+    "obtainDetail": "필드포획 (마리너스 앞마당 포획)",
+    "variant": "일반",
     "attr": "지없음",
     "attrs": [
       [
@@ -6500,6 +10110,9 @@
   {
     "id": "18",
     "name": "두리",
+    "sourceId": "18",
+    "obtainDetail": "기타 (초기 지원 페트)",
+    "variant": "일반",
     "attr": "화수",
     "attrs": [
       [
@@ -6530,6 +10143,9 @@
   {
     "id": "17",
     "name": "우리",
+    "sourceId": "17",
+    "obtainDetail": "필드포획 (마리너스 앞마당 포획)",
+    "variant": "일반",
     "attr": "지수",
     "attrs": [
       [

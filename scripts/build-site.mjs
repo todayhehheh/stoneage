@@ -1,6 +1,7 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
+import { createHash } from 'node:crypto';
 
 const SOURCE_URL = 'https://stoneage-calculator.pages.dev/';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -18,7 +19,9 @@ try {
   const previousMatch = previous.match(/<script\s+type="application\/json"\s+id="pet-data">([\s\S]*?)<\/script>/);
   if (previousMatch) {
     for (const pet of JSON.parse(previousMatch[1])) {
-      if (pet.img && pet.imageUrl) cachedImages.set(pet.imageUrl, { img: pet.img, imageMime: pet.imageMime });
+      if (pet.imageUrl && (pet.img || pet.assetImage)) cachedImages.set(pet.imageUrl, {
+        img: pet.img || (await readFile(path.join(root, 'dist', pet.assetImage))).toString('base64'), imageMime: pet.imageMime
+      });
     }
   }
 } catch (_error) {
@@ -162,19 +165,19 @@ function makeRankComparison(update, production) {
   };
 }
 
-const updatePets = [
-  ...JSON.parse(await readFile(updateDataPath, 'utf8')),
-  ...JSON.parse(await readFile(clientCatalogPath, 'utf8')),
-];
+const snapshotPets = JSON.parse(await readFile(updateDataPath, 'utf8'));
+const supplementPets = JSON.parse(await readFile(clientCatalogPath, 'utf8'))
+  .filter(pet => !snapshotPets.some(item => item.name === pet.name))
+  .map(pet => ({ ...pet, id: 'catalog-' + pet.id }));
+const updatePets = [...snapshotPets, ...supplementPets];
 // Explicit user corrections take precedence over imported reference values.
 const initialCorrections = JSON.parse(await readFile(path.join(root, 'data', 'pet-initial-corrections.json'), 'utf8'));
 for (const [name, initS] of Object.entries(initialCorrections)) {
-  const update = updatePets.find(pet => pet.name === name);
+  const update = updatePets.find(pet => pet.name === name && (!pet.variant || pet.variant === '일반'));
   if (!update) throw new Error(`Corrected pet missing: ${name}`);
   update.initS = initS;
 }
 const obtainDetails = JSON.parse(await readFile(obtainDataPath, 'utf8'));
-const saleGrades = JSON.parse(await readFile(path.join(root, 'data', 'pet-sale-grades.json'), 'utf8'));
 const imageResults = new Map();
 let imageIndex = 0;
 await Promise.all(Array.from({ length: 6 }, async () => {
@@ -182,6 +185,12 @@ await Promise.all(Array.from({ length: 6 }, async () => {
     const update = updatePets[imageIndex++];
     if (update.externalImage) {
       imageResults.set(update.id, { externalImage: true });
+      continue;
+    }
+    if (update.imageUrl.startsWith('client-catalog:')) {
+      const label = update.name.slice(0, 2);
+      const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128"><rect width="128" height="128" rx="24" fill="#e7dcc8"/><circle cx="64" cy="49" r="25" fill="#b98c58"/><path d="M25 113c4-27 21-40 39-40s35 13 39 40" fill="#b98c58"/><text x="64" y="121" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#3f2d20">${label}</text></svg>`;
+      imageResults.set(update.id, { img: Buffer.from(svg).toString('base64'), imageMime: 'image/svg+xml' });
       continue;
     }
     const cached = cachedImages.get(update.imageUrl);
@@ -197,24 +206,10 @@ await Promise.all(Array.from({ length: 6 }, async () => {
     imageResults.set(update.id, { img: bytes.toString('base64'), imageMime });
   }
 }));
-const additionalPets = JSON.parse(await readFile(path.join(root, 'data', 'additional-pets.json'), 'utf8'));
-const missingPortrait = '<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192"><text x="96" y="100" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#7b6b5e">이미지 미등록</text></svg>';
-for (const pet of additionalPets) {
-  if (updatePets.some(item => item.id === pet.id || item.name === pet.name)) continue;
-  updatePets.push(pet);
-  if (pet.imageFile) {
-    const imagePath = path.resolve(root, pet.imageFile);
-    if (!imagePath.startsWith(root + path.sep)) throw new Error(`Image path outside project: ${pet.name}`);
-    const bytes = await readFile(imagePath);
-    if (bytes.subarray(0, 3).toString() !== 'GIF') throw new Error(`Expected GIF: ${pet.name}`);
-    imageResults.set(pet.id, { img: bytes.toString('base64'), imageMime: 'image/gif' });
-  } else {
-    imageResults.set(pet.id, { img: Buffer.from(missingPortrait).toString('base64'), imageMime: 'image/svg+xml' });
-  }
-}
 let addedPets = 0;
 for (const update of updatePets) {
-  const existing = pets.find(pet => String(pet.id) === update.id || pet.name === update.name);
+  const existing = pets.find(pet => String(pet.id) === update.id)
+    || (!update.sourceId ? pets.find(pet => pet.name === update.name) : undefined);
   const image = imageResults.get(update.id);
   if (existing && !Object.hasOwn(initialCorrections, update.name) && JSON.stringify(existing.growthS) === JSON.stringify(update.growthS)
       && JSON.stringify(existing.initS) === JSON.stringify(update.initS)) {
@@ -254,9 +249,15 @@ for (const update of updatePets) {
   rankCompare[pet.id] = makeRankComparison(update, pet);
 }
 if (new Set(pets.map(pet => pet.id)).size !== pets.length) throw new Error('Duplicate merged IDs');
-if (new Set(pets.map(pet => pet.name)).size !== pets.length) throw new Error('Duplicate merged names');
-const petCount = pets.length;
-const rideableCount = pets.filter(pet => pet.rideable).length;
+for (const pet of pets) {
+  pet.variant ||= '일반';
+  const siblings = pets.filter(item => item.name === pet.name);
+  const sameVariant = siblings.filter(item => (item.variant || '일반') === pet.variant);
+  pet.displayName = siblings.length > 1 || pet.variant !== '일반'
+    ? `${pet.name} · ${pet.variant}${sameVariant.length > 1 ? ' #' + pet.id : ''}` : pet.name;
+}
+const petCount = new Set(pets.map(pet => pet.name)).size;
+const rideableCount = new Set(pets.filter(pet => pet.rideable).map(pet => pet.name)).size;
 pets.sort((left, right) => {
   const leftNumeric = /^\d+$/.test(left.id);
   const rightNumeric = /^\d+$/.test(right.id);
@@ -265,8 +266,16 @@ pets.sort((left, right) => {
   if (rightNumeric) return 1;
   return left.id.localeCompare(right.id);
 });
-for (const pet of pets) pet.obtainDetail = obtainDetails[pet.name] || pet.obtain;
-for (const pet of pets) pet.saleGrade = pet.saleGrade || saleGrades[pet.name] || null;
+for (const pet of pets) pet.obtainDetail ||= obtainDetails[pet.sourceId || pet.id] || pet.obtain;
+await mkdir(path.join(root, 'dist', 'pet-images'), { recursive: true });
+for (const pet of pets) {
+  if (!pet.img || pet.externalImage) continue;
+  const bytes = Buffer.from(pet.img, 'base64');
+  const extension = pet.imageMime === 'image/svg+xml' ? 'svg' : (pet.imageMime || 'image/webp').split('/')[1];
+  pet.assetImage = 'pet-images/' + createHash('sha256').update(bytes).digest('hex').slice(0, 24) + '.' + extension;
+  await writeFile(path.join(root, 'dist', pet.assetImage), bytes);
+  pet.img = '';
+}
 html = html.replace(petDataPattern, `$1${JSON.stringify(pets)}$3`);
 html = html.replace(rankDataPattern, `$1${JSON.stringify(rankCompare)}$3`);
 html = html.replaceAll('data:image/webp;base64,${p.img}', 'data:${p.imageMime||\'image/webp\'};base64,${p.img}');
@@ -461,12 +470,26 @@ replaceRequired(
 
 replaceRequired(
   `    const list = PETS.filter(p=>matchesFilter(p,q));`,
-  `    const list = PETS.filter(p=>matchesFilter(p,q));
+  `    const groups=new Map();
+    for(const pet of PETS.filter(p=>matchesFilter(p,q))){
+      const current=groups.get(pet.name);
+      if(!current || pet.variant==='일반')groups.set(pet.name,pet);
+    }
+    const list = [...groups.values()];
     if(sortKey){
       const metric=p=>sortKey==='total'?p.growthS.slice(1).reduce((sum,value)=>sum+value,0):p.growthS[+sortKey];
       list.sort((a,b)=>(metric(a)-metric(b))*sortDirection || a.name.localeCompare(b.name,'ko'));
     }`,
   'growth sorting application'
+);
+
+replaceRequired('${list.length} / ${PETS.length}마리', '${list.length} / ${new Set(PETS.map(p=>p.name)).size}마리', 'group catalog count');
+html = html.replaceAll('p.id===selectedId', 'p.name===findPet(selectedId)?.name');
+html = html.replaceAll('card.dataset.id===id', 'findPet(card.dataset.id)?.name===p.name');
+replaceRequired(
+  'if(favorites.has(id)) favorites.delete(id); else favorites.add(id);',
+  'const siblings=PETS.filter(p=>p.name===findPet(id).name); const remove=siblings.some(p=>favorites.has(p.id)); siblings.forEach(p=>{if(remove)favorites.delete(p.id);else favorites.add(p.id);});',
+  'group favorites'
 );
 
 replaceRequired(
@@ -475,6 +498,7 @@ replaceRequired(
     if(browseMode==='ride' && !p.rideable) return false;`,
   'rideable filter'
 );
+html = html.replaceAll('favorites.has(p.id)', 'PETS.some(item=>item.name===p.name && favorites.has(item.id))');
 
 replaceRequired(
   `          <span class="pname">\${p.name}</span>`,
@@ -484,9 +508,21 @@ replaceRequired(
   'rideable badge'
 );
 
+replaceRequired(
+  'return p.name.includes(q) || p._cho.includes(expandClusters(q));',
+  "return (p.displayName||p.name).includes(q) || p._cho.includes(expandClusters(q));",
+  'variant search'
+);
+
 replacePattern(
   /  function renderDetail\(p\)\{[\s\S]*?\n  \}\n\n  const GRADES =/,
-  `  function renderDetail(p){
+  `  function variantTabs(p){
+    const order=['일반','환생','진화','환생·진화'];
+    const siblings=PETS.filter(item=>item.name===p.name).sort((a,b)=>order.indexOf(a.variant)-order.indexOf(b.variant));
+    if(siblings.length<2)return '';
+    return '<div class="variant-tabs" role="tablist" aria-label="펫 형태">'+siblings.map(item=>'<button type="button" role="tab" data-variant-id="'+item.id+'" aria-selected="'+(item.id===p.id)+'">'+item.variant+(siblings.filter(other=>other.variant===item.variant).length>1?' #'+item.id:'')+'</button>').join('')+'</div>';
+  }
+  function renderDetail(p){
     const growthLabels=['내구','공격','방어','순발'];
     els.detail.innerHTML = \`
       <div class="pet-detail">
@@ -494,13 +530,13 @@ replacePattern(
         <div class="pet-identity">
           <span class="detail-eyebrow">선택한 페트</span>
           <h2 class="pd-name">\${p.name}</h2>
+          \${variantTabs(p)}
           <div class="pd-meta">
             <span class="pet-attr-detail">\${(p.attrs||[]).map(([name,value])=>'<i data-attr="'+name+'">'+name+' '+value+'</i>').join('')}</span>
             \${p.rideable?'<span class="tag">탑승 가능</span>':''}
             \${p.approx?'<span class="tag warn">추정 데이터</span>':(!p.ok?'<span class="tag warn">계산 미지원</span>':'')}
           </div>
           <div class="obtain-card"><span>획득 방법</span><strong>\${p.obtainDetail||p.obtain}</strong></div>
-          <div class="sale-info"><span>판매 등급</span><strong>\${p.saleGrade||'미확인'}</strong></div>
         </div>
       </div>
       <div class="growth-panel">
@@ -511,9 +547,10 @@ replacePattern(
       <div class="stat-grid" id="statGrid"></div>
       <div class="calc-row"><button class="calc-btn" id="calcBtn" \${p.ok?'':'disabled'}>등급 계산</button></div>
     \`;
+    els.detail.querySelectorAll('[data-variant-id]').forEach(button=>button.addEventListener('click',()=>{selectPet(button.dataset.variantId);renderGrid();}));
     const grid=document.getElementById('statGrid');
     grid.innerHTML=STAT_LABELS.map((lbl,i)=>\`
-      <label class="stat-box"><span class="slabel">\${lbl}</span>
+      <label class="stat-box"><span class="slabel">\${lbl}(\${p.initS[i]})</span>
         <div class="stat-stepper"><button type="button" data-i="\${i}" data-d="-1" aria-label="\${lbl} 감소">−</button>
         <input type="number" inputmode="numeric" id="stat-\${i}" value="\${statVals[i]}" \${p.ok?'':'disabled'}>
         <button type="button" data-i="\${i}" data-d="1" aria-label="\${lbl} 증가">+</button></div>
@@ -529,12 +566,18 @@ replacePattern(
 
 replacePattern(
   /    const rows = GRADES\.filter\(g=>counts\[g\]\)[\s\S]*?\n    \}\);\n  \}\n\n  \/\/ RANK별 보정계수/,
-  `    els.results.innerHTML=\`
+  `    const rows=GRADES.filter(g=>counts[g]).map(g=>{
+      const pct=counts[g]/total*100;
+      return \`<div class="grade-simple \${g===topGrade?'is-top':''}"><span class="glabel">\${g}등급</span><div class="gtrack"><div class="gfill" style="width:\${pct.toFixed(2)}%"></div></div><strong class="gpct">\${pct.toFixed(1)}%</strong></div>\`;
+    }).join('');
+    els.results.innerHTML=\`
       <div class="result-hero">
         <div class="primary-result"><span>최고 가능 등급</span><strong class="mono">\${topGrade}<small>등급</small></strong></div>
         <div class="primary-result probability"><span>+8 환각 확률</span><strong class="mono">\${eightPct.toFixed(2)}<small>%</small></strong></div>
       </div>
       \${(isApprox||devFlag)?'<p class="result-caution">추정 데이터가 포함된 펫으로 결과는 참고용입니다.</p>':''}
+      <div class="distribution-heading"><strong>가능 등급 분포</strong></div>
+      <div class="grade-list simple">\${rows}</div>
     \`;
   }
 
@@ -732,21 +775,12 @@ const rebirthScript = `
     return '<article class="rebirth-stage" data-stage-card="'+i+'"><div class="stage-title"><strong>'+i+'환 → '+(i+1)+'환</strong><span>'+String(i+1).padStart(2,'0')+'</span></div><div class="rebirth-fields"><label class="rebirth-field full"><span>초기 스탯</span><input type="number" data-r-base="'+i+'" value="'+(i===0?'20':'')+'" readonly></label>'+inputs+'</div><div class="rebirth-output"><div class="rebirth-output-grid"><div><span>체력</span><b data-out="hp">—</b></div><div><span>완력</span><b data-out="atk">—</b></div><div><span>건강</span><b data-out="def">—</b></div><div><span>순발</span><b data-out="agi">—</b></div></div><div class="rebirth-total"><span>총 환포</span><strong data-out="total">—</strong></div><p class="rebirth-warning" data-out="warning"></p></div></article>';
   }
   stages.innerHTML=[0,1,2,3,4].map(stageMarkup).join('');
-  stages.querySelectorAll('.rebirth-stage').forEach(function(card){
-    const details=document.createElement('div');
-    details.className='rebirth-output-grid';
-    details.innerHTML='<div><span>남은 스탯</span><b data-out="remaining">—</b></div><div><span>총 스탯</span><b data-out="totalStat">—</b></div><div><span>계산식</span><b data-out="formula">—</b></div><div><span>총 환포 · 소수점</span><b data-out="decimal">—</b></div>';
-    card.querySelector('.rebirth-output').prepend(details);
-  });
-  const loadButton=document.createElement('button');
-  loadButton.type='button';loadButton.id='loadRebirth';loadButton.className='quiet-btn';loadButton.textContent='불러오기';
-  document.getElementById('saveRebirth').after(loadButton);
 
   function numberValue(field,i){
     const el=document.querySelector('[data-r-field="'+field+'"][data-stage="'+i+'"]');
     return Number(el.value)||0;
   }
-  function trunc2(value){ const str=value.toFixed(4); return Number(str.substring(0,str.indexOf('.')+3)); }
+  function trunc2(value){ return Math.trunc(value*100)/100; }
   function clearStage(i){
     const card=document.querySelector('[data-stage-card="'+i+'"]');
     card.classList.remove('is-latest');
@@ -776,10 +810,6 @@ const rebirthScript = `
       const card=document.querySelector('[data-stage-card="'+i+'"]');
       ['hp','atk','def','agi'].forEach(function(field,index){card.querySelector('[data-out="'+field+'"]').textContent=Math.floor(calculated[index])+' · '+calculated[index].toFixed(2);});
       card.querySelector('[data-out="total"]').textContent=final;
-      card.querySelector('[data-out="remaining"]').textContent=remaining;
-      card.querySelector('[data-out="totalStat"]').textContent=totalStat;
-      card.querySelector('[data-out="formula"]').textContent=formula;
-      card.querySelector('[data-out="decimal"]').textContent=(calculated.reduce(function(sum,value){return sum+value;},0)+(i+1)*10).toFixed(2);
       card.querySelector('[data-out="warning"]').textContent=remaining<0?'분배 스탯이 총 스탯을 '+Math.abs(remaining)+' 초과했습니다.':'';
       lastResults.push({stage:i+1,base:base,level:level,totalStat:totalStat,remaining:remaining,formula:formula,stats:calculated,final:final,decimal:Number((calculated.reduce(function(sum,value){return sum+value;},0)+(i+1)*10).toFixed(2))});
     }
@@ -828,7 +858,6 @@ const rebirthScript = `
     window.scrollTo({top:0,behavior:'smooth'});
   }
   document.querySelector('.app-switcher').addEventListener('click',function(event){const btn=event.target.closest('[data-app-tab]');if(btn)switchApp(btn.dataset.appTab);});
-  loadButton.addEventListener('click',function(){switchApp('saved');});
   document.getElementById('rebirthReset').addEventListener('click',function(){
     fields.forEach(function(field){for(let i=0;i<5;i++){document.querySelector('[data-r-field="'+field+'"][data-stage="'+i+'"]').value=field==='q'?(i+1)*10:'';}});document.getElementById('saveName').value='';runRebirth();showFeedback('입력값을 초기화했습니다.');
   });
@@ -848,11 +877,7 @@ const rebirthScript = `
 </script>`;
 replaceRequired('</script>\n</body>', '</script>\n' + rebirthScript + '\n</body>', 'rebirth calculator behavior');
 
-const decimalCode = (await readFile(path.join(root, 'scripts', 'decimal-calculator.mjs'), 'utf8')).replace('export function', 'function');
-const decimalUi = await readFile(path.join(root, 'scripts', 'decimal-ui.js'), 'utf8');
-const decimalCss = await readFile(path.join(root, 'scripts', 'decimal-ui.css'), 'utf8');
-replaceRequired('</head>', '<style>\n'+decimalCss+'\n</style>\n</head>', 'decimal layout');
-replaceRequired('</body>', '<script>\n(function(){\n'+decimalCode+'\n'+decimalUi+'\n})();\n</script>\n</body>', 'decimal calculator');
 await mkdir(path.dirname(outputPath), { recursive: true });
+html = html.replaceAll('p.externalImage?p.imageUrl', 'p.assetImage?p.assetImage:p.externalImage?p.imageUrl');
 await writeFile(outputPath, html, 'utf8');
 console.log(JSON.stringify({ source: SOURCE_URL, outputPath, pets: pets.length, bytes: Buffer.byteLength(html) }));
