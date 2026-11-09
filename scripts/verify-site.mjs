@@ -89,7 +89,7 @@ if (!html.includes('p.externalImage?p.imageUrl') || !html.includes('p.imageFallb
 for (const update of snapshot) {
   const pet=pets.find(item => item.id===update.id);
   if (!pet) throw new Error(`Snapshot pet missing: ${update.name}`);
-  for (const key of ['name','growthS','initS','attrs','rideable','imageUrl']) {
+  for (const key of ['name','variant','growthS','initS','attrs','rideable','imageUrl','obtain','obtainDetail']) {
     const expectedValue = key === 'initS' && update.variant === '일반' && initialCorrections[update.name] ? initialCorrections[update.name] : update[key];
     if (JSON.stringify(pet[key])!==JSON.stringify(expectedValue)) throw new Error(`Snapshot mismatch: ${update.name} ${key}`);
   }
@@ -170,7 +170,7 @@ for (const [id, result] of Object.entries(expected)) {
 }
 
 const correctedResults = Object.keys(initialCorrections).map(name => {
-  const pet = pets.find(item => item.name === name);
+  const pet = pets.find(item => item.name === name && item.variant === '일반');
   const result = matchesFor(pet);
   return { name, initS: pet.initS, k: pet.k, matches: result.total, eight: result.counts[8] || 0 };
 });

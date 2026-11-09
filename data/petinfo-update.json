@@ -1,5 +1,1404 @@
 [
   {
+    "id": "375",
+    "name": "타이혼",
+    "sourceId": "375",
+    "obtainDetail": "복권 (복권 1등 페트 후르도)",
+    "variant": "일반",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        5
+      ],
+      [
+        "풍",
+        5
+      ]
+    ],
+    "obtain": "복권",
+    "growthS": [
+      9.571,
+      2.058,
+      1.545,
+      1.639
+    ],
+    "initS": [
+      54,
+      11,
+      8,
+      9
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_6Pb8yTSB_4d79162cf4c2141859c03a6739fb9c7c0f2312bf.gif",
+    "rideable": false
+  },
+  {
+    "id": "374",
+    "name": "크루거",
+    "sourceId": "374",
+    "obtainDetail": "복권 (복권 1등 페트 스라인)",
+    "variant": "일반",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        3
+      ],
+      [
+        "수",
+        7
+      ]
+    ],
+    "obtain": "복권",
+    "growthS": [
+      10.236,
+      2.053,
+      1.284,
+      1.639
+    ],
+    "initS": [
+      56,
+      11,
+      7,
+      8
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_VtsM43Lf_735227b5bbd6716933023d5539c772f3c8be42be.gif",
+    "rideable": true
+  },
+  {
+    "id": "373",
+    "name": "블루문",
+    "sourceId": "373",
+    "obtainDetail": "환생,진화 (Lv120이상 블루문 환생)",
+    "variant": "환생",
+    "attr": "수지",
+    "attrs": [
+      [
+        "수",
+        8
+      ],
+      [
+        "지",
+        2
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.519,
+      2.273,
+      1.338,
+      1.411
+    ],
+    "initS": [
+      57,
+      12,
+      7,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_kO70juwA_7b04bdbff2a0c0926334346f723505af27611be8.gif",
+    "rideable": false
+  },
+  {
+    "id": "372",
+    "name": "파베로스",
+    "sourceId": "372",
+    "obtainDetail": "환생,진화 (Lv120이상 파베로스 환생)",
+    "variant": "환생",
+    "attr": "풍없음",
+    "attrs": [
+      [
+        "풍",
+        10
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.141,
+      2.227,
+      1.158,
+      1.686
+    ],
+    "initS": [
+      57,
+      12,
+      6,
+      9
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_hjWxOK3M_4a9627bf1ba6e15343bcb67779c6cdbb29db2ada.gif",
+    "rideable": false
+  },
+  {
+    "id": "371",
+    "name": "샤크론",
+    "sourceId": "371",
+    "obtainDetail": "환생,진화 (Lv120이상 샤크론 환생)",
+    "variant": "환생",
+    "attr": "수없음",
+    "attrs": [
+      [
+        "수",
+        10
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.711,
+      2.2,
+      1.26,
+      1.639
+    ],
+    "initS": [
+      58,
+      12,
+      6,
+      8
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_q0El2rSe_abc47156f5174a471fc3c43a7dfba0706766548b.gif",
+    "rideable": true
+  },
+  {
+    "id": "370",
+    "name": "갈푸스",
+    "sourceId": "370",
+    "obtainDetail": "환생,진화 (Lv120이상 갈푸스 환생)",
+    "variant": "환생",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        9
+      ],
+      [
+        "풍",
+        1
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      9.761,
+      2.219,
+      1.193,
+      1.639
+    ],
+    "initS": [
+      55,
+      12,
+      6,
+      9
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_v2dVb07w_ba3eef6b5a929f86adde258faa0b14b938656b5d.gif",
+    "rideable": true
+  },
+  {
+    "id": "369",
+    "name": "카우거",
+    "sourceId": "369",
+    "obtainDetail": "환생,진화 (Lv120이상 카우거 환생)",
+    "variant": "환생",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        8
+      ],
+      [
+        "풍",
+        2
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.094,
+      2.181,
+      1.198,
+      1.639
+    ],
+    "initS": [
+      57,
+      12,
+      6,
+      9
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_34o8JFxp_6b0f7e89cc2214f7ed7758ed0f2bdc1f1a2beb91.gif",
+    "rideable": true
+  },
+  {
+    "id": "368",
+    "name": "바우트",
+    "sourceId": "368",
+    "obtainDetail": "환생,진화 (Lv120이상 바우트 환생)",
+    "variant": "환생",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        9
+      ],
+      [
+        "수",
+        1
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      11.329,
+      2.255,
+      2.17,
+      0.356
+    ],
+    "initS": [
+      69,
+      13,
+      13,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_eEKwQ13U_48a3d8302f21eb4250c9e748b33f18aeab52592a.gif",
+    "rideable": true
+  },
+  {
+    "id": "367",
+    "name": "히파",
+    "sourceId": "367",
+    "obtainDetail": "환생,진화 (Lv120이상 히파 환생)",
+    "variant": "환생",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        5
+      ],
+      [
+        "풍",
+        5
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.073,
+      2.021,
+      1.13,
+      2.005
+    ],
+    "initS": [
+      50,
+      10,
+      5,
+      10
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_UZsBxPu1_fb75c3c54e1368231a26e924c0b75da8d2da5d94.gif",
+    "rideable": true
+  },
+  {
+    "id": "366",
+    "name": "오르곤",
+    "sourceId": "366",
+    "obtainDetail": "환생,진화 (Lv120이상 오르곤 진화)",
+    "variant": "진화",
+    "attr": "수화",
+    "attrs": [
+      [
+        "수",
+        8
+      ],
+      [
+        "화",
+        2
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.996,
+      2.219,
+      1.535,
+      1.259
+    ],
+    "initS": [
+      64,
+      13,
+      9,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_B4uSJHTY_67d3c6adbb5e4fab07dc5c8a14cbdb5d1e7f1424.gif",
+    "rideable": false
+  },
+  {
+    "id": "365",
+    "name": "골로스",
+    "sourceId": "365",
+    "obtainDetail": "환생,진화 (Lv120이상 골로스 진화)",
+    "variant": "진화",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        5
+      ],
+      [
+        "풍",
+        5
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.141,
+      2.336,
+      1.524,
+      1.211
+    ],
+    "initS": [
+      61,
+      14,
+      9,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_kbuCIJFA_39e59f0056c2644720f1870529a23464465b2648.gif",
+    "rideable": false
+  },
+  {
+    "id": "364",
+    "name": "오가로스",
+    "sourceId": "364",
+    "obtainDetail": "환생,진화 (Lv120이상 오가로스 진화)",
+    "variant": "진화",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        5
+      ],
+      [
+        "수",
+        5
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.222,
+      2.202,
+      1.845,
+      1.064
+    ],
+    "initS": [
+      55,
+      12,
+      10,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_N6S4PWvL_9799b353e5f8a725fb0622e12ab45016ea2b2547.gif",
+    "rideable": false
+  },
+  {
+    "id": "363",
+    "name": "모가로스",
+    "sourceId": "363",
+    "obtainDetail": "환생,진화 (Lv120이상 모가로스 진화)",
+    "variant": "진화",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        8
+      ],
+      [
+        "수",
+        2
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.236,
+      2.336,
+      1.438,
+      1.401
+    ],
+    "initS": [
+      58,
+      13,
+      8,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_rxwJ9QCe_9f797783490a2d2df6e491955cc076689f83fdfb.gif",
+    "rideable": false
+  },
+  {
+    "id": "362",
+    "name": "골로스",
+    "sourceId": "362",
+    "obtainDetail": "환생,진화 (Lv120이상 골로스 환생)",
+    "variant": "환생",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        5
+      ],
+      [
+        "풍",
+        5
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.141,
+      2.336,
+      1.524,
+      1.211
+    ],
+    "initS": [
+      61,
+      14,
+      9,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_cXQijDhZ_7f0a97a627b3850810872bc1f734d29194c9a103.gif",
+    "rideable": true
+  },
+  {
+    "id": "361",
+    "name": "노르곤",
+    "sourceId": "361",
+    "obtainDetail": "환생,진화 (Lv120이상 노르곤 환생)",
+    "variant": "환생",
+    "attr": "풍화",
+    "attrs": [
+      [
+        "풍",
+        8
+      ],
+      [
+        "화",
+        2
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.189,
+      2.243,
+      1.431,
+      1.449
+    ],
+    "initS": [
+      57,
+      12,
+      8,
+      8
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_RrILJQqv_72ec264d7ca87fa3355cf58cc95db65b07fcc198.gif",
+    "rideable": true
+  },
+  {
+    "id": "360",
+    "name": "모가로스",
+    "sourceId": "360",
+    "obtainDetail": "환생,진화 (Lv120이상 모가로스 환생)",
+    "variant": "환생",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        8
+      ],
+      [
+        "수",
+        2
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.236,
+      2.336,
+      1.438,
+      1.401
+    ],
+    "initS": [
+      58,
+      13,
+      8,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_6wd5Ib4R_c03b512feae0fa186de3f0ec3856133659e3a12c.gif",
+    "rideable": true
+  },
+  {
+    "id": "359",
+    "name": "오르곤",
+    "sourceId": "359",
+    "obtainDetail": "환생,진화 (Lv120이상 오르곤 환생)",
+    "variant": "환생",
+    "attr": "수화",
+    "attrs": [
+      [
+        "수",
+        8
+      ],
+      [
+        "화",
+        2
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.996,
+      2.219,
+      1.535,
+      1.259
+    ],
+    "initS": [
+      64,
+      13,
+      9,
+      7
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_wYfPvy0H_cc63afdd00b6507f14a6759a5133685d74ede945.gif",
+    "rideable": true
+  },
+  {
+    "id": "358",
+    "name": "파베로스",
+    "sourceId": "358",
+    "obtainDetail": "환생,진화 (Lv120이상 파베로스 환생)",
+    "variant": "환생",
+    "attr": "풍없음",
+    "attrs": [
+      [
+        "풍",
+        10
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.141,
+      2.227,
+      1.158,
+      1.686
+    ],
+    "initS": [
+      57,
+      12,
+      6,
+      9
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_ZNRPHqf3_b7ae5730273d39ada1c8d4c41ce3b9efa14866bb.gif",
+    "rideable": false
+  },
+  {
+    "id": "357",
+    "name": "지가로스",
+    "sourceId": "357",
+    "obtainDetail": "환생,진화 (Lv120이상 지가로스 환생)",
+    "variant": "환생",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        8
+      ],
+      [
+        "풍",
+        2
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.379,
+      2.217,
+      1.704,
+      1.211
+    ],
+    "initS": [
+      54,
+      11,
+      8,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_Y5Gq2Te3_f3016bcff06bcccbdc68e943328b5f8b0666f483.gif",
+    "rideable": true
+  },
+  {
+    "id": "356",
+    "name": "오가로스",
+    "sourceId": "356",
+    "obtainDetail": "환생,진화 (Lv120이상 오가로스 환생)",
+    "variant": "환생",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        6
+      ],
+      [
+        "수",
+        4
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.222,
+      2.202,
+      1.845,
+      1.064
+    ],
+    "initS": [
+      55,
+      12,
+      10,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_gfdVnjs0_99980351721042374a22fd9ad6a999b4f570fe77.gif",
+    "rideable": true
+  },
+  {
+    "id": "355",
+    "name": "마모나스",
+    "sourceId": "355",
+    "obtainDetail": "환생,진화 (Lv120이상 마모나스 환생)",
+    "variant": "환생",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        7
+      ],
+      [
+        "수",
+        3
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      12.896,
+      1.98,
+      2.279,
+      0.451
+    ],
+    "initS": [
+      67,
+      10,
+      11,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_XtkcnCB4_ffc3d6ff0f91c5b1377e2081c3d7691f120ba262.gif",
+    "rideable": false
+  },
+  {
+    "id": "354",
+    "name": "만모르",
+    "sourceId": "354",
+    "obtainDetail": "환생,진화 (Lv120이상 만모르 환생)",
+    "variant": "환생",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        8
+      ],
+      [
+        "수",
+        2
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      12.469,
+      2.051,
+      2.136,
+      0.451
+    ],
+    "initS": [
+      68,
+      11,
+      11,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_o3jgUNvu_1ca33d8d79e735bca2d6ba7f3db1abd220942f64.gif",
+    "rideable": false
+  },
+  {
+    "id": "353",
+    "name": "만모",
+    "sourceId": "353",
+    "obtainDetail": "환생,진화 (Lv120이상 만모 환생)",
+    "variant": "환생",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        9
+      ],
+      [
+        "수",
+        1
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      12.516,
+      1.785,
+      2.255,
+      0.451
+    ],
+    "initS": [
+      71,
+      10,
+      10,
+      12
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_DoUWMy5C_3d0ca7313bb93ea7f167571dc1aeffd7924833af.gif",
+    "rideable": false
+  },
+  {
+    "id": "352",
+    "name": "프리토스",
+    "sourceId": "352",
+    "obtainDetail": "환생,진화 (Lv120이상 프리토스 환생)",
+    "variant": "환생",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        2
+      ],
+      [
+        "풍",
+        8
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      12.089,
+      2.046,
+      2.132,
+      0.641
+    ],
+    "initS": [
+      66,
+      11,
+      11,
+      3
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_ZQ1pwE7I_6382b04a31ce04543f7d844483c2856c7d201359.gif",
+    "rideable": true
+  },
+  {
+    "id": "351",
+    "name": "프라키토스",
+    "sourceId": "351",
+    "obtainDetail": "환생,진화 (Lv120이상 프라키토스 환생)",
+    "variant": "환생",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        8
+      ],
+      [
+        "수",
+        2
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      11.558,
+      2.276,
+      1.964,
+      0.47
+    ],
+    "initS": [
+      58,
+      11,
+      9,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_5zcbUmQZ_9606e2963aa5c5eab59604a7e8e018ce9692230d.gif",
+    "rideable": true
+  },
+  {
+    "id": "350",
+    "name": "스텐토스",
+    "sourceId": "350",
+    "obtainDetail": "환생,진화 (Lv120이상 스텐토스 환생)",
+    "variant": "환생",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        5
+      ],
+      [
+        "수",
+        5
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      12.279,
+      2.086,
+      2.044,
+      0.499
+    ],
+    "initS": [
+      62,
+      10,
+      10,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_SzHexmq6_01d8e26e4b5e57c78d4d33273388ddb40124e27a.gif",
+    "rideable": true
+  },
+  {
+    "id": "349",
+    "name": "다이노스",
+    "sourceId": "349",
+    "obtainDetail": "환생,진화 (Lv120이상 다이노스 환생)",
+    "variant": "환생",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        3
+      ],
+      [
+        "수",
+        7
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      12.659,
+      2.01,
+      2.139,
+      0.499
+    ],
+    "initS": [
+      69,
+      11,
+      11,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_RQbPap5e_06d8c3e90029e8877c60df151c7bfa5bbf827c72.gif",
+    "rideable": true
+  },
+  {
+    "id": "348",
+    "name": "투이",
+    "sourceId": "348",
+    "obtainDetail": "환생,진화 (Lv120이상 투이 환생)",
+    "variant": "환생",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        5
+      ],
+      [
+        "수",
+        5
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      12.293,
+      1.866,
+      1.866,
+      0.583
+    ],
+    "initS": [
+      53,
+      8,
+      8,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_9SGC4nOt_24e45fb51d1ddfe420717fdd0a7853bd304a57b7.gif",
+    "rideable": false
+  },
+  {
+    "id": "347",
+    "name": "씨보스",
+    "sourceId": "347",
+    "obtainDetail": "환생,진화 (Lv120이상 씨보스 환생)",
+    "variant": "환생",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        2
+      ],
+      [
+        "수",
+        8
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      12.089,
+      1.944,
+      1.987,
+      0.689
+    ],
+    "initS": [
+      58,
+      9,
+      9,
+      3
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_diYKXf25_040eacfdaf8c5d1ad2263b2860a3750f6e6eb951.gif",
+    "rideable": false
+  },
+  {
+    "id": "346",
+    "name": "루이",
+    "sourceId": "346",
+    "obtainDetail": "환생,진화 (Lv120이상 루이 환생)",
+    "variant": "환생",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        2
+      ],
+      [
+        "수",
+        8
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      4.653,
+      1.984,
+      2.027,
+      0.641
+    ],
+    "initS": [
+      56,
+      9,
+      9,
+      3
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_adHA8yfr_c6568088676c41004a3a882e09b8d1804159949d.gif",
+    "rideable": false
+  },
+  {
+    "id": "345",
+    "name": "무이",
+    "sourceId": "345",
+    "obtainDetail": "환생,진화 (Lv120이상 무이 환생)",
+    "variant": "환생",
+    "attr": "수없음",
+    "attrs": [
+      [
+        "수",
+        10
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      12.469,
+      1.913,
+      2.084,
+      0.641
+    ],
+    "initS": [
+      57,
+      8,
+      9,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_v3XsqwWb_3c3db62cb8ea1665515d42e2c713e77fe7db0768.gif",
+    "rideable": true
+  },
+  {
+    "id": "344",
+    "name": "펜타스",
+    "sourceId": "344",
+    "obtainDetail": "환생,진화 (Lv120이상 펜타스 환생)",
+    "variant": "환생",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        2
+      ],
+      [
+        "수",
+        8
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.887,
+      1.657,
+      2.187,
+      0.829
+    ],
+    "initS": [
+      32,
+      4,
+      6,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_OH9vugxy_70e83193fdcba7416c44585ba579cd10ad7ef7bf.gif",
+    "rideable": false
+  },
+  {
+    "id": "343",
+    "name": "토리케라",
+    "sourceId": "343",
+    "obtainDetail": "환생,진화 (Lv120이상 토리케라 환생)",
+    "variant": "환생",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        7
+      ],
+      [
+        "수",
+        3
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      11.183,
+      1.608,
+      2.257,
+      0.86
+    ],
+    "initS": [
+      34,
+      4,
+      6,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_L0XWF83n_246ceb251dba9a48bd4a35ab1cc2cc72c9880ee1.gif",
+    "rideable": false
+  },
+  {
+    "id": "342",
+    "name": "토르프스",
+    "sourceId": "342",
+    "obtainDetail": "환생,진화 (Lv120이상 성호 환생)",
+    "variant": "환생",
+    "attr": "지없음",
+    "attrs": [
+      [
+        "지",
+        10
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.566,
+      1.756,
+      2.238,
+      0.776
+    ],
+    "initS": [
+      29,
+      4,
+      6,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_MiJF1v6n_ca77ed4778e79c3fe1ac0738e10b7bfccc10d1cf.gif",
+    "rideable": false
+  },
+  {
+    "id": "341",
+    "name": "토리노프스",
+    "sourceId": "341",
+    "obtainDetail": "환생,진화 (Lv120이상 토리노프스 환생)",
+    "variant": "환생",
+    "attr": "화수",
+    "attrs": [
+      [
+        "화",
+        7
+      ],
+      [
+        "수",
+        3
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.517,
+      1.838,
+      1.938,
+      0.916
+    ],
+    "initS": [
+      26,
+      4,
+      4,
+      2
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_O7fEwtl6_827e1125310c97b6d6d49809a14f3c20b87a30db.gif",
+    "rideable": false
+  },
+  {
+    "id": "340",
+    "name": "바우",
+    "sourceId": "340",
+    "obtainDetail": "환생,진화 (Lv120이상 바우 환생)",
+    "variant": "환생",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        2
+      ],
+      [
+        "풍",
+        8
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      9.553,
+      1.907,
+      1.629,
+      1.674
+    ],
+    "initS": [
+      29,
+      5,
+      5,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_HAvYkC1Z_44b2bd710d0e871e12932df84f009d8b87d36ccd.gif",
+    "rideable": false
+  },
+  {
+    "id": "339",
+    "name": "바카",
+    "sourceId": "339",
+    "obtainDetail": "환생,진화 (Lv120이상 바카 환생)",
+    "variant": "환생",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        4
+      ],
+      [
+        "풍",
+        6
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      9.759,
+      1.866,
+      1.68,
+      1.674
+    ],
+    "initS": [
+      37,
+      7,
+      6,
+      6
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_fbVY9FdP_0d09e1e5596eaef6aa341d36e5eadddb37d425f1.gif",
+    "rideable": false
+  },
+  {
+    "id": "338",
+    "name": "카우",
+    "sourceId": "338",
+    "obtainDetail": "환생,진화 (Lv120이상 카우 환생)",
+    "variant": "환생",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        7
+      ],
+      [
+        "풍",
+        3
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      9.038,
+      1.858,
+      1.812,
+      1.622
+    ],
+    "initS": [
+      28,
+      5,
+      5,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_GNm2agYz_bdbcf9ceb8ac02a2d2a1d043cf31cfa765d8e13d.gif",
+    "rideable": false
+  },
+  {
+    "id": "337",
+    "name": "카쿠",
+    "sourceId": "337",
+    "obtainDetail": "환생,진화 (Lv120이상 카쿠 환생)",
+    "variant": "환생",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        3
+      ],
+      [
+        "수",
+        7
+      ]
+    ],
+    "obtain": "환생,진화",
+    "growthS": [
+      10.031,
+      1.823,
+      1.679,
+      1.578
+    ],
+    "initS": [
+      33,
+      6,
+      5,
+      5
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_8RAGdolP_4b9c1acdbdb685f23f877fa6c145cc3b7a7a3fdc.gif",
+    "rideable": false
+  },
+  {
+    "id": "336",
+    "name": "구루마루",
+    "sourceId": "336",
+    "obtainDetail": "지원 (지원 포인트 상점)",
+    "variant": "일반",
+    "attr": "지풍",
+    "attrs": [
+      [
+        "지",
+        9
+      ],
+      [
+        "풍",
+        1
+      ]
+    ],
+    "obtain": "지원",
+    "growthS": [
+      10.284,
+      2.238,
+      1.341,
+      1.449
+    ],
+    "initS": [
+      58,
+      12,
+      7,
+      8
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_cTjdypSn_125bd7aca83fae5a5fcced0c4b8d921550f55dce.gif",
+    "rideable": false
+  },
+  {
+    "id": "335",
+    "name": "검호",
+    "sourceId": "335",
+    "obtainDetail": "지원 (지원 포인트 상점)",
+    "variant": "일반",
+    "attr": "풍화",
+    "attrs": [
+      [
+        "풍",
+        9
+      ],
+      [
+        "화",
+        1
+      ]
+    ],
+    "obtain": "지원",
+    "growthS": [
+      10.141,
+      2.143,
+      1.288,
+      1.639
+    ],
+    "initS": [
+      55,
+      11,
+      7,
+      8
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_PYTLG13B_445f98eeec230f35f03a984dab2ca04c362c1440.gif",
+    "rideable": true
+  },
+  {
+    "id": "334",
+    "name": "어린흑주작",
+    "sourceId": "334",
+    "obtainDetail": "듀얼 (듀얼 포인트 상점)",
+    "variant": "일반",
+    "attr": "화풍",
+    "attrs": [
+      [
+        "화",
+        8
+      ],
+      [
+        "풍",
+        2
+      ]
+    ],
+    "obtain": "듀얼",
+    "growthS": [
+      9.856,
+      2.132,
+      1.234,
+      1.591
+    ],
+    "initS": [
+      51,
+      11,
+      6,
+      8
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_hiKYalXM_e6d47acc6000c6255b493267214909b9db22451b.gif",
+    "rideable": false
+  },
+  {
+    "id": "333",
+    "name": "메르메르",
+    "sourceId": "333",
+    "obtainDetail": "듀얼 (듀얼 포인트 상점)",
+    "variant": "일반",
+    "attr": "지수",
+    "attrs": [
+      [
+        "지",
+        9
+      ],
+      [
+        "수",
+        1
+      ]
+    ],
+    "obtain": "듀얼",
+    "growthS": [
+      10.046,
+      2.134,
+      1.193,
+      1.639
+    ],
+    "initS": [
+      54,
+      11,
+      6,
+      8
+    ],
+    "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_42NXVivm_6510e50778b4bec3d0f7eda753936b713ff87b0b.gif",
+    "rideable": true
+  },
+  {
     "id": "332",
     "name": "레오딘",
     "sourceId": "332",
@@ -236,14 +1635,14 @@
     "sourceId": "325",
     "obtainDetail": "필드포획 (호피도)",
     "variant": "일반",
-    "attr": "화화",
+    "attr": "화수",
     "attrs": [
       [
         "화",
         4
       ],
       [
-        "화",
+        "수",
         6
       ]
     ],
@@ -1051,8 +2450,8 @@
     "id": "300",
     "name": "모사크",
     "sourceId": "300",
-    "obtainDetail": "환생,진화 (지원 포인트 상점)",
-    "variant": "환생·진화",
+    "obtainDetail": "지원 (지원 포인트 상점)",
+    "variant": "일반",
     "attr": "수없음",
     "attrs": [
       [
@@ -1060,7 +2459,7 @@
         10
       ]
     ],
-    "obtain": "환생,진화",
+    "obtain": "지원",
     "growthS": [
       10.664,
       2.25,
@@ -1080,8 +2479,8 @@
     "id": "299",
     "name": "흑풍",
     "sourceId": "299",
-    "obtainDetail": "환생,진화 (지원 포인트 상점)",
-    "variant": "환생·진화",
+    "obtainDetail": "지원 (지원 포인트 상점)",
+    "variant": "일반",
     "attr": "지풍",
     "attrs": [
       [
@@ -1093,7 +2492,7 @@
         1
       ]
     ],
-    "obtain": "환생,진화",
+    "obtain": "지원",
     "growthS": [
       10.141,
       2.141,
@@ -7733,7 +9132,7 @@
       71,
       10,
       12,
-      22
+      2
     ],
     "imageUrl": "https://ohrsa.net/data/file/petinfo/59da5385dd25ea6c60778d80429413d5_MjgIxOcf_f4f27ec9ab908167aff7c0ff9985c4a3bf5c6d3e.gif",
     "rideable": false
@@ -10031,13 +11430,13 @@
     ],
     "obtain": "퀘스트",
     "growthS": [
-      10.223,
-      1.629,
-      1.768,
-      1.468
+      10.337,
+      1.634,
+      1.819,
+      1.365
     ],
     "initS": [
-      47,
+      50,
       7,
       8,
       6
