@@ -29,6 +29,7 @@ if (!html.includes(`전체 ${new Set(pets.map(pet=>pet.name)).size}종`)) throw 
 if (html.includes('첨부 자료 기준') || html.includes('첨부 기준')) throw new Error('Source boilerplate returned');
 if (!html.includes('color-scheme:light') || !html.includes('width:192px;height:192px')) throw new Error('Light theme or reduced portraits missing');
 if (!html.includes('총성장률') || !html.includes('growthS.slice(1)')) throw new Error('Total growth rate missing');
+if (!html.includes('id="attributeRanges"') || !html.includes('id="resetFilters"') || !html.includes('value<min||value>max')) throw new Error('Numeric attribute filters missing');
 if (html.includes('입력값과 일치하는 경우의 비율')) throw new Error('Removed distribution helper copy returned');
 if (!html.includes('환생포인트 계산기') || !html.includes('id="savedPanel"')) throw new Error('Rebirth or saved tab missing');
 if (!html.includes("const STORAGE_KEY='ohr_rebirth_saves_v1'")) throw new Error('Saved calculations storage missing');

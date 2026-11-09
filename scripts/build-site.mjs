@@ -2,6 +2,7 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
+import { enhanceAttributeFilters } from './attribute-filters.mjs';
 
 const SOURCE_URL = 'https://stoneage-calculator.pages.dev/';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -878,6 +879,7 @@ const rebirthScript = `
 replaceRequired('</script>\n</body>', '</script>\n' + rebirthScript + '\n</body>', 'rebirth calculator behavior');
 
 await mkdir(path.dirname(outputPath), { recursive: true });
+html = enhanceAttributeFilters(html, await readFile(path.join(root, 'styles/attribute-workspace.css'), 'utf8'));
 html = html.replaceAll('p.externalImage?p.imageUrl', 'p.assetImage?p.assetImage:p.externalImage?p.imageUrl');
 await writeFile(outputPath, html, 'utf8');
 console.log(JSON.stringify({ source: SOURCE_URL, outputPath, pets: pets.length, bytes: Buffer.byteLength(html) }));
