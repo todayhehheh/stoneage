@@ -435,6 +435,8 @@ button:focus-visible,input:focus-visible,a:focus-visible{outline-color:#9c543a}
 
 </style>
 <style id="attribute-workspace">/* A soft field-guide workspace, inspired by the companion riding page. */
+.search-wrap{gap:0}.filter-footer.is-idle{display:none}
+.attribute-range-grid{grid-template-columns:1fr!important}.attribute-range-row{grid-template-columns:24px minmax(0,1fr)!important;gap:5px!important;padding:4px!important}.attribute-values{display:grid;grid-template-columns:repeat(11,minmax(0,1fr));gap:2px}.attribute-value{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;min-width:0;min-height:36px;border:1px solid transparent;border-radius:6px;cursor:pointer;background:#fff}.attribute-value input{width:12px;height:12px;margin:0;accent-color:#c3658d;cursor:pointer}.attribute-value span{font-size:10px;line-height:1.2;font-variant-numeric:tabular-nums}.attribute-value:has(input:checked){background:#f7dbe8;border-color:#d49bb7;color:#9f456d}.attribute-value:has(input:focus-visible){outline:2px solid #b85b85;outline-offset:1px}.attribute-filter{margin-top:12px!important;padding-top:10px!important}.filter-help{font-size:11px!important}
 .masthead{flex-wrap:nowrap}.masthead .title-block{width:auto;flex:1;min-width:0;text-align:left}.masthead .title-block h1{text-align:left}
 :root{--bg:#fff6f9;--surface:#fffdfd;--surface-2:#fff3f7;--surface-3:#f7edf3;--text:#493441;--text-muted:#897280;--border:#ecdde5;--accent:#ca5b85;--accent-ink:#fff;--shadow:0 3px 6px #7f4c6810,0 16px 38px #aa6f8d10}
 html,body{background:#fff6f9}body{background:radial-gradient(ellipse at 0 0,#ffe5ef,transparent 45%),radial-gradient(ellipse at 100% 0,#e6f0ff,transparent 44%),linear-gradient(#fff8fa,#f5faf8);background-attachment:fixed}
@@ -480,11 +482,9 @@ html,body{background:#fff6f9}body{background:radial-gradient(ellipse at 0 0,#ffe
       <div class="search-wrap">
         <label class="catalog-title" for="search">어떤 펫을 찾으세요?</label><input id="search" class="search-input" type="text" placeholder="펫 이름 검색 (초성 가능, 예: ㅍㅇㄹ)" autocomplete="off">
         
-        <div class="filter-heading"><span>포함할 속성</span><small>여러 개 선택 가능</small></div>
-        <div class="chips" id="attrChips" role="group" aria-label="포함할 속성"></div>
-        <details class="attribute-filter" open>
-          <summary><span>속성값 범위</span><small>0–10</small></summary>
-          <p class="filter-help">예: 지 8 이상 · 수 2 이하. 모든 조건을 함께 적용해요.</p>
+        <details class="attribute-filter">
+          <summary><span>속성값 선택</span><small>펼치기</small></summary>
+          <p class="filter-help">원하는 값을 체크하세요. 같은 속성은 여러 값 중 하나, 다른 속성은 모두 만족하는 펫을 찾아요.</p>
           <div class="attribute-range-grid" id="attributeRanges"></div>
         </details>
         <div class="filter-footer"><span id="filterSummary" role="status" aria-live="polite">모든 펫을 보고 있어요</span><button id="resetFilters" type="button" disabled>초기화</button></div>
@@ -634,7 +634,7 @@ html,body{background:#fff6f9}body{background:radial-gradient(ellipse at 0 0,#ffe
 
   // ---- state ----
   let selectedId = null;
-  let activeAttrs = new Set();
+
   let statVals = [0,0,0,0]; // 체 공 방 순 (내구 공격 방어 순발)
   const STAT_LABELS = ['내구력','공격력','방어력','순발력'];
 
@@ -657,14 +657,13 @@ html,body{background:#fff6f9}body{background:radial-gradient(ellipse at 0 0,#ffe
   }
   let favorites = loadFavorites();
   let favOnly = false;
-  const attributeRanges = Object.fromEntries(['지','수','화','풍'].map(name=>[name,[0,10]]));
+  const attributeValues = Object.fromEntries(['지','수','화','풍'].map(name=>[name,new Set()]));
   let browseMode = 'all';
   let sortKey = '';
   let sortDirection = -1;
 
   const els = {
     search: document.getElementById('search'),
-    chips: document.getElementById('attrChips'),
     grid: document.getElementById('petGrid'),
     count: document.getElementById('petCount'),
     detail: document.getElementById('detailCard'),
@@ -692,27 +691,22 @@ html,body{background:#fff6f9}body{background:radial-gradient(ellipse at 0 0,#ffe
   const rangeContainer = document.getElementById('attributeRanges');
   rangeContainer.innerHTML = ['지','수','화','풍'].map(name=>
     '<div class="attribute-range-row" data-element="'+name+'"><span class="element-label" data-attr="'+name+'">'+name+'</span>'+
-    '<label><span class="sr-only">'+name+' 속성 최솟값</span><select data-range-attr="'+name+'" data-bound="0">'+
-    Array.from({length:11},(_,value)=>'<option value="'+value+'">'+value+' 이상</option>').join('')+'</select></label>'+
-    '<span class="range-separator" aria-hidden="true">—</span><label><span class="sr-only">'+name+' 속성 최댓값</span><select data-range-attr="'+name+'" data-bound="1">'+
-    Array.from({length:11},(_,value)=>'<option value="'+value+'"'+(value===10?' selected':'')+'>'+value+' 이하</option>').join('')+'</select></label></div>'
+    '<div class="attribute-values" role="group" aria-label="'+name+' 속성값">'+
+    Array.from({length:11},(_,value)=>'<label class="attribute-value"><input type="checkbox" data-value-attr="'+name+'" value="'+value+'" aria-label="'+name+' 속성 '+value+'"><span>'+value+'</span></label>').join('')+'</div></div>'
   ).join('');
-  if(window.matchMedia('(max-width:860px)').matches)rangeContainer.closest('details').open=false;
+  rangeContainer.closest('details').addEventListener('toggle',event=>{
+    event.currentTarget.querySelector('summary small').textContent=event.currentTarget.open?'접기':'펼치기';
+  });
   rangeContainer.addEventListener('change',event=>{
-    const select=event.target.closest('select[data-range-attr]');if(!select)return;
-    const range=attributeRanges[select.dataset.rangeAttr],bound=Number(select.dataset.bound);
-    range[bound]=Number(select.value);
-    if(range[0]>range[1]){
-      range[1-bound]=range[bound];
-      rangeContainer.querySelector('select[data-range-attr="'+select.dataset.rangeAttr+'"][data-bound="'+(1-bound)+'"]').value=String(range[bound]);
-    }
+    const input=event.target.closest('input[data-value-attr]');if(!input)return;
+    const values=attributeValues[input.dataset.valueAttr],value=Number(input.value);
+    if(input.checked)values.add(value);else values.delete(value);
     renderGrid();
   });
   function resetCatalogFilters(){
-    els.search.value='';activeAttrs.clear();browseMode='all';favOnly=false;sortKey='';sortDirection=-1;
-    for(const range of Object.values(attributeRanges)){range[0]=0;range[1]=10;}
-    rangeContainer.querySelectorAll('select').forEach(select=>{select.value=select.dataset.bound==='0'?'0':'10';});
-    els.chips.querySelectorAll('button').forEach(button=>button.setAttribute('aria-pressed','false'));
+    els.search.value='';browseMode='all';favOnly=false;sortKey='';sortDirection=-1;
+    for(const values of Object.values(attributeValues))values.clear();
+    rangeContainer.querySelectorAll('input').forEach(input=>{input.checked=false;});
     document.querySelectorAll('.mode-btn').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.mode==='all')));
     document.querySelectorAll('.sort-btn').forEach(button=>{button.setAttribute('aria-pressed','false');button.dataset.direction='';});
     renderGrid();
@@ -721,28 +715,18 @@ html,body{background:#fff6f9}body{background:radial-gradient(ellipse at 0 0,#ffe
   function updateFilterSummary(){
     const conditions=[];
     if(els.search.value.trim())conditions.push('이름 검색');
-    if(activeAttrs.size)conditions.push([...activeAttrs].join('·')+' 포함');
-    for(const [name,[min,max]] of Object.entries(attributeRanges)){
-      if(min!==0||max!==10)conditions.push(name+' '+(min===max?min:min===0?max+' 이하':max===10?min+' 이상':min+'–'+max));
+    for(const [name,values] of Object.entries(attributeValues)){
+      if(values.size)conditions.push(name+' '+[...values].sort((a,b)=>a-b).join('·'));
     }
     if(browseMode!=='all')conditions.push(browseMode==='ride'?'탑승 가능':'즐겨찾기');
     document.getElementById('filterSummary').textContent=conditions.length?conditions.join(' · '):'모든 펫을 보고 있어요';
     document.getElementById('resetFilters').disabled=!conditions.length&&!sortKey;
+    document.getElementById('filterSummary').parentElement.classList.toggle('is-idle',!conditions.length&&!sortKey);
     rangeContainer.querySelectorAll('.attribute-range-row').forEach(row=>{
-      const range=attributeRanges[row.dataset.element];row.classList.toggle('is-filtered',range[0]!==0||range[1]!==10);
+      row.classList.toggle('is-filtered',attributeValues[row.dataset.element].size>0);
     });
   }
-  // attribute chips
-  const ATTRS = ['지','수','화','풍'];
-  els.chips.innerHTML = ATTRS.map(a=>`<button class="chip" type="button" data-attr="${a}" aria-pressed="false">${a}</button>`).join('');
-  els.chips.addEventListener('click', (e)=>{
-    const btn = e.target.closest('.chip');
-    if(!btn) return;
-    const a = btn.dataset.attr;
-    if(activeAttrs.has(a)){ activeAttrs.delete(a); btn.setAttribute('aria-pressed','false'); }
-    else { activeAttrs.add(a); btn.setAttribute('aria-pressed','true'); }
-    renderGrid();
-  });
+  // Attribute value controls
 
   document.querySelector('.list-modes').addEventListener('click', (e)=>{
     const btn=e.target.closest('.mode-btn');
@@ -767,13 +751,12 @@ html,body{background:#fff6f9}body{background:radial-gradient(ellipse at 0 0,#ffe
   });
 
   function matchesFilter(p, q){
-    for(const [name,[min,max]] of Object.entries(attributeRanges)){
+    for(const [name,values] of Object.entries(attributeValues)){
       const value=(p.attrs||[]).find(entry=>entry[0]===name)?.[1]||0;
-      if(value<min||value>max)return false;
+      if(values.size&&!values.has(value))return false;
     }
     if(favOnly && !PETS.some(item=>item.name===p.name && favorites.has(item.id))) return false;
     if(browseMode==='ride' && !p.rideable) return false;
-    for(const a of activeAttrs){ if(!p.attr.includes(a)) return false; } // 교집합: 선택한 속성 전부 있어야 함
     if(!q) return true;
     return (p.displayName||p.name).includes(q) || p._cho.includes(expandClusters(q));
   }
@@ -809,7 +792,7 @@ html,body{background:#fff6f9}body{background:radial-gradient(ellipse at 0 0,#ffe
       </div>`;
     }).join('');
     if(list.length===0 && (!favOnly||favorites.size>0)){
-      els.grid.innerHTML='<div class="catalog-empty"><span aria-hidden="true">⌕</span><strong>조건에 맞는 펫이 없어요</strong><p>속성값 범위를 넓히거나 필터를 초기화해 보세요.</p></div>';
+      els.grid.innerHTML='<div class="catalog-empty"><span aria-hidden="true">⌕</span><strong>조건에 맞는 펫이 없어요</strong><p>다른 속성값을 체크하거나 필터를 초기화해 보세요.</p></div>';
     }
     if(list.length===0 && favOnly && !favorites.size){
       els.grid.innerHTML = `<div class="empty-state" style="grid-column:1/-1; padding:24px 10px;">즐겨찾기한 펫이 없습니다. 펫 카드의 ☆를 눌러 추가해보세요.</div>`;
